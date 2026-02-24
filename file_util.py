@@ -163,6 +163,56 @@ def due_words_from_difficult_map(
     return due
 
 
+# ------------- today.txt -------------
+
+def load_today_words(today_path: str, dictionary: Dict[str, Card]) -> List[str]:
+    """
+    today.txt: one word/phrase per line.
+    Only keep words that exist in dictionary.
+    If file doesn't exist, treat as empty.
+    """
+    p = resolve_path(today_path)
+    try:
+        text = read_text_file(p)
+    except FileNotFoundError:
+        return []
+    words = parse_practice_list_text(text)
+    return filter_words_in_dictionary(words, dictionary)
+
+
+def add_word_to_today_file(today_path: str, word: str) -> None:
+    """
+    Upsert a word into today.txt (dedup).
+    Creates file if missing.
+    """
+    p = resolve_path(today_path)
+    try:
+        text = read_text_file(p)
+        words = parse_practice_list_text(text)
+    except FileNotFoundError:
+        words = []
+
+    if word not in words:
+        words.append(word)
+
+    write_text_file(p, serialize_practice_list(words))
+
+
+def remove_word_from_today_file(today_path: str, word: str) -> None:
+    """
+    Remove a word from today.txt if present.
+    If file missing, no-op.
+    """
+    p = resolve_path(today_path)
+    try:
+        text = read_text_file(p)
+    except FileNotFoundError:
+        return
+
+    words = parse_practice_list_text(text)
+    words = [w for w in words if w != word]
+    write_text_file(p, serialize_practice_list(words))
+
 # =========================================================
 # Convenience loaders
 # =========================================================

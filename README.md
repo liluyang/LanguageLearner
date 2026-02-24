@@ -2,6 +2,12 @@
 
 Project development is driven by AI vibe coding.
 
+## Run
+
+```
+streamlit run flashcard.py
+```
+
 ## Installation
 
 ### How to install python 3.13.x

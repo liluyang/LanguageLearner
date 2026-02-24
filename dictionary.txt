@@ -1,3 +1,112 @@
 evitar : to avoid : Debes evitar comer demasiado azúcar.
 darse cuenta : to realize : Me di cuenta de que estaba equivocado.
 suficiente : enough : No tengo suficiente tiempo hoy.
+abrir : to open : Voy a abrir la ventana porque hace calor.
+aceptar : to accept : Ella decidió aceptar la oferta.
+acuerdo : agreement : Llegaron a un acuerdo después de hablar.
+adelante : forward : Sigue adelante y no te rindas.
+adentro : inside : El perro está adentro de la casa.
+agua : water : Necesito un vaso de agua.
+ahora : now : Ahora no puedo hablar.
+aire : air : El aire está fresco esta mañana.
+amigo : friend : Mi amigo vive en Madrid.
+amor : love : El amor es importante en la vida.
+andar : to walk : Me gusta andar por el parque.
+año : year : Este año voy a viajar más.
+aprender : to learn : Quiero aprender español.
+aquí : here : Ven aquí por favor.
+árbol : tree : El árbol es muy alto.
+así : like this : Hazlo así, es más fácil.
+ayer : yesterday : Ayer fui al supermercado.
+ayudar : to help : ¿Puedes ayudarme con esto?
+azul : blue : El cielo está azul hoy.
+bailar : to dance : Nos gusta bailar salsa.
+bajo : low / short : El sonido está muy bajo.
+banco : bank / bench : Estoy sentado en el banco del parque.
+bien : well : Me siento bien hoy.
+blanco : white : Lleva una camisa blanca.
+buscar : to look for : Estoy buscando mis llaves.
+cabeza : head : Me duele la cabeza.
+café : coffee : Tomo café cada mañana.
+calle : street : Vivo en una calle tranquila.
+cambiar : to change : Necesito cambiar de trabajo.
+caminar : to walk : Vamos a caminar después de cenar.
+cantar : to sing : Ella sabe cantar muy bien.
+casa : house : Mi casa es pequeña pero cómoda.
+casi : almost : Casi termino el libro.
+cena : dinner : La cena está lista.
+cerca : near : El restaurante está cerca.
+cerrar : to close : Voy a cerrar la puerta.
+ciudad : city : La ciudad es muy grande.
+claro : clear / of course : Claro que sí.
+comer : to eat : Vamos a comer juntos.
+comprar : to buy : Quiero comprar un regalo.
+conocer : to know (people/places) : Quiero conocer España.
+contar : to count / to tell : Voy a contar una historia.
+correr : to run : Me gusta correr por la mañana.
+cosa : thing : Esa cosa no funciona.
+creer : to believe : Creo que tienes razón.
+cuarto : room : Mi cuarto está limpio.
+decir : to say : ¿Qué quieres decir?
+dejar : to leave / let : Voy a dejar el libro aquí.
+después : after : Hablamos después de la reunión.
+día : day : Hoy es un buen día.
+dinero : money : No tengo suficiente dinero.
+dormir : to sleep : Necesito dormir más.
+empezar : to start : Vamos a empezar ahora.
+encontrar : to find : No puedo encontrar mi teléfono.
+entender : to understand : No entiendo la pregunta.
+entrar : to enter : Puedes entrar cuando quieras.
+escuchar : to listen : Me gusta escuchar música.
+esperar : to wait / to hope : Voy a esperar aquí.
+estudiar : to study : Ella necesita estudiar más.
+familia : family : Mi familia es muy unida.
+feliz : happy : Estoy muy feliz hoy.
+fin : end : El fin de la película fue sorprendente.
+ganar : to win / earn : Quiero ganar el partido.
+gente : people : Hay mucha gente aquí.
+grande : big : La casa es muy grande.
+gustar : to like : Me gusta el chocolate.
+hablar : to speak : Necesitamos hablar.
+hacer : to do / make : Voy a hacer la tarea.
+hijo : son : Su hijo tiene cinco años.
+historia : story / history : Es una historia interesante.
+hombre : man : El hombre está leyendo.
+hora : hour / time : ¿Qué hora es?
+idea : idea : Tengo una buena idea.
+igual : same / equal : Somos iguales.
+ir : to go : Voy al trabajo.
+jugar : to play : Los niños quieren jugar.
+lado : side : Está al otro lado.
+leer : to read : Me gusta leer libros.
+lejos : far : Vive muy lejos.
+llevar : to carry / wear : Llevo una chaqueta azul.
+llegar : to arrive : El tren va a llegar pronto.
+llamar : to call : Voy a llamar a mi madre.
+lugar : place : Es un lugar bonito.
+mañana : tomorrow / morning : Mañana será mejor.
+mano : hand : Dame tu mano.
+mejor : better : Hoy estoy mejor.
+mirar : to look at : Mira esa película.
+mujer : woman : La mujer es doctora.
+mundo : world : El mundo es grande.
+necesitar : to need : Necesito ayuda.
+niño : child : El niño está jugando.
+noche : night : La noche está tranquila.
+nuevo : new : Tengo un coche nuevo.
+nunca : never : Nunca digo eso.
+oír : to hear : No puedo oír bien.
+ojo : eye : Me duele el ojo.
+pagar : to pay : Voy a pagar la cuenta.
+palabra : word : No entiendo esa palabra.
+pan : bread : El pan está fresco.
+parte : part : Esa es la mejor parte.
+pasar : to pass / happen : ¿Qué va a pasar?
+pensar : to think : Necesito pensar.
+perder : to lose : No quiero perder.
+persona : person : Es una buena persona.
+poder : can / to be able : No puedo hacerlo.
+poner : to put : Voy a poner la mesa.
+porque : because : No fui porque estaba cansado.
+pregunta : question : Tengo una pregunta.
+primero : first : Primero vamos a comer.
