@@ -37,7 +37,7 @@ def render_header(icon_path: str = "data/icon.png", title: str = "Palabra Españ
         with col2:
             # Use a small HTML container to veritically center the title
             st.markdown(
-                f"<div style='display:flex; align-items:center; height:48px;'<h1 style='margin:0'>{title}</h1></div>",
+                f"<div style='display:flex; align-items:center; height:48px;'><h1 style='margin:0'>{title}</h1></div>",
                 unsafe_allow_html=True,
             )
     except Exception:
@@ -118,6 +118,7 @@ def reload_current_mode_words(keep_current_word: bool = False):
     st.session_state.show_hint = False
     st.session_state.show_answer = False
     st.session_state.pending_dont_know = False
+    st.session_state.show_verify = False
 
     if not words:
         st.session_state.current_word = None
@@ -131,7 +132,6 @@ def reload_current_mode_words(keep_current_word: bool = False):
 
 def all_reviewed_view():
     render_header()
-    st.title("📚 Flashcard Practice")
     st.success("You have reviewed everything, great job!")
     st.stop()
 
@@ -151,7 +151,7 @@ def handle_i_know(word: str):
         # Reload dictionary
         st.session_state.dictionary = load_dictionary(DICTIONARY_FILE)
 
-    if mode == "Review":
+    elif mode == "Review":
         remove_word_from_practice_file(PRACTICE_FILE, word)
 
     elif mode == "5 Day":
@@ -186,7 +186,7 @@ def apply_dont_know_effect(word: str):
         # Reload dictionary
         st.session_state.dictionary = load_dictionary(DICTIONARY_FILE)
 
-    if mode == "Review":
+    elif mode == "Review":
         upsert_word_in_difficult_file(DIFFICULT_5_FILE, word, today)
         add_word_to_today_file(TODAY_FILE, word)
 
@@ -329,7 +329,7 @@ else:
             st.rerun()
     if st.session_state.show_hint:
         st.info(f"Example: {card.example}")
-    
+
     if st.session_state.show_verify:
         st.success(f"Meaning: {card.meaning}")
         st.info(f"Example: {card.example}")
