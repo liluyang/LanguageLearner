@@ -15,17 +15,40 @@ from file_util import (
     load_today_words,
     add_word_to_today_file,
     remove_word_from_today_file,
+    # NEW: new_words.txt helpers
+    load_new_words,
+    merge_new_words_to_dictionary,
 )
 
-DICTIONARY_FILE = "dictionary.txt"
-PRACTICE_FILE = "to_practice.txt"
-DIFFICULT_5_FILE = "difficult_5.txt"
-DIFFICULT_15_FILE = "difficult_15.txt"
-TODAY_FILE = "today.txt"
+DICTIONARY_FILE = "data/dictionary.txt"
+PRACTICE_FILE = "data/to_practice.txt"
+DIFFICULT_5_FILE = "data/difficult_5.txt"
+DIFFICULT_15_FILE = "data/difficult_15.txt"
+TODAY_FILE = "data/today.txt"
+NEW_WORDS_FILE = "data/new_words.txt"
+
+
+def render_header(icon_path: str = "data/icon.png", title: str = "Palabra Español"):
+    """Render a small icon next to the app title with vertical centering."""
+    try:
+        col1, col2 = st.columns([0.08, 0.92])
+        with col1:
+            st.image(icon_path, width=40)
+        with col2:
+            # Use a small HTML container to veritically center the title
+            st.markdown(
+                f"<div style='display:flex; align-items:center; height:48px;'<h1 style='margin:0'>{title}</h1></div>",
+                unsafe_allow_html=True,
+            )
+    except Exception:
+        # Fall back to simple title if image can't be loaded
+        st.title(title)
 
 
 def load_words_for_mode(mode: str):
     today = date.today()
+    if mode == "New words":
+        return list(load_new_words(NEW_WORDS_FILE).keys())
     if mode == "Review":
         return load_review_words(PRACTICE_FILE, st.session_state.dictionary)
     if mode == "5 Day":
@@ -54,14 +77,18 @@ def reset_session_for_new_wordlist(words):
     st.session_state.show_hint = False
     st.session_state.show_answer = False
     st.session_state.pending_dont_know = False  # waiting for OK?
+    st.session_state.show_verify = False
 
 
 def ensure_initialized():
     if "dictionary" not in st.session_state:
         st.session_state.dictionary = load_dictionary(DICTIONARY_FILE)
 
+    if "new_words" not in st.session_state:
+        st.session_state.new_words = load_new_words(NEW_WORDS_FILE)
+
     if "mode" not in st.session_state:
-        st.session_state.mode = "Review"
+        st.session_state.mode = "New words"
 
     if "practice_words" not in st.session_state:
         words = load_words_for_mode(st.session_state.mode)
@@ -75,6 +102,8 @@ def ensure_initialized():
 
     if "pending_dont_know" not in st.session_state:
         st.session_state.pending_dont_know = False
+    if "show_verify" not in st.session_state:
+        st.session_state.show_verify = False
 
 
 def reload_current_mode_words(keep_current_word: bool = False):
@@ -101,6 +130,7 @@ def reload_current_mode_words(keep_current_word: bool = False):
 
 
 def all_reviewed_view():
+    render_header()
     st.title("📚 Flashcard Practice")
     st.success("You have reviewed everything, great job!")
     st.stop()
@@ -112,6 +142,14 @@ def handle_i_know(word: str):
     """
     today = date.today()
     mode = st.session_state.mode
+
+    if mode == "New words":
+        # Merge new word into dictionary and remove from new_words
+        merge_new_words_to_dictionary(NEW_WORDS_FILE, DICTIONARY_FILE, word)
+        # Reload new_words in session
+        st.session_state.new_words = load_new_words(NEW_WORDS_FILE)
+        # Reload dictionary
+        st.session_state.dictionary = load_dictionary(DICTIONARY_FILE)
 
     if mode == "Review":
         remove_word_from_practice_file(PRACTICE_FILE, word)
@@ -137,6 +175,17 @@ def apply_dont_know_effect(word: str):
     today = date.today()
     mode = st.session_state.mode
 
+    if mode == "New words":
+        # Merge new word into dictionary and remove from new_words
+        merge_new_words_to_dictionary(NEW_WORDS_FILE, DICTIONARY_FILE, word)
+        # Also add to difficult_5.txt and today.txt with today's date
+        upsert_word_in_difficult_file(DIFFICULT_5_FILE, word, today)
+        add_word_to_today_file(TODAY_FILE, word)
+        # Reload new_words in session
+        st.session_state.new_words = load_new_words(NEW_WORDS_FILE)
+        # Reload dictionary
+        st.session_state.dictionary = load_dictionary(DICTIONARY_FILE)
+
     if mode == "Review":
         upsert_word_in_difficult_file(DIFFICULT_5_FILE, word, today)
         add_word_to_today_file(TODAY_FILE, word)
@@ -159,7 +208,21 @@ def apply_dont_know_effect(word: str):
 
 # ---------- App ----------
 
-st.set_page_config(page_title="Flashcard Practice", page_icon="📚")
+st.set_page_config(page_title="Palabra Español", page_icon="data/icon.png")
+
+
+def apply_background(color: str = "#F8FAFC") -> None:
+    """Inject CSS to set the Streamlit app background color."""
+    css = f"""
+    <style>
+    body {{ background-color: {color}; }}
+    .stApp {{ background-color: {color}; }}
+    </style>
+    """
+    st.markdown(css, unsafe_allow_html=True)
+
+
+
 
 try:
     ensure_initialized()
@@ -167,12 +230,18 @@ except FileNotFoundError as e:
     st.error(str(e))
     st.stop()
 
+# Apply requested background color
+apply_background("#F8FAFC")
+
 # Sidebar: mode switching + due counter
 st.sidebar.header("Mode")
 
 changed = False
 disable_mode_switch = st.session_state.pending_dont_know
 
+if st.sidebar.button("New words", use_container_width=True, disabled=disable_mode_switch):
+    st.session_state.mode = "New words"
+    changed = True
 if st.sidebar.button("Review", use_container_width=True, disabled=disable_mode_switch):
     st.session_state.mode = "Review"
     changed = True
@@ -203,13 +272,22 @@ if not st.session_state.practice_words:
     all_reviewed_view()
 
 # Main UI
-st.title("📚 Flashcard Practice")
+render_header()
+
 
 word = st.session_state.current_word
 if word is None:
     all_reviewed_view()
 
-card = st.session_state.dictionary[word]
+# Get card: from dictionary if available, else from new_words
+if word in st.session_state.dictionary:
+    card = st.session_state.dictionary[word]
+elif word in st.session_state.new_words:
+    card = st.session_state.new_words[word]
+else:
+    # Word not found in either; skip
+    st.error(f"Word '{word}' not found in any source.")
+    st.stop()
 st.markdown(f"## {word}")
 
 # Two-step flow for "Don't know": show answer, then OK applies effects and moves on.
@@ -221,7 +299,7 @@ if st.session_state.pending_dont_know:
         apply_dont_know_effect(word)
         st.rerun()
 else:
-    col1, col2, col3 = st.columns(3)
+    col1, col2, col3, col4 = st.columns(4)
 
     with col1:
         if st.button("✅ I know"):
@@ -234,12 +312,24 @@ else:
             st.session_state.show_hint = True
 
     with col3:
+        if st.button("🔍 Verify"):
+            # Show meaning + example only; no other side effects
+            st.session_state.show_verify = True
+            st.session_state.show_hint = False
+            st.session_state.show_answer = False
+            st.session_state.pending_dont_know = False
+            st.rerun()
+
+    with col4:
         if st.button("❌ Don't know"):
             # Show answer now; file updates (except Today mode) happen when user clicks OK
             st.session_state.pending_dont_know = True
             st.session_state.show_answer = True
             st.session_state.show_hint = False
             st.rerun()
-
     if st.session_state.show_hint:
+        st.info(f"Example: {card.example}")
+    
+    if st.session_state.show_verify:
+        st.success(f"Meaning: {card.meaning}")
         st.info(f"Example: {card.example}")
