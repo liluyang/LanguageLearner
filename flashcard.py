@@ -211,17 +211,22 @@ def apply_dont_know_effect(word: str):
 st.set_page_config(page_title="Palabra Español", page_icon="data/icon.png")
 
 
-def apply_background(color: str = "#F8FAFC") -> None:
-    """Inject CSS to set the Streamlit app background color."""
-    css = f"""
-    <style>
-    body {{ background-color: {color}; }}
-    .stApp {{ background-color: {color}; }}
-    </style>
-    """
-    st.markdown(css, unsafe_allow_html=True)
-
-
+def apply_background(color: str = "#F6F7FB") -> None:
+    try:
+        with open("data/theme.css", "r", encoding="utf-8") as fh:
+            css = fh.read()
+            st.markdown(f"<style>{css}</style>", unsafe_allow_html=True)
+    except FileNotFoundError:
+        # Fallback: inject minimal CSS to set background color
+        css = f"""
+        <style>
+        body {{ background-color: {color}; }}
+        .stApp {{
+            background-color: {color};
+        }}
+        </style>
+        """
+        st.markdown(css, unsafe_allow_html=True)
 
 
 try:
@@ -231,7 +236,7 @@ except FileNotFoundError as e:
     st.stop()
 
 # Apply requested background color
-apply_background("#F8FAFC")
+apply_background("#F6F7FB")
 
 # Sidebar: mode switching + due counter
 st.sidebar.header("Mode")

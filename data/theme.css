@@ -1,0 +1,14 @@
+/* App background */
+body { background-color: #F6F7FB; }
+.stApp { background-color: #F6F7FB; }
+
+/* Sidebar background */
+[data-testid="stSidebar"] > div:first-child {
+    background-color: #ECEFF4;
+}
+
+/* Make sidebar widgets transparent so the sidebar color shows through */
+[data-testid="stSidebar"] .css-1d391kg,
+[data-testid="stSidebar"] .css-1v3fvcr {
+    background-color: transparent;
+}
