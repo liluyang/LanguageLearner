@@ -1,14 +1,88 @@
-/* App background */
-body { background-color: #F6F7FB; }
-.stApp { background-color: #F6F7FB; }
-
-/* Sidebar background */
-[data-testid="stSidebar"] > div:first-child {
-    background-color: #ECEFF4;
+:root{
+    --bg: #F6F7FB;
+    --surface: #FFFFFF;
+    --muted: #6B7280;
+    --accent: #4F46E5; /* indigo-600 */
+    --sidebar: #ECEFF4;
+    --glass: rgba(255,255,255,0.6);
 }
 
-/* Make sidebar widgets transparent so the sidebar color shows through */
+/* Base */
+html, body, .stApp {
+    background-color: var(--bg) !important;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+    color: #0f172a;
+}
+
+/* Header */
+.stMarkdown h1, .stMarkdown h1 * {
+    font-size: 20px !important;
+    font-weight: 700 !important;
+    letter-spacing: -0.2px;
+    color: #0f172a !important;
+}
+
+/* Main word card (h2 used in app for word) */
+.stMarkdown h2 {
+    display: block;
+    margin: 18px 0 12px 0 !important;
+    padding: 20px 18px !important;
+    background: linear-gradient(180deg, var(--surface), var(--glass));
+    border-radius: 12px !important;
+    box-shadow: 0 6px 18px rgba(15,23,42,0.08) !important;
+    text-align: center;
+    font-size: 34px !important;
+    color: #0b1020 !important;
+}
+
+/* Card content like hint/answer */
+.stInfo, .stSuccess, .stWarning, .stError {
+    border-radius: 10px !important;
+    padding: 12px 14px !important;
+    box-shadow: 0 4px 12px rgba(2,6,23,0.04) !important;
+}
+
+/* Buttons: primary style */
+.stButton>button {
+    background-color: var(--surface) !important;
+    color: var(--accent) !important;
+    border: 1px solid rgba(15,23,42,0.06) !important;
+    padding: 10px 12px !important;
+    border-radius: 10px !important;
+    box-shadow: 0 6px 14px rgba(15,23,42,0.06) !important;
+    font-weight: 600 !important;
+    transition: transform .08s ease, box-shadow .12s ease;
+}
+.stButton>button:hover {
+    transform: translateY(-2px) !important;
+    box-shadow: 0 10px 24px rgba(15,23,42,0.09) !important;
+}
+
+/* Sidebar */
+[data-testid="stSidebar"] > div:first-child {
+    background-color: var(--sidebar) !important;
+    padding: 18px 12px !important;
+}
+
 [data-testid="stSidebar"] .css-1d391kg,
 [data-testid="stSidebar"] .css-1v3fvcr {
-    background-color: transparent;
+    background-color: transparent !important;
+}
+
+/* Sidebar header and items */
+[data-testid="stSidebar"] h2, [data-testid="stSidebar"] h3, [data-testid="stSidebar"] h4 {
+    color: #0f172a !important;
+}
+
+/* Metric styling */
+.stMetric {
+    border-radius: 10px !important;
+    background: rgba(255,255,255,0.7) !important;
+    padding: 8px 10px !important;
+}
+
+/* Small screens: tighten spacing */
+@media (max-width: 640px) {
+    .stMarkdown h2 { font-size: 26px !important; padding: 14px 12px !important; }
+    .stButton>button { width: 100% !important; }
 }
