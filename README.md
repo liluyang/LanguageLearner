@@ -2,13 +2,26 @@
 
 Project development is driven by AI vibe coding.
 
+To download source code to your local, run
+git clone https://github.com/liluyang/LanguageLearner.git
+
 ## Run
+
+Streamlit is a lightweight python web framework, to run a web page driven by local python code and data.
 
 ```
 streamlit run flashcard.py
 ```
 
 ## Installation
+
+To run this program, following software is needed --
+
+* streamlit package
+* python 3.13.x, because streamlit support up to 3.13
+
+Recommend to install above in virtual environment, otherwise you'll have a hard time to solve all python packages dependency
+issues.
 
 ### How to install python 3.13.x
 
@@ -30,4 +43,14 @@ python3 -m venv .venv
 source .venv/bin/activate
 python -m pip install -U pip setuptools wheel
 python -m pip install streamlit
+```
+
+### How to get into virtual python mode and quit
+
+```
+# Get into virtual python mode
+source .venv/bin/activate
+
+# To quit
+deactivate
 ```
