@@ -298,3 +298,107 @@ def move_word_between_difficult_files(
     """
     remove_word_from_difficult_file(src_path, word)
     upsert_word_in_difficult_file(dst_path, word, added)
+
+
+# =========================================================
+# New words
+# =========================================================
+
+def load_new_words(new_words_path: str) -> Dict[str, Card]:
+    """Load new_words.txt with same format as dictionary.txt: word : meaning : example"""
+    p = resolve_path(new_words_path)
+    try:
+        text = read_text_file(p)
+    except FileNotFoundError:
+        return {}
+    return parse_dictionary_text(text)
+
+
+def merge_new_word_into_dictionary(
+        new_card: Card,
+        dictionary: Dict[str, Card],
+) -> Card:
+    """
+    Merge a new card into dictionary:
+    - If word doesn't exist, add as-is.
+    - If word exists:
+      - If new meaning is substring of existing, skip (return existing).
+      - If new meaning is NOT substring of existing, append new meaning with comma
+        and use new example sentence.
+    Returns the final card.
+    """
+    word = new_card.word
+    if word not in dictionary:
+        return new_card
+    
+    existing = dictionary[word]
+    # Check if new meaning is substring of existing meaning
+    if new_card.meaning in existing.meaning:
+        return existing
+    
+    # Append meanings with comma separator
+    merged_meaning = f"{existing.meaning}, {new_card.meaning}"
+    # Use the new example sentence
+    return Card(word=word, meaning=merged_meaning, example=new_card.example)
+
+
+def remove_word_from_new_words_file(new_words_path: str, word: str) -> None:
+    """Remove a word from new_words.txt."""
+    p = resolve_path(new_words_path)
+    try:
+        text = read_text_file(p)
+    except FileNotFoundError:
+        return
+    words_dict = parse_dictionary_text(text)
+    if word in words_dict:
+        del words_dict(word)
+    # Serialize back
+    lines = [f"{w} : {c.meaning} : {c.example}" for w, c in words_dict.items()]
+    content = "\n".join(lines) + ("\n" if lines else "")
+    write_text_file(p, content)
+
+
+def merge_new_words_to_dictionary(
+        new_words_path: str,
+        dictionary_path: str,
+        word: str,
+) -> None:
+    """
+    Merge a specific word from new_words.txt into dictionary.txt:
+    1. Load the new card from new_words.txt
+    2. Load existing dictionary
+    3. Merge using merge_new_word_into_dictionary
+    4. Write back dictionary.txt
+    5. Remove from new_words.txt
+    """
+    p_new = resolve_path(new_words_path)
+    p_dict = resolve_path(dictionary_path)
+
+    # Load new word card
+    try:
+        new_text = read_text_file(p_new)
+    except FileNotFoundError:
+        return
+    new_cards = parse_dictionary_text(new_text)
+    if word not in new_cards:
+        return
+    new_card = new_cards[word]
+
+    # Load existing dictionary
+    try:
+        dict_text = read_text_file(p_dict)
+    except FileNotFoundError:
+        dict_text = ""
+    dictionary = parse_dictionary_text(dict_text)
+
+    # Merge
+    merged_card = merge_new_words_to_dictionary(new_card, dictionary)
+    dictionary[word] = merged_card
+
+    # Serialize and write back dictionary (sorted alphabetically by word)
+    dict_lines = [f"{w} : {c.meaning} : {c.example}" for w, c in sorted(dictionary.items())]
+    dict_content = "\n".join(dict_lines) + ("\n" if dict_lines else "")
+    write_text_file(p_dict, dict_content)
+
+    # Remove from new_words
+    remove_word_from_new_words_file(new_words_path, word)
