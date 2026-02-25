@@ -56,6 +56,8 @@ html, body, .stApp {
 .stButton>button:hover {
     transform: translateY(-2px) !important;
     box-shadow: 0 10px 24px rgba(15,23,42,0.09) !important;
+    background-color: #D1FAE5 !important;
+    border: 1px solid #34D399 !important;
 }
 
 /* Sidebar */
