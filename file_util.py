@@ -301,7 +301,7 @@ def move_word_between_difficult_files(
 
 
 # =========================================================
-# New words
+# New words merge logic
 # =========================================================
 
 def load_new_words(new_words_path: str) -> Dict[str, Card]:
@@ -315,8 +315,8 @@ def load_new_words(new_words_path: str) -> Dict[str, Card]:
 
 
 def merge_new_word_into_dictionary(
-        new_card: Card,
-        dictionary: Dict[str, Card],
+    new_card: Card,
+    dictionary: Dict[str, Card],
 ) -> Card:
     """
     Merge a new card into dictionary:
@@ -351,7 +351,7 @@ def remove_word_from_new_words_file(new_words_path: str, word: str) -> None:
         return
     words_dict = parse_dictionary_text(text)
     if word in words_dict:
-        del words_dict(word)
+        del words_dict[word]
     # Serialize back
     lines = [f"{w} : {c.meaning} : {c.example}" for w, c in words_dict.items()]
     content = "\n".join(lines) + ("\n" if lines else "")
@@ -359,9 +359,9 @@ def remove_word_from_new_words_file(new_words_path: str, word: str) -> None:
 
 
 def merge_new_words_to_dictionary(
-        new_words_path: str,
-        dictionary_path: str,
-        word: str,
+    new_words_path: str,
+    dictionary_path: str,
+    word: str,
 ) -> None:
     """
     Merge a specific word from new_words.txt into dictionary.txt:
@@ -392,7 +392,7 @@ def merge_new_words_to_dictionary(
     dictionary = parse_dictionary_text(dict_text)
 
     # Merge
-    merged_card = merge_new_words_to_dictionary(new_card, dictionary)
+    merged_card = merge_new_word_into_dictionary(new_card, dictionary)
     dictionary[word] = merged_card
 
     # Serialize and write back dictionary (sorted alphabetically by word)
