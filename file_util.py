@@ -308,10 +308,26 @@ def load_new_words(new_words_path: str) -> Dict[str, Card]:
     """Load new_words.txt with same format as dictionary.txt: word : meaning : example"""
     p = resolve_path(new_words_path)
     try:
-        text = read_text_file(p)
+        next_text = read_text_file(p)
     except FileNotFoundError:
         return {}
-    return parse_dictionary_text(text)
+    new_cards = parse_dictionary_text(next_text)
+
+    # Also load dictionary.txt to merge if word exists
+    try:
+        dict_text = read_text_file(resolve_path("dictionary.txt"))
+        dictionary = parse_dictionary_text(dict_text)
+    except FileNotFoundError:
+        dictionary = {}
+
+    # Merge new_cards with dictionary if word exists
+    merged = {}
+    for w, c in new_cards.items():
+        if w in dictionary:
+            merged[w] = merge_new_word_into_dictionary(c, dictionary)
+        else:
+            merged[w] = c
+    return merged
 
 
 def merge_new_word_into_dictionary(
@@ -334,12 +350,23 @@ def merge_new_word_into_dictionary(
     existing = dictionary[word]
     # Check if new meaning is substring of existing meaning
     if new_card.meaning in existing.meaning:
-        return existing
+        # Merge example sentences if new one is not already present
+        existing_examples = set(e.strip() for e in existing.example.split("|") if e.strip())
+        new_examples = set([e.strip() for e in new_card.example.split("|") if e.strip()])
+        all_examples = existing_examples | new_examples
+        merged_example = " | ".join(sorted(all_examples))
+        if merged_example != existing.example:
+            return existing
+        return Card(word=word, meaning=existing.meaning, example=merged_example)
     
     # Append meanings with comma separator
     merged_meaning = f"{existing.meaning}, {new_card.meaning}"
-    # Use the new example sentence
-    return Card(word=word, meaning=merged_meaning, example=new_card.example)
+    # Mereg example sentences
+    existing_examples = set([e.strip() for e in existing.example.split("|") if e.strip()])
+    new_examples = set([e.strip() for e in new_card.example.split("|") if e.strip()])
+    all_examples = existing_examples | new_examples
+    merged_example = " | ".join(sorted(all_examples))
+    return Card(word=word, meaning=merged_meaning, example=merged_example)
 
 
 def remove_word_from_new_words_file(new_words_path: str, word: str) -> None:

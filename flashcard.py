@@ -285,7 +285,11 @@ if word is None:
     all_reviewed_view()
 
 # Get card: from dictionary if available, else from new_words
-if word in st.session_state.dictionary:
+if word in st.session_state.dictionary and word in st.session_state.new_words:
+    # Merge both cards for display
+    from file_util import merge_new_word_into_dictionary
+    card = merge_new_word_into_dictionary(word, st.session_state.new_words[word], st.session_state.dictionary)
+elif word in st.session_state.dictionary:
     card = st.session_state.dictionary[word]
 elif word in st.session_state.new_words:
     card = st.session_state.new_words[word]
@@ -298,7 +302,12 @@ st.markdown(f"## {word}")
 # Two-step flow for "Don't know": show answer, then OK applies effects and moves on.
 if st.session_state.pending_dont_know:
     st.success(f"Meaning: {card.meaning}")
-    st.info(f"Example: {card.example}")
+    # Show all example sentences
+    examples = [e.strip() for e in card.example.split("|") if e.strip()]
+    if examples:
+        st.markdown("**Examples:**")
+        for ex in examples:
+            st.info(ex)
 
     if st.button("OK"):
         apply_dont_know_effect(word)
@@ -333,8 +342,16 @@ else:
             st.session_state.show_hint = False
             st.rerun()
     if st.session_state.show_hint:
-        st.info(f"Example: {card.example}")
+        examples = [e.strip() for e in card.example.split("|") if e.strip()]
+        if examples:
+            st.markdown("**Example:**")
+            for ex in examples:
+                st.info(ex)
 
     if st.session_state.show_verify:
         st.success(f"Meaning: {card.meaning}")
-        st.info(f"Example: {card.example}")
+        examples = [e.strip() for e in card.example.split("|") if e.strip()]
+        if examples:
+            st.markdown("**Examples:**")
+            for ex in examples:
+                st.info(ex)
