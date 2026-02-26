@@ -288,7 +288,7 @@ if word is None:
 if word in st.session_state.dictionary and word in st.session_state.new_words:
     # Merge both cards for display
     from file_util import merge_new_word_into_dictionary
-    card = merge_new_word_into_dictionary(word, st.session_state.new_words[word], st.session_state.dictionary)
+    card = merge_new_word_into_dictionary(st.session_state.new_words[word], st.session_state.dictionary)
 elif word in st.session_state.dictionary:
     card = st.session_state.dictionary[word]
 elif word in st.session_state.new_words:
@@ -303,7 +303,7 @@ st.markdown(f"## {word}")
 if st.session_state.pending_dont_know:
     st.success(f"Meaning: {card.meaning}")
     # Show all example sentences
-    examples = [e.strip() for e in card.example.split("|") if e.strip()]
+    examples = [e.strip() for e in card.example.split('|') if e.strip()]
     if examples:
         st.markdown("**Examples:**")
         for ex in examples:
@@ -342,7 +342,7 @@ else:
             st.session_state.show_hint = False
             st.rerun()
     if st.session_state.show_hint:
-        examples = [e.strip() for e in card.example.split("|") if e.strip()]
+        examples = [e.strip() for e in card.example.split('|') if e.strip()]
         if examples:
             st.markdown("**Example:**")
             for ex in examples:
@@ -350,7 +350,7 @@ else:
 
     if st.session_state.show_verify:
         st.success(f"Meaning: {card.meaning}")
-        examples = [e.strip() for e in card.example.split("|") if e.strip()]
+        examples = [e.strip() for e in card.example.split('|') if e.strip()]
         if examples:
             st.markdown("**Examples:**")
             for ex in examples:
