@@ -26,6 +26,7 @@ DIFFICULT_5_FILE = "data/difficult_5.txt"
 DIFFICULT_15_FILE = "data/difficult_15.txt"
 TODAY_FILE = "data/today.txt"
 NEW_WORDS_FILE = "data/new_words.txt"
+MODES = ("New words", "Review", "5 Day", "15 Day", "Today")
 
 
 def render_header(icon_path: str = "data/icon.png", title: str = "Palabra Español"):
@@ -47,37 +48,56 @@ def render_header(icon_path: str = "data/icon.png", title: str = "Palabra Españ
 
 def load_words_for_mode(mode: str):
     today = date.today()
-    if mode == "New words":
-        return list(load_new_words(NEW_WORDS_FILE).keys())
-    if mode == "Review":
-        return load_review_words(PRACTICE_FILE, st.session_state.dictionary)
-    if mode == "5 Day":
-        return load_due_words(
+    dictionary = st.session_state.dictionary
+    mode_loaders = {
+        "New words": lambda: list(load_new_words(NEW_WORDS_FILE).keys()),
+        "Review": lambda: load_review_words(PRACTICE_FILE, dictionary),
+        "5 Day": lambda: load_due_words(
             DIFFICULT_5_FILE,
             interval_days=5,
-            dictionary=st.session_state.dictionary,
+            dictionary=dictionary,
             today=today,
-        )
-    if mode == "15 Day":
-        return load_due_words(
+        ),
+        "15 Day": lambda: load_due_words(
             DIFFICULT_15_FILE,
             interval_days=15,
-            dictionary=st.session_state.dictionary,
+            dictionary=dictionary,
             today=today,
-        )
-    if mode == "Today":
-        return load_today_words(TODAY_FILE, st.session_state.dictionary)
+        ),
+        "Today": lambda: load_today_words(TODAY_FILE, dictionary),
+    }
+    return mode_loaders.get(mode, mode_loaders["Review"])()
 
-    return load_review_words(PRACTICE_FILE, st.session_state.dictionary)
+
+def refresh_word_sources() -> None:
+    st.session_state.new_words = load_new_words(NEW_WORDS_FILE)
+    st.session_state.dictionary = load_dictionary(DICTIONARY_FILE)
+
+
+def reset_ui_flags() -> None:
+    st.session_state.show_hint = False
+    st.session_state.show_answer = False
+    st.session_state.pending_dont_know = False
+    st.session_state.show_verify = False
+
+
+def merge_new_word_and_refresh(word: str) -> None:
+    merge_new_words_to_dictionary(NEW_WORDS_FILE, DICTIONARY_FILE, word)
+    refresh_word_sources()
+
+
+def render_examples(example_text: str, *, label: str = "Examples:") -> None:
+    examples = [e.strip() for e in example_text.split('|') if e.strip()]
+    if examples:
+        st.markdown(f"**{label}**")
+        for ex in examples:
+            st.info(ex)
 
 
 def reset_session_for_new_wordlist(words):
     st.session_state.practice_words = words
     st.session_state.current_word = random.choice(words) if words else None
-    st.session_state.show_hint = False
-    st.session_state.show_answer = False
-    st.session_state.pending_dont_know = False  # waiting for OK?
-    st.session_state.show_verify = False
+    reset_ui_flags()
 
 
 def ensure_initialized():
@@ -115,10 +135,7 @@ def reload_current_mode_words(keep_current_word: bool = False):
     words = load_words_for_mode(st.session_state.mode)
 
     st.session_state.practice_words = words
-    st.session_state.show_hint = False
-    st.session_state.show_answer = False
-    st.session_state.pending_dont_know = False
-    st.session_state.show_verify = False
+    reset_ui_flags()
 
     if not words:
         st.session_state.current_word = None
@@ -142,27 +159,21 @@ def handle_i_know(word: str):
     """
     today = date.today()
     mode = st.session_state.mode
-
-    if mode == "New words":
-        # Merge new word into dictionary and remove from new_words
-        merge_new_words_to_dictionary(NEW_WORDS_FILE, DICTIONARY_FILE, word)
-        # Reload new_words in session
-        st.session_state.new_words = load_new_words(NEW_WORDS_FILE)
-        # Reload dictionary
-        st.session_state.dictionary = load_dictionary(DICTIONARY_FILE)
-
-    elif mode == "Review":
-        remove_word_from_practice_file(PRACTICE_FILE, word)
-
-    elif mode == "5 Day":
-        move_word_between_difficult_files(DIFFICULT_5_FILE, DIFFICULT_15_FILE, word, today)
-
-    elif mode == "15 Day":
-        remove_word_from_difficult_file(DIFFICULT_15_FILE, word)
-        remove_word_from_practice_file(PRACTICE_FILE, word)
-
-    elif mode == "Today":
-        remove_word_from_today_file(TODAY_FILE, word)
+    mode_actions = {
+        "New words": lambda: merge_new_word_and_refresh(word),
+        "Review": lambda: remove_word_from_practice_file(PRACTICE_FILE, word),
+        "5 Day": lambda: move_word_between_difficult_files(
+            DIFFICULT_5_FILE, DIFFICULT_15_FILE, word, today
+        ),
+        "15 Day": lambda: (
+            remove_word_from_difficult_file(DIFFICULT_15_FILE, word),
+            remove_word_from_practice_file(PRACTICE_FILE, word),
+        ),
+        "Today": lambda: remove_word_from_today_file(TODAY_FILE, word),
+    }
+    action = mode_actions.get(mode)
+    if action is not None:
+        action()
 
     reload_current_mode_words()
 
@@ -174,30 +185,19 @@ def apply_dont_know_effect(word: str):
     """
     today = date.today()
     mode = st.session_state.mode
+    difficult_target = {
+        "New words": DIFFICULT_5_FILE,
+        "Review": DIFFICULT_5_FILE,
+        "5 Day": DIFFICULT_5_FILE,
+        "15 Day": DIFFICULT_15_FILE,
+    }
 
     if mode == "New words":
-        # Merge new word into dictionary and remove from new_words
-        merge_new_words_to_dictionary(NEW_WORDS_FILE, DICTIONARY_FILE, word)
-        # Also add to difficult_5.txt and today.txt with today's date
-        upsert_word_in_difficult_file(DIFFICULT_5_FILE, word, today)
-        add_word_to_today_file(TODAY_FILE, word)
-        # Reload new_words in session
-        st.session_state.new_words = load_new_words(NEW_WORDS_FILE)
-        # Reload dictionary
-        st.session_state.dictionary = load_dictionary(DICTIONARY_FILE)
+        merge_new_word_and_refresh(word)
 
-    elif mode == "Review":
-        upsert_word_in_difficult_file(DIFFICULT_5_FILE, word, today)
+    if mode in difficult_target:
+        upsert_word_in_difficult_file(difficult_target[mode], word, today)
         add_word_to_today_file(TODAY_FILE, word)
-
-    elif mode == "5 Day":
-        upsert_word_in_difficult_file(DIFFICULT_5_FILE, word, today)
-        add_word_to_today_file(TODAY_FILE, word)
-
-    elif mode == "15 Day":
-        upsert_word_in_difficult_file(DIFFICULT_15_FILE, word, today)
-        add_word_to_today_file(TODAY_FILE, word)
-
     elif mode == "Today":
         # Today mode: DON'T add to today.txt again; just show answer then OK → next word
         # No file change required for Don't know.
@@ -244,21 +244,10 @@ st.sidebar.header("Mode")
 changed = False
 disable_mode_switch = st.session_state.pending_dont_know
 
-if st.sidebar.button("New words", use_container_width=True, disabled=disable_mode_switch):
-    st.session_state.mode = "New words"
-    changed = True
-if st.sidebar.button("Review", use_container_width=True, disabled=disable_mode_switch):
-    st.session_state.mode = "Review"
-    changed = True
-if st.sidebar.button("5 Day", use_container_width=True, disabled=disable_mode_switch):
-    st.session_state.mode = "5 Day"
-    changed = True
-if st.sidebar.button("15 Day", use_container_width=True, disabled=disable_mode_switch):
-    st.session_state.mode = "15 Day"
-    changed = True
-if st.sidebar.button("Today", use_container_width=True, disabled=disable_mode_switch):
-    st.session_state.mode = "Today"
-    changed = True
+for mode in MODES:
+    if st.sidebar.button(mode, use_container_width=True, disabled=disable_mode_switch):
+        st.session_state.mode = mode
+        changed = True
 
 if changed:
     reload_current_mode_words()
@@ -268,7 +257,17 @@ st.sidebar.caption(f"Current: **{st.session_state.mode}**")
 st.sidebar.metric("Due", due_count)
 
 if st.sidebar.button("🔄 Reload files", use_container_width=True, disabled=disable_mode_switch):
-    for k in ["dictionary", "practice_words", "current_word", "show_hint", "show_answer", "pending_dont_know", "mode"]:
+    for k in [
+        "dictionary",
+        "new_words",
+        "practice_words",
+        "current_word",
+        "show_hint",
+        "show_answer",
+        "show_verify",
+        "pending_dont_know",
+        "mode",
+    ]:
         st.session_state.pop(k, None)
     st.rerun()
 
@@ -302,12 +301,7 @@ st.markdown(f"## {word}")
 # Two-step flow for "Don't know": show answer, then OK applies effects and moves on.
 if st.session_state.pending_dont_know:
     st.success(f"Meaning: {card.meaning}")
-    # Show all example sentences
-    examples = [e.strip() for e in card.example.split('|') if e.strip()]
-    if examples:
-        st.markdown("**Examples:**")
-        for ex in examples:
-            st.info(ex)
+    render_examples(card.example, label="Examples:")
 
     if st.button("OK"):
         apply_dont_know_effect(word)
@@ -342,16 +336,8 @@ else:
             st.session_state.show_hint = False
             st.rerun()
     if st.session_state.show_hint:
-        examples = [e.strip() for e in card.example.split('|') if e.strip()]
-        if examples:
-            st.markdown("**Example:**")
-            for ex in examples:
-                st.info(ex)
+        render_examples(card.example, label="Example:")
 
     if st.session_state.show_verify:
         st.success(f"Meaning: {card.meaning}")
-        examples = [e.strip() for e in card.example.split('|') if e.strip()]
-        if examples:
-            st.markdown("**Examples:**")
-            for ex in examples:
-                st.info(ex)
+        render_examples(card.example, label="Examples:")

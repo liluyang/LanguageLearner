@@ -103,6 +103,32 @@ def serialize_practice_list(words: List[str]) -> str:
     return "\n".join(out) + ("\n" if out else "")
 
 
+def _load_word_list_file(path: Path, *, missing_ok: bool = False) -> List[str]:
+    try:
+        text = read_text_file(path)
+    except FileNotFoundError:
+        if missing_ok:
+            return []
+        raise
+    return parse_practice_list_text(text)
+
+
+def _write_word_list_file(path: Path, words: List[str]) -> None:
+    write_text_file(path, serialize_practice_list(words))
+
+
+def _upsert_word_in_list_file(path: Path, word: str) -> None:
+    words = _load_word_list_file(path, missing_ok=True)
+    if word not in words:
+        words.append(word)
+    _write_word_list_file(path, words)
+
+
+def _remove_word_from_list_file(path: Path, word: str, *, missing_ok: bool = False) -> None:
+    words = _load_word_list_file(path, missing_ok=missing_ok)
+    _write_word_list_file(path, [w for w in words if w != word])
+
+
 # -------- difficult_*.txt --------
 
 def _parse_difficult_line(line: str) -> Optional[Tuple[date, str]]:
@@ -172,11 +198,7 @@ def load_today_words(today_path: str, dictionary: Dict[str, Card]) -> List[str]:
     If file doesn't exist, treat as empty.
     """
     p = resolve_path(today_path)
-    try:
-        text = read_text_file(p)
-    except FileNotFoundError:
-        return []
-    words = parse_practice_list_text(text)
+    words = _load_word_list_file(p, missing_ok=True)
     return filter_words_in_dictionary(words, dictionary)
 
 
@@ -186,16 +208,7 @@ def add_word_to_today_file(today_path: str, word: str) -> None:
     Creates file if missing.
     """
     p = resolve_path(today_path)
-    try:
-        text = read_text_file(p)
-        words = parse_practice_list_text(text)
-    except FileNotFoundError:
-        words = []
-
-    if word not in words:
-        words.append(word)
-
-    write_text_file(p, serialize_practice_list(words))
+    _upsert_word_in_list_file(p, word)
 
 
 def remove_word_from_today_file(today_path: str, word: str) -> None:
@@ -204,14 +217,7 @@ def remove_word_from_today_file(today_path: str, word: str) -> None:
     If file missing, no-op.
     """
     p = resolve_path(today_path)
-    try:
-        text = read_text_file(p)
-    except FileNotFoundError:
-        return
-
-    words = parse_practice_list_text(text)
-    words = [w for w in words if w != word]
-    write_text_file(p, serialize_practice_list(words))
+    _remove_word_from_list_file(p, word, missing_ok=True)
 
 # =========================================================
 # Convenience loaders
@@ -229,8 +235,7 @@ def filter_words_in_dictionary(words: List[str], dictionary: Dict[str, Card]) ->
 
 def load_review_words(practice_path: str, dictionary: Dict[str, Card]) -> List[str]:
     p = resolve_path(practice_path)
-    text = read_text_file(p)
-    words = parse_practice_list_text(text)
+    words = _load_word_list_file(p)
     return filter_words_in_dictionary(words, dictionary)
 
 
@@ -254,10 +259,7 @@ def load_due_words(
 
 def remove_word_from_practice_file(practice_path: str, word: str) -> None:
     p = resolve_path(practice_path)
-    text = read_text_file(p)
-    words = parse_practice_list_text(text)
-    words = [w for w in words if w != word]
-    write_text_file(p, serialize_practice_list(words))
+    _remove_word_from_list_file(p, word)
 
 
 def upsert_word_in_difficult_file(difficult_path: str, word: str, added: date) -> None:
