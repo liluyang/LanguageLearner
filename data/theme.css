@@ -148,6 +148,11 @@ html, body, .stApp {
     margin-bottom: 8px;
 }
 
+/* Add extra gap between current word card and action buttons */
+.st-key-main_content_frame .stMarkdown h2 {
+    margin-bottom: 24px !important;
+}
+
 /* Small screens: tighten spacing */
 @media (max-width: 640px) {
     .stMarkdown h2 { font-size: 26px !important; padding: 14px 12px !important; }
