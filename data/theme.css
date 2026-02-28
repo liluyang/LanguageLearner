@@ -78,6 +78,25 @@ html, body, .stApp {
     color: #0f172a !important;
 }
 
+/* Sidebar app branding */
+[data-testid="stSidebar"] .sidebar-brand {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin: 2px 0 10px 0;
+}
+[data-testid="stSidebar"] .sidebar-brand-icon {
+    display: block;
+}
+[data-testid="stSidebar"] .sidebar-brand-title {
+    margin: 0;
+    font-size: 1.6rem;
+    line-height: 1.1;
+    font-weight: 700;
+    color: #0f172a;
+}
+
 /* Sidebar active mode button */
 [data-testid="stSidebar"] .stButton > button[kind="primary"],
 [data-testid="stSidebar"] .stButton > button[data-testid="stBaseButton-primary"],
@@ -105,6 +124,28 @@ html, body, .stApp {
     border-radius: 10px !important;
     background: rgba(255,255,255,0.7) !important;
     padding: 8px 10px !important;
+}
+
+/* Main content mode heading */
+.main-mode-title {
+    font-size: 1.7rem;
+    font-weight: 700;
+    margin: 0 0 0.25rem 0;
+}
+.main-mode-divider {
+    margin: 0 0 1rem 0;
+    border: none;
+    border-top: 1px solid rgba(15, 23, 42, 0.15);
+}
+
+/* Main page content frame (below mode title) */
+.st-key-main_content_frame {
+    background: rgba(255, 255, 255, 0.75);
+    border: 1px solid rgba(15, 23, 42, 0.08);
+    border-radius: 14px;
+    box-shadow: 0 10px 24px rgba(15, 23, 42, 0.08);
+    padding: 16px 16px 14px 16px;
+    margin-bottom: 8px;
 }
 
 /* Small screens: tighten spacing */

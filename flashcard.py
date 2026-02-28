@@ -37,9 +37,9 @@ def render_sidebar_branding(icon_path: str = "data/icon.png", title: str = "Pala
             icon_b64 = base64.b64encode(fh.read()).decode("ascii")
         st.sidebar.markdown(
             f"""
-            <div style="display:flex; align-items:center; justify-content:center; gap:8px; margin:2px 0 10px 0;">
-                <img src="data:image/png;base64,{icon_b64}" width="38" height="38" style="display:block;" />
-                <span style="margin:0; font-size:1.6rem; line-height:1.1; font-weight:700; color:#0f172a;">{title}</span>
+            <div class="sidebar-brand">
+                <img class="sidebar-brand-icon" src="data:image/png;base64,{icon_b64}" width="38" height="38" />
+                <span class="sidebar-brand-title">{title}</span>
             </div>
             """,
             unsafe_allow_html=True,
@@ -247,11 +247,13 @@ disable_mode_switch = st.session_state.pending_dont_know
 
 for mode in MODES:
     button_type = "primary" if mode == st.session_state.mode else "secondary"
+    mode_key = mode.lower().replace(" ", "_")
     if st.sidebar.button(
         mode,
         use_container_width=True,
         disabled=disable_mode_switch,
         type=button_type,
+        key=f"mode_btn_{mode_key}",
     ):
         if st.session_state.mode != mode:
             st.session_state.mode = mode
@@ -276,69 +278,80 @@ if st.sidebar.button("🔄 Reload files", use_container_width=True, disabled=dis
         st.session_state.pop(k, None)
     st.rerun()
 
+st.markdown(
+    f"""
+    <div class="main-mode-title">{st.session_state.mode}</div>
+    <hr class="main-mode-divider" />
+    """,
+    unsafe_allow_html=True,
+)
+
 # If nothing due, celebrate and stop
-if not st.session_state.practice_words:
-    all_reviewed_view()
+with st.container(key="main_content_frame"):
+    if not st.session_state.practice_words:
+        all_reviewed_view()
 
-word = st.session_state.current_word
-if word is None:
-    all_reviewed_view()
+    word = st.session_state.current_word
+    if word is None:
+        all_reviewed_view()
 
-# Get card: from dictionary if available, else from new_words
-if word in st.session_state.dictionary and word in st.session_state.new_words:
-    # Merge both cards for display
-    from file_util import merge_new_word_into_dictionary
-    card = merge_new_word_into_dictionary(st.session_state.new_words[word], st.session_state.dictionary)
-elif word in st.session_state.dictionary:
-    card = st.session_state.dictionary[word]
-elif word in st.session_state.new_words:
-    card = st.session_state.new_words[word]
-else:
-    # Word not found in either; skip
-    st.error(f"Word '{word}' not found in any source.")
-    st.stop()
-st.markdown(f"## {word}")
+    # Get card: from dictionary if available, else from new_words
+    if word in st.session_state.dictionary and word in st.session_state.new_words:
+        # Merge both cards for display
+        from file_util import merge_new_word_into_dictionary
+        card = merge_new_word_into_dictionary(st.session_state.new_words[word], st.session_state.dictionary)
+    elif word in st.session_state.dictionary:
+        card = st.session_state.dictionary[word]
+    elif word in st.session_state.new_words:
+        card = st.session_state.new_words[word]
+    else:
+        # Word not found in either; skip
+        st.error(f"Word '{word}' not found in any source.")
+        st.stop()
+    st.markdown(f"## {word}")
 
-# Two-step flow for "Don't know": show answer, then OK applies effects and moves on.
-if st.session_state.pending_dont_know:
-    st.success(f"Meaning: {card.meaning}")
-    render_examples(card.example, label="Examples:")
-
-    if st.button("OK"):
-        apply_dont_know_effect(word)
-        st.rerun()
-else:
-    col1, col2, col3, col4 = st.columns(4)
-
-    with col1:
-        if st.button("✅ I know"):
-            handle_i_know(word)
-            st.rerun()
-
-    with col2:
-        # Hint is optional in Today mode too; it only shows example sentence (no file changes)
-        if st.button("💡 Hint"):
-            st.session_state.show_hint = True
-
-    with col3:
-        if st.button("🔍 Verify"):
-            # Show meaning + example only; no other side effects
-            st.session_state.show_verify = True
-            st.session_state.show_hint = False
-            st.session_state.show_answer = False
-            st.session_state.pending_dont_know = False
-            st.rerun()
-
-    with col4:
-        if st.button("❌ Don't know"):
-            # Show answer now; file updates (except Today mode) happen when user clicks OK
-            st.session_state.pending_dont_know = True
-            st.session_state.show_answer = True
-            st.session_state.show_hint = False
-            st.rerun()
-    if st.session_state.show_hint:
-        render_examples(card.example, label="Example:")
-
-    if st.session_state.show_verify:
+    # Two-step flow for "Don't know": show answer, then OK applies effects and moves on.
+    if st.session_state.pending_dont_know:
         st.success(f"Meaning: {card.meaning}")
         render_examples(card.example, label="Examples:")
+
+        if st.button("OK"):
+            apply_dont_know_effect(word)
+            st.rerun()
+    else:
+        col1, col2, col3, col4 = st.columns(4)
+
+        with col1:
+            if st.button("✅ I know"):
+                handle_i_know(word)
+                st.rerun()
+
+        with col2:
+            # Hint is optional in Today mode too; it only shows example sentence (no file changes)
+            if st.button("💡 Hint"):
+                st.session_state.show_hint = True
+                st.session_state.show_verify = False
+                st.session_state.pending_dont_know = False
+                st.session_state.show_answer = False
+
+        with col3:
+            if st.button("🔍 Verify"):
+                # Show meaning + example only; no other side effects
+                st.session_state.show_verify = True
+                st.session_state.show_hint = False
+                st.session_state.show_answer = False
+                st.session_state.pending_dont_know = False
+                st.rerun()
+
+        with col4:
+            if st.button("❌ Don't know"):
+                # Show answer now; file updates (except Today mode) happen when user clicks OK
+                st.session_state.pending_dont_know = True
+                st.session_state.show_answer = True
+                st.session_state.show_hint = False
+                st.rerun()
+        if st.session_state.show_verify:
+            st.success(f"Meaning: {card.meaning}")
+            render_examples(card.example, label="Examples:")
+        elif st.session_state.show_hint:
+            render_examples(card.example, label="Example:")
