@@ -1,3 +1,4 @@
+import base64
 import random
 from datetime import date
 
@@ -29,21 +30,22 @@ NEW_WORDS_FILE = "data/new_words.txt"
 MODES = ("New words", "Review", "5 Day", "15 Day", "Today")
 
 
-def render_header(icon_path: str = "data/icon.png", title: str = "Palabra Español"):
-    """Render a small icon next to the app title with vertical centering."""
+def render_sidebar_branding(icon_path: str = "data/icon.png", title: str = "Palabra Español"):
+    """Render app icon and title at the top of the sidebar."""
     try:
-        col1, col2 = st.columns([0.08, 0.92])
-        with col1:
-            st.image(icon_path, width=40)
-        with col2:
-            # Use a small HTML container to veritically center the title
-            st.markdown(
-                f"<div style='display:flex; align-items:center; height:48px;'><h1 style='margin:0'>{title}</h1></div>",
-                unsafe_allow_html=True,
-            )
+        with open(icon_path, "rb") as fh:
+            icon_b64 = base64.b64encode(fh.read()).decode("ascii")
+        st.sidebar.markdown(
+            f"""
+            <div style="display:flex; align-items:center; justify-content:center; gap:8px; margin:2px 0 10px 0;">
+                <img src="data:image/png;base64,{icon_b64}" width="38" height="38" style="display:block;" />
+                <span style="margin:0; font-size:1.6rem; line-height:1.1; font-weight:700; color:#0f172a;">{title}</span>
+            </div>
+            """,
+            unsafe_allow_html=True,
+        )
     except Exception:
-        # Fall back to simple title if image can't be loaded
-        st.title(title)
+        st.sidebar.markdown(f"### {title}")
 
 
 def load_words_for_mode(mode: str):
@@ -148,7 +150,6 @@ def reload_current_mode_words(keep_current_word: bool = False):
 
 
 def all_reviewed_view():
-    render_header()
     st.success("You have reviewed everything, great job!")
     st.stop()
 
@@ -239,6 +240,7 @@ except FileNotFoundError as e:
 apply_background("#F6F7FB")
 
 # Sidebar: mode switching + due counter
+render_sidebar_branding()
 st.sidebar.header("Mode")
 
 disable_mode_switch = st.session_state.pending_dont_know
@@ -277,10 +279,6 @@ if st.sidebar.button("🔄 Reload files", use_container_width=True, disabled=dis
 # If nothing due, celebrate and stop
 if not st.session_state.practice_words:
     all_reviewed_view()
-
-# Main UI
-render_header()
-
 
 word = st.session_state.current_word
 if word is None:
