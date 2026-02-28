@@ -3,6 +3,8 @@
     --surface: #FFFFFF;
     --muted: #6B7280;
     --accent: #4F46E5; /* indigo-600 */
+    --mode-active: #6fb7ff;
+    --mode-active-hover: #5aa8f6;
     --sidebar: #ECEFF4;
     --glass: rgba(255,255,255,0.6);
 }
@@ -74,6 +76,28 @@ html, body, .stApp {
 /* Sidebar header and items */
 [data-testid="stSidebar"] h2, [data-testid="stSidebar"] h3, [data-testid="stSidebar"] h4 {
     color: #0f172a !important;
+}
+
+/* Sidebar active mode button */
+[data-testid="stSidebar"] .stButton > button[kind="primary"],
+[data-testid="stSidebar"] .stButton > button[data-testid="stBaseButton-primary"],
+[data-testid="stSidebar"] .stButton > button[class*="primary"] {
+    background-color: var(--mode-active) !important;
+    border-color: var(--mode-active) !important;
+    color: #ffffff !important;
+    box-shadow: 0 8px 18px rgba(111, 183, 255, 0.35) !important;
+}
+[data-testid="stSidebar"] .stButton > button[kind="primary"] *,
+[data-testid="stSidebar"] .stButton > button[data-testid="stBaseButton-primary"] *,
+[data-testid="stSidebar"] .stButton > button[class*="primary"] * {
+    color: #ffffff !important;
+}
+[data-testid="stSidebar"] .stButton > button[kind="primary"]:hover,
+[data-testid="stSidebar"] .stButton > button[data-testid="stBaseButton-primary"]:hover,
+[data-testid="stSidebar"] .stButton > button[class*="primary"]:hover {
+    background-color: var(--mode-active-hover) !important;
+    border-color: var(--mode-active-hover) !important;
+    color: #ffffff !important;
 }
 
 /* Metric styling */

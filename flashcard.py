@@ -241,19 +241,22 @@ apply_background("#F6F7FB")
 # Sidebar: mode switching + due counter
 st.sidebar.header("Mode")
 
-changed = False
 disable_mode_switch = st.session_state.pending_dont_know
 
 for mode in MODES:
-    if st.sidebar.button(mode, use_container_width=True, disabled=disable_mode_switch):
-        st.session_state.mode = mode
-        changed = True
-
-if changed:
-    reload_current_mode_words()
+    button_type = "primary" if mode == st.session_state.mode else "secondary"
+    if st.sidebar.button(
+        mode,
+        use_container_width=True,
+        disabled=disable_mode_switch,
+        type=button_type,
+    ):
+        if st.session_state.mode != mode:
+            st.session_state.mode = mode
+            reload_current_mode_words()
+        st.rerun()
 
 due_count = len(st.session_state.practice_words) if st.session_state.practice_words else 0
-st.sidebar.caption(f"Current: **{st.session_state.mode}**")
 st.sidebar.metric("Due", due_count)
 
 if st.sidebar.button("🔄 Reload files", use_container_width=True, disabled=disable_mode_switch):
