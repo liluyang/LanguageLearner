@@ -78,6 +78,13 @@ html, body, .stApp {
     color: #0f172a !important;
 }
 
+/* Sidebar buttons: compact width and centered */
+[data-testid="stSidebar"] .stButton > button {
+    width: 75% !important;
+    margin: 0 auto !important;
+    display: block !important;
+}
+
 /* Sidebar app branding */
 [data-testid="stSidebar"] .sidebar-brand {
     display: flex;
@@ -124,6 +131,10 @@ html, body, .stApp {
     border-radius: 10px !important;
     background: rgba(255,255,255,0.7) !important;
     padding: 8px 10px !important;
+}
+[data-testid="stSidebar"] .stMetric {
+    width: 75% !important;
+    margin: 0 auto !important;
 }
 
 /* Main content mode heading */

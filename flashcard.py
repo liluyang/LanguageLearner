@@ -1,8 +1,11 @@
 import base64
+import html
+import json
 import random
 from datetime import date
 
 import streamlit as st
+import streamlit.components.v1 as components
 
 from file_util import (
     load_dictionary,
@@ -92,8 +95,34 @@ def render_examples(example_text: str, *, label: str = "Examples:") -> None:
     examples = [e.strip() for e in example_text.split('|') if e.strip()]
     if examples:
         st.markdown(f"**{label}**")
-        for ex in examples:
-            st.info(ex)
+        for idx, ex in enumerate(examples):
+            safe_text_js = json.dumps(ex)
+            safe_text_html = html.escape(ex)
+            button_id = f"copy_icon_{idx}"
+            components.html(
+                f"""
+                <div style="display:flex;align-items:center;gap:8px;background:#E8F2FF;border-radius:8px;padding:10px 12px;margin:4px 0;">
+                    <div style="flex:1;color:#0f172a;line-height:1.4;">{safe_text_html}</div>
+                    <button
+                        id="{button_id}"
+                        title="Copy sentence"
+                        aria-label="Copy sentence"
+                        style="display:flex;align-items:center;justify-content:center;width:30px;height:30px;background:transparent;border:none;border-radius:6px;cursor:pointer;padding:0;"
+                        onclick='navigator.clipboard.writeText({safe_text_js}).then(() => {{
+                            const btn = document.getElementById("{button_id}");
+                            btn.style.opacity = "0.5";
+                            setTimeout(() => btn.style.opacity = "1", 180);
+                        }});'
+                    >
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                            <rect x="9" y="9" width="11" height="11" rx="2" stroke="#334155" stroke-width="1.8"></rect>
+                            <rect x="4" y="4" width="11" height="11" rx="2" stroke="#334155" stroke-width="1.8"></rect>
+                        </svg>
+                    </button>
+                </div>
+                """,
+                height=56,
+            )
 
 
 def reset_session_for_new_wordlist(words):
@@ -260,9 +289,11 @@ for mode in MODES:
             reload_current_mode_words()
         st.rerun()
 
+st.sidebar.header("Learn")
 due_count = len(st.session_state.practice_words) if st.session_state.practice_words else 0
 st.sidebar.metric("Due", due_count)
 
+st.sidebar.header("Settings")
 if st.sidebar.button("🔄 Reload files", use_container_width=True, disabled=disable_mode_switch):
     for k in [
         "dictionary",
