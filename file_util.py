@@ -57,6 +57,11 @@ def parse_dictionary_text(text: str) -> Dict[str, Card]:
     """
     dictionary.txt format per line:
         word : meaning : example_sentence
+    or:
+        word : meaning
+    or:
+        word
+    where `meaning` and/or `example_sentence` may be empty.
     Ignores blank lines and lines starting with '#'.
     Skips malformed lines.
     """
@@ -65,10 +70,10 @@ def parse_dictionary_text(text: str) -> Dict[str, Card]:
         line = raw.strip()
         if not line or line.startswith("#"):
             continue
-        parts = [p.strip() for p in line.split(":")]
-        if len(parts) != 3:
-            continue
-        word, meaning, example = parts
+        parts = [p.strip() for p in line.split(":", 2)]
+        word = parts[0]
+        meaning = parts[1] if len(parts) >= 2 else ""
+        example = parts[2] if len(parts) == 3 else ""
         if not word:
             continue
         mapping[word] = Card(word=word, meaning=meaning, example=example)
@@ -348,26 +353,27 @@ def merge_new_word_into_dictionary(
     word = new_card.word
     if word not in dictionary:
         return new_card
-    
+
     existing = dictionary[word]
-    # Check if new meaning is substring of existing meaning
-    if new_card.meaning in existing.meaning:
-        # Merge example sentences if new one is not already present
-        existing_examples = set(e.strip() for e in existing.example.split('|') if e.strip())
-        new_examples = set([e.strip() for e in new_card.example.split('|') if e.strip()])
-        all_examples = existing_examples | new_examples
-        merged_example = ' | '.join(sorted(all_examples))
-        if merged_example != existing.example:
-            return existing
-        return Card(word=word, meaning=existing.meaning, example=merged_example)
-    
-    # Append meanings with comma separator
-    merged_meaning = f"{existing.meaning}, {new_card.meaning}"
-    # Mereg example sentences
+
+    # Merge example sentences (dedup, stable order via sort)
     existing_examples = set([e.strip() for e in existing.example.split('|') if e.strip()])
     new_examples = set([e.strip() for e in new_card.example.split('|') if e.strip()])
     all_examples = existing_examples | new_examples
     merged_example = ' | '.join(sorted(all_examples))
+
+    existing_meaning = existing.meaning.strip()
+    new_meaning = new_card.meaning.strip()
+
+    if not new_meaning:
+        merged_meaning = existing.meaning
+    elif not existing_meaning:
+        merged_meaning = new_card.meaning
+    elif new_meaning in existing.meaning:
+        merged_meaning = existing.meaning
+    else:
+        merged_meaning = f"{existing.meaning}, {new_card.meaning}"
+
     return Card(word=word, meaning=merged_meaning, example=merged_example)
 
 
