@@ -11,7 +11,7 @@ from typing import Dict, List, Optional, Tuple
 # =========================================================
 
 def base_dir() -> Path:
-    return Path(__file__).resolve().parent
+    return Path(__file__).resolve().parent.parent
 
 
 def resolve_path(filename_or_path: str, *, base: Optional[Path] = None) -> Path:

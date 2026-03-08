@@ -1,7 +1,7 @@
 import unittest
 from datetime import date
 
-from file_util import (
+from lib.file_util import (
     Card,
     due_words_from_difficult_map,
     merge_new_word_into_dictionary,

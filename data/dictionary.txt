@@ -86,7 +86,7 @@ acampar : to camp : Este fin de semana vamos a acampar en las montañas.
 acariciar : to caress, to stroke : Acarició al gato mientras dormía en su regazo.
 acaso : perhaps, maybe : ¿Acaso sabes dónde está mi libro?
 acceder : to access : Puedo acceder a mi cuenta en línea?
-aceite : oil : Necesitamos mas aceite para concinar.
+aceite : oil : Necesitamos más aceite para cocinar.
 aceptar : to accept : 
 acerca de : about, regarding : Hablamos acerca de sus planes para el futuro.
 acercar : to bring closer : ¿Puedes acercar la silla a la mesa?
@@ -120,13 +120,13 @@ adaptar : to adapt : Es importante saber adaptarse a los cambios.
 adecuada : adequate : Sí, llevaremos ropa adecuada, comida y suficiente agua.
 adecuado : appropriate, adequate : Ese vestido es adecuado para la ocasión formal.
 adelante : go ahead, forward : Claro, adelante. Le llevaremos su pedido en un momento.
-ademas : besides, in addition : Ademas, hay mucha aves.
+ademas : besides, in addition : Además, hay mucha aves.
 adentro : inside(motion) : Ven adentro, está lloviendo.
 adicional : additional : 
 adivinar : to guess : Puedo adivinar tu edad.
 admirar : to admire : Admiro mucho a mi profesora por su dedicación.
 admitir : to admit : A veces me cuesta admitir que necesito ayuda.
-adonde : to where : ¿Adonde fuiste anoche?
+adonde : to where : ¿Adónde fuiste anoche?
 adoptar : to adopt : ¿sabías que adoptamos un perro la semana pasada?
 adorable : cute : 
 adornado : decorated : El pastel estaba adornado con frutas y chocolate.
@@ -223,7 +223,7 @@ amortajada : shrouded, wrapped in a shroud : El cuerpo fue amortajado cuidadosam
 amplia : wide : La casa tiene una cocina muy amplia.
 amplio : wide : La sala tiene un diseño amplio y cómodo para recibir a muchas personas.
 amándolo : loving him/it : Sigue amándolo como el primer día.
-anadir : to add : Podria tambien anadir un poco de canela?
+anadir : to add : Podría también añadir un poco de canela?
 analizar : to analyze : El científico quiere analizar los resultados del experimento.
 anaranjado : orange : El cielo se puso anaranjado al atardecer.
 ancho : wide : El río es muy ancho en esta parte.
@@ -255,7 +255,7 @@ anualmente : annually :
 anunciada : announced, proclaimed : La noticia fue anunciada ayer por la televisión.
 anunciar : to advertise : 
 apacionar : to inspire passion : Espero que te apasione tu trabajo.
-apagada : turned off, extinguished : Las velas estan apagadas.
+apagada : turned off, extinguished : Las velas están apagadas.
 apagar : to turn off : 
 aparecer : to appear : El sol empezó a aparecer detrás de las montañas.
 aparentemente : aparently : Aparentemente, todo está bien.
@@ -343,7 +343,7 @@ atajar : to save : El portero hizo una gran atajada y evitó el gol.
 atar : to tie : El marinero ató la cuerda al barco.
 atascada : stuck : Tuve que empujar la puerta porque estaba atascada.
 atender : to attend to, look after : El médico va a atender a los pacientes esta tarde.
-atendera : He/She will attend to, will take care of : El doctor te atendera en unos minutos.
+atendera : He/She will attend to, will take care of : El doctor te atenderá en unos minutos.
 atletico : athletic : 
 atonito : astonished, amazed : Quedé atónito al ver la magnitud de la tormenta.
 atractivo : attractive : 
@@ -356,7 +356,7 @@ atreverse : to dare : Ella decidió atreverse a hablar en público por primera v
 atropellar : to run over : El perro fue atropellado por un camión.
 atrás : back, behind,ago, the the back, behind : Da un paso hacia atrás.
 aula : classroom : 
-aulla : to howl : El lobo aulla en la noche para comunicarse con su manada.
+aulla : to howl : El lobo aullá en la noche para comunicarse con su manada.
 aumentando : increasing : Al menos tres veces por semana sería ideal para comenzar, y luego puedes ir aumentando.
 aumentar : to increase : 
 aun : still, yet : Creo que algo ligero estaría bien, no hace mucho frío aún.
@@ -388,7 +388,7 @@ año : year : Este año ha sido muy especial.
 baja : low, short, drop : La temperatura baja mucho en invierno.
 bajar : to tune down, to lower : si puede bajar la música un poco, se lo agradezco.
 bajo : short : 
-balcon : balcony : Hay flores en el balcon del apartamento.
+balcon : balcony : Hay flores en el balcón del apartamento.
 baloncesto :  : 
 banar : to bath : Después de jugar en la playa, los niños necesitan bañarse.
 bandeja de entrada : inbox : Tengo muchos correos en la bandeja de entrada.
@@ -464,7 +464,7 @@ cabello : hair :
 caber : to fit : No cabe en la caja.
 cabeza : head : 
 cada : every : 
-cada cuanto : how often : ¿Cada cuanto pasa el autobus a la parada?
+cada cuanto : how often : ¿Cada cuanto pasa el autobús a la parada?
 cada una : each : Voy a llevar un par de kilos de cada una.
 cada vez que : every time that : Cada vez que voy al parque, veo a mi amigo.
 caducidad : expiration : Por favor, revisa la fecha de caducidad de la leche.
@@ -574,7 +574,7 @@ cierra : He/she closes :
 cierran : They close : 
 cierras : You close : 
 cierro : I close : Cada noche cierro la puerta con llave.
-cierto : certain, true : Es cierto que la practica hace al maestro.
+cierto : certain, true : Es cierto que la práctica hace al maestro.
 cinco : five : 
 cincuenta : fifty : 
 cine : movie : 
@@ -594,7 +594,7 @@ club : club :
 cobertura : coverage(network/phone) : No hay cobertura en esta zona montañosa.
 cobrar : to charge, collect (money) : Cobraban demasiado por el servicio en ese restaurante.
 cocer : to cook (boil or steam) : Voy a cocer las patatas para la cena.
-coche : car : El coche esta estacionado frente a la casa.
+coche : car : El coche está estacionado frente a la casa.
 coche de bomberos : fire truck : 
 cochecito de bebe :  : 
 coches de choque : bumping cars : 
@@ -622,7 +622,7 @@ coloque : He/She/I place (present subjunctive) : Perfecto, coloque su maleta en 
 color : color : 
 colorado : reddish, flushed : Su cara se puso colorado al escuchar el cumplido.
 colorido : colorful : 
-columpios : swings : Los ninos estan jugando en los columpios del parque.
+columpios : swings : Los niños están jugando en los columpios del parque.
 combinada : combined, mixed : Te recomiendo empezar con una rutina combinada.
 combinar : to combine : Debes combinar diferentes técnicas para obtener mejores resultados.
 comentar : to comment : El profesor comentó los puntos clave del examen.
@@ -649,7 +649,7 @@ complacer : to please : Hago todo lo posible para complacer a mis amigos cuando 
 complacientemente : complacently : Ella sonrió complacientemente al escuchar el cumplido.
 compleja : complex : Esta situación es muy compleja y difícil de resolver.
 complejo : complex, complicated : El problema es más complejo de lo que parece.
-completa : complete : Mi proyecto esta completo, necesito uno nuevo.
+completa : complete : Mi proyecto está completo, necesito uno nuevo.
 completamente : fully, completely : 
 completo : complete, full : Tras un año de trabajo, finalmente lograron completar la obra.
 complicado : complicated : Este problema de matemáticas es muy complicado.
@@ -753,7 +753,7 @@ cortamos : We cut :
 cortan : They cut : 
 cortar : to cut : 
 cortas : short : Las películas cortas son interesantes.
-cortauñas : nail clippers : Necesito un cortauñas para arreglarme las uñas.
+cortauñas : nail clippers : Necesito un cortaúñas para arreglarme las uñas.
 corto : short : 
 cosa : thing : 
 coser : to sew : Mi abuela me enseñó a coser ropa a mano.
@@ -780,7 +780,7 @@ critico : critical : Este es un momento crítico para tomar decisiones.
 crujiente : crispy, crunchy : Las papas fritas están crujientes y deliciosas.
 cruzado : crossed : Los cables están cruzados.
 cruzar : to cross : Es peligroso cruzar la calle sin mirar.
-cuadras : city blocks : Desde aquí camine dos cuadras hacia el norte, hasta llegar a la plaza principal.
+cuadras : city blocks : Desde aquí caminé dos cuadras hacia el norte, hasta llegar a la plaza principal.
 cual : which : ¿Cuál es tu nombre?
 cuales : which (pl.) : 
 cualificado : qualified : Necesitamos un profesor cualificado para enseñar este curso.
@@ -819,7 +819,7 @@ cultural : cultural :
 cumpla : He/She fulfills (subjunctive) : Espero que él cumpla sus promesas.
 cumplir : to fulfill : Es importante cumplir con las promesas que hacemos.
 curar : to heal, to cure : El médico logró curar al paciente.
-curso : course, class : Estoy tomando un curso de espanol.
+curso : course, class : Estoy tomando un curso de español.
 da : He/She give : 
 dais : You give : Siempre dais buenos consejos a vuestros amigos.
 damos : We give : 
@@ -866,7 +866,7 @@ debeis : You all must :
 debemos : We must : 
 deben : They must : 
 deber : should,must, should : Deberías estudiar más para el examen.
-deberiamos : we should : Deberiamos venir mas seguido.
+deberiamos : we should : Deberíamos venir más seguido.
 debería : ought : No debería ser más de quince minutos.
 debes : You must : Debes estudiar para el examen.
 debido : due : Debido a la lluvia, cancelaron el partido.
@@ -893,7 +893,7 @@ declarar : to declare, state : El presidente va a declarar un día festivo nacio
 decorar : to decorate : 
 decoraste : You decorated : ¿Decoraste la casa para la fiesta de cumpleaños?
 dedicado : dedicated : Es un maestro muy dedicado a sus estudiantes.
-dedicar : to dedicate : A que te dedicas?
+dedicar : to dedicate : A qué te dedicas?
 dedicatorias : dedications : El libro tiene unas dedicatorias muy emotivas al principio.
 defectuoso : faulty, flawed : 
 defender : to defend : Yo defiendo a mis amigos cuando tienen problemas.
@@ -903,7 +903,7 @@ definir : to define : El profesor pidió que tratemos de definir la palabra con 
 definitivamente : definitely : 
 definitivo : definitive, conclusive : Todavía no tenemos una respuesta definitiva.
 dejame : let me : ¡Déjame ayudarte con eso!
-dejar : to let, to leave : Puedo dejar mis cosas aqui?
+dejar : to let, to leave : Puedo dejar mis cosas aquí?
 dejar la habitacion : to check out, to leave : Debes dejar la habitación antes de las 12 del mediodía.
 deje : let (imperative) : Deje que ellos entren.
 dejo : I leave : Siempre dejo mis llaves en la mesa.
@@ -917,7 +917,7 @@ delicadeza : delicacy : Habló con mucha delicadeza para no herir los sentimient
 deliciosa : delicious : La comida en este restaurante es deliciosa.
 demandar : to sue : 
 demasiado : too many, too much : Hay demasiada comida en la mesa.
-democratico : democratic : 
+democrático : democratic : 
 demostrar : to demonstrate, show : Quiero demostrar que soy capaz de hacer el trabajo.
 demás : others : No importa lo que digan los demás.
 denso : dense, thick : Marta y Luis, se perdió en un bosque denso mientras buscaban una cascada escondida.
@@ -940,7 +940,7 @@ desaparecido : missing, disappeared : El gato ha estado desaparecido desde ayer 
 desaprobar : to disapprove : El profesor decidió desaprobar el comportamiento del estudiante en clase.
 desarrollar : to develop : Es importante desarrollar habilidades nuevas para crecer profesionalmente.
 desayuna : He/she has breakfast : 
-desayunais : You all have breakfast : 
+desayunáis : You all have breakfast : 
 desayunamos : We have breakfast : 
 desayunan : They have breakfast : 
 desayunando : having breakfast : 
@@ -958,19 +958,19 @@ desconocido : unknown : El origen de ese sonido es desconocido.
 desconsolado : heartbroken, inconsolable : Después de la pérdida de su mascota, estaba completamente desconsolado.
 describir : to describe : El profesor nos pidió describir el paisaje que veíamos desde la ventana.
 descrito : described : Él ha descrito el lugar como un paraíso tropical.
-descrubrir : to discover : Cristóbal Colón descubrió América en 1492.
+descubrir : to discover : Cristóbal Colón descubrió América en 1492.
 descubierto : discovered : El tesoro fue descubierto después de muchos años de búsqueda.
 descubrir : to discover,to find out : Los arqueólogos esperan descubrir más artefactos antiguos en esa zona.
-descunto : discount : Tenemos descuentos en algunas frutas y en el aceite de oliva.
+descuento : discount : Tenemos descuentos en algunas frutas y en el aceite de oliva.
 desde : from : ¿desde qué andén sale? Sale desde el andén cinco.
 desde entonces : from then on : Desde entonces, cada visitante se iba con una sensación de haber sido observado... y juzgado
 desde hace : for (a length of time) : Vivo aquí desde hace 5 años.
 desde lo alto : from above : Desde lo alto de la montaña, se veía todo el valle.
 desdichado : unfortunate, unlucky : El desdichado hombre vagaba por las calles sin rumbo.
 desdén : disdain, scorn : Miró el regalo con desdén y lo dejó a un lado.
-desea : wish, desire (he/she) : Ella desea viajar a Paris.
+desea : wish, desire (he/she) : Ella desea viajar a París.
 desear : to wish : Deseo que tengas un feliz año nuevo.
-deseperarse : lose patience : No te desesperes, todo se resolverá pronto.
+desesperarse : lose patience : No te desesperes, todo se resolverá pronto.
 desesperado : desperate : Estaba tan desesperado que no sabía qué hacer.
 desesperar : to make someone desperate : Los constantes retrasos del tren me hacen desesperar.
 desgastado : worn out : Mis zapatos están tan desgastados que necesito comprar unos nuevos.
@@ -987,7 +987,7 @@ despachar : to dispatch : Vamos a despachar el paquete esta tarde.
 despedir : to say good bye, fire : Fueron a la estación para despedir a sus amigos.
 despegar : to take off : Martín tenía dieciséis años y no se despegaba de su teléfono.
 despejar : to clear, to unblock : Además, el aire fresco ayuda a despejar la mente.
-despertar : to wake up : Me gusta despertar temprano para aprovechar el dia.
+despertar : to wake up : Me gusta despertar temprano para aprovechar el día.
 despertarse : to wake up : Siempre trato de despertarme temprano los fines de semana.
 despidió : he/she said goodbye : El jefe despidió a tres empleados ayer.
 despierto : awake : Estoy despierto y listo para comenzar el día.
@@ -995,7 +995,7 @@ despreciar : to despise : No deberías despreciar a alguien solo porque piensa d
 despreocupado : carefree : 
 después : after : Voy a comer después del trabajo.
 destacarse : to stand out : El jugador se destacó en el partido por su habilidad y velocidad.
-destarcar : to stand out, highlight : Ella siempre logra destacar en su trabajo por su dedicación.
+destacar : to stand out, highlight : Ella siempre logra destacar en su trabajo por su dedicación.
 destellar : to flash, to twinkle : Las estrellas comienzan a destellar en el cielo al anochecer.
 destruir : to destroy : 
 desvestirse : to undress : Después de un largo día, prefiero desvestirme y ponerme ropa cómoda.
@@ -1004,35 +1004,35 @@ detenerse : to stop : Sin pensar, gritó su deseo y el tiempo pareció detenerse
 detergente para la ropa : laundry detergent : 
 determinado : determined : Está muy determinado a lograr sus objetivos.
 determinar : to determine : 
-detras : behind : El perro está escondido detrás del sofá.
+detrás : behind : El perro está escondido detrás del sofá.
 devolver : to return : Tengo que devolver el libro a la biblioteca.
 devoto : devoted : Es un devoto defensor de los derechos humanos.
-diabolico : diabolical, devilish : El villano tenía un plan diabólico para dominar el mundo.
+diabólico : diabolical, devilish : El villano tenía un plan diabólico para dominar el mundo.
 diagonal : diagonal : La calle principal cruza la ciudad en una línea diagonal.
 diamante : diamond : El anillo tiene un diamante muy brillante en el centro.
 diariamente : daily : Leo el periódico diariamente para mantenerme informado.
 diario : daily : Mi rutina diaria incluye ejercicio y lectura.
-dias habiles : business days : Generalmente entre tres y cinco días hábiles.
+días hábiles : business days : Generalmente entre tres y cinco días hábiles.
 dibujar : to draw : 
 diccionario : dictionary : 
 dice : He/She say : 
 dicen : They say : 
 dices : You say : 
-dicho : said, proverb/saying : El dicho "mas vale tarde que nunca" es muy conocido.
+dicho : said, proverb/saying : El dicho "más vale tarde que nunca" es muy conocido.
 diciembre :  : 
 diciendo : saying : Estaba diciendo la verdad cuando nadie le creía.
 diecinueve : nineteen : 
 dieciocho : eighteen : 
-dieciseis : sixteen : 
+dieciséis : sixteen : 
 diecisiete : seventeen : 
 diente : tooth : 
 diez : ten : 
 diferente : different : 
-dificil : difficult : 
-dificilmente : hardly, unlikely : Difícilmente llegarán a tiempo con tanto tráfico.
+difícil : difficult : 
+difícilmente : hardly, unlikely : Difícilmente llegarán a tiempo con tanto tráfico.
 difunto : deceased : El difunto fue recordado con cariño por toda la familia.
 diga : I/He/She say, tell (command) : 
-digais : You all say, tell : 
+digáis : You all say, tell : 
 digamos : We say, tell : 
 digan : They say, tell : 
 digas : You say : 
@@ -1090,8 +1090,8 @@ domesticar : to tame : Intentaron domesticar al lobo, pero su naturaleza salvaje
 domicilio : address, residence : Por favor, envíe el paquete a mi domicilio.
 dominar : to dominate : El equipo logró dominar el partido desde el principio.
 domingo : Sunday : 
-domis : You sleep : ¿A qué hora dormís ustedes normalmente?
-domitorio :  : 
+dosis : You sleep : ¿A qué hora dormís ustedes normalmente?
+dormitorio :  : 
 donde : where : 
 dorada : golden : La puesta de sol tenía una luz dorada increíble.
 dorar : to brown, to golden : Ayer doré las papas en la sartén con un poco de aceite.
@@ -1123,7 +1123,7 @@ e : and (before i or hi) : Compré manzanas e higos.
 echar : to throw, to take,to throw, to pour : Voy a echar un vistazo.
 echar de menos : to miss (someone, something) : Desde que mi mejor amiga se mudó a otro país, la echo mucho de menos cada día.
 echar gasolina : to refuel : Tenemos que parar para echar gasolina antes de seguir el viaje.
-echare de menos : I will miss : Te echaré de menos cuando te vayas.
+echaré de menos : I will miss : Te echaré de menos cuando te vayas.
 eche : He/she/I put, throw (present subjunctive) : ¿Quieres que le eche un vistazo?
 eclosionar : to hatch : Además, necesito huevos para eclosionar.
 ecológico : environmental friendly : el parque ecológico está organizando una caminata guiada el sábado por la mañana.
@@ -1140,7 +1140,7 @@ eficiente : efficient : Tenemos un coche compacto que es muy eficiente en consum
 egoísta : egoistic : No quiere compartir su comida porque es muy egoísta.
 ejemplo : example : Este es un buen ejemplo de como resolver el problema.
 ejercer : exercise : 
-el : the : 
+él : the : 
 el Dia de Accion de Gracias : Thanksgiving Day : 
 el Dios : God : 
 el Polo Norte : North Pole : 
@@ -1156,7 +1156,7 @@ el abuso : abuse : El abuso de poder puede causar grandes injusticias en la soci
 el acantilado : cliff : Desde el acantilado, se puede ver el océano infinito.
 el accidente : accident : 
 el acero : steel : El puente está construido con acero para hacerlo más resistente.
-el acido : acid : 
+el ácido : acid : 
 el acrilico : acrylic : Pinté el cuadro con acrílico.
 el acróbata : acrobat : El acróbata saltó de un trapecio al otro.
 el acto : act : El acto de ayudar a los demás es admirable.
@@ -1222,7 +1222,7 @@ el ancestro : ancestor :
 el ancho : width : El ancho de la mesa es de un metro.
 el anciano : elder people : El anciano contó historias fascinantes sobre su juventud.
 el ancla : anchor : El barco lanzó el ancla para detenerse cerca de la costa.
-el anden : platform : El tren llegará al andén número tres en cinco minutos.
+el andén : platform : El tren llegará al andén número tres en cinco minutos.
 el andén : platform : El tren llega al andén número tres.
 el anfitrion : host : 
 el anfitrione : host : El invitado llegó a la fiesta con un regalo para los anfitriones.
@@ -1246,13 +1246,13 @@ el apoyo : support :
 el aprendizaje : process of learning : El aprendizaje de un nuevo idioma requiere práctica diaria.
 el apuro : trouble, hurry : Entonces me apuro para terminarlo en los próximos treinta minutos.
 el arado : plow : El granjero usa el arado para preparar la tierra.
-el arbitro : referee : El árbitro detuvo el partido por una falta grave.
+el árbitro : referee : El árbitro detuvo el partido por una falta grave.
 el arbusto : bush : Hay un arbusto de rosas en el jardín.
 el archivo : file : Guardé el archivo en mi computadora para consultarlo más tarde.
 el arco : bow, arch : El arco de la iglesia es muy antiguo.
 el arco iris : rainbow : Después de la lluvia, apareció un hermoso arco iris en el cielo.
 el arcoiris : rainbow : Después de la lluvia hay un arcoiris en el cielo.
-el area : area : 
+el área : area : 
 el arete : earring : Perdí un arete en la playa.
 el arma : weapon : 
 el armario : closet,wardrobe : Tengo mucha ropa en el armario.
@@ -1266,7 +1266,7 @@ el arrepentimiento : regret : Sentí un profundo arrepentimiento por no haber pe
 el arroyo : creek, stream : Cruzamos el arroyo para llegar al bosque.
 el arte : art : 
 el artesano : craftman : El artesano fabrica hermosos jarrones de cerámica a mano.
-el articulo : article : Leí un interesante artículo sobre tecnología en la revista.
+el artículo : article : Leí un interesante artículo sobre tecnología en la revista.
 el arzobispo : archbispo : El arzobispo presidió la misa en la catedral.
 el arándano : blueberry : Me encanta porque tiene notas de arándano y jazmín.
 el ascenso : promotion : Me llamaron del trabajo, y me ofrecieron un ascenso.
@@ -1385,7 +1385,7 @@ el cajero : cashier : El cajero me dio el cambio después de pagar.
 el cajero automatico : cash machine, ATM : Fui al cajero automático para sacar dinero antes de ir al mercado.
 el cajón : drawer : Guardé los documentos importantes en el cajón de mi escritorio.
 el calcetín : sock : Me puse un calcetín rojo y otro azul por error.
-el calculo : calculation : El cálculo de los costos del proyecto fue muy preciso.
+el cálculo : calculation : El cálculo de los costos del proyecto fue muy preciso.
 el caldero : cauldron (pot or kettle) : La bruja preparó una poción mágica en su caldero.
 el caldo : stock, broth : Voy a usar caldo de pollo para hacer la sopa.
 el calendario : calendar : Marcó la fecha en el calendario para no olvidarla.
@@ -1454,7 +1454,7 @@ el caso : case :
 el castigo : punishment : El niño recibió un castigo por no hacer su tarea.
 el castillo : castle : El castillo en la cima de la colina es un importante atractivo turístico.
 el castor : beaver : El castor construyó una gran presa en el río.
-el catalogo : catalog : 
+el catálogo : catalog : 
 el caudillo : leader, commander : El caudillo lideró a su ejército durante la guerra.
 el cautivo : captive, prisoner : El cautivo planeaba escapar de su encarcelamiento.
 el cazador : hunter : El cazador siguió las huellas del ciervo durante horas.
@@ -1500,7 +1500,7 @@ el cine : cinema :
 el cinturon de seguridad : seat belt : Es obligatorio ponerse el cinturón de seguridad mientras se conduce.
 el circo : circus : Vamos al circo este fin de semana.
 el circuito : circuit : El ingeniero revisó el circuito eléctrico para encontrar el problema.
-el circulo : circle : Los niños se sentaron en el círculo para escuchar el cuento.
+el círculo : circle : Los niños se sentaron en el círculo para escuchar el cuento.
 el cirujano : surgeon : El cirujano realizó una operación complicada con éxito.
 el cisne : swan : El cisne nada en el lago.
 el ciudadano : citizen : Como ciudadano, tengo el deber de votar en las elecciones.
@@ -1608,8 +1608,8 @@ el criquet : cricket : Jugamos al críquet en el parque con nuestros amigos.
 el cristal : crytal : 
 el cristiano : Christian : 
 el criterio : criteria, standard : El criterio para elegir al ganador fue la creatividad.
-el critico : critic : 
-el cronometro : stopwatch : El entrenador usó el cronómetro para medir el tiempo de la carrera.
+el crítico : critic : 
+el cronómetro : stopwatch : El entrenador usó el cronómetro para medir el tiempo de la carrera.
 el cruasan : croissant : Me encanta desayunar un cruasán con café.
 el crusigrama : crossword : Me gusta hacer el crucigrama cada mañana.
 el cráneo : skull : El cráneo protege uno de los órganos más importantes
@@ -1639,18 +1639,18 @@ el cóctel : cocktail : Tomamos un cóctel en la fiesta.
 el córner : corner kick : El árbitro señaló un córner a favor del equipo local.
 el dado : dice : Lanza el dado para comenzar el juego.
 el danes : Danish : 
-el dano : damage : El accidente causó mucho daño a los coches y a las personas.
+el daño : damage : El accidente causó mucho daño a los coches y a las personas.
 el dato : data : 
 el debate : debate : El debate presidencial será transmitido en vivo esta noche.
 el deber : duty : Es nuestro deber ayudar a los más necesitados.
 el decano : dean : El decano de la facultad dará un discurso de bienvenida.
 el dedal : thimble (protective cap) : Mi abuela siempre usa un dedal cuando cose.
 el dedo : finger, toe : Me corté el dedo con un papel.
-el dedo corazon : middle finger : Me corté el dedo corazón mientras arreglaba un papel roto.
-el dedo indice : forefinger : 
+el dedo corazón : middle finger : Me corté el dedo corazón mientras arreglaba un papel roto.
+el dedo índice : forefinger : 
 el delantal : apron : Me puse el delantal antes de empezar a cocinar.
 el delantero : forward(soccer) : El delantero marcó el gol decisivo en el último minuto.
-el delfin : dolphin : El delfín nada rápido en el océano.
+el delfín : dolphin : El delfín nada rápido en el océano.
 el demonio : demon : El demonio apareció en sus pesadillas.
 el departamento : department : 
 el depósito : deposit : Solo necesitamos su licencia de conducir y una tarjeta de crédito para el depósito de seguridad.
@@ -1661,8 +1661,8 @@ el desastre : disaster : El huracán fue un gran desastre para la región.
 el descendiente : descendant : Es descendiente directo de un famoso explorador.
 el descubrimiento : discovery : El descubrimiento de nuevas tierras cambió la historia.
 el descuento : discount : Hoy hay un descuento del 20% en todas las prendas.
-el desempeno : performance : Su desempeño en el trabajo fue excelente.
-el desempleo : unemployment : Cual es la tasa de desempleo ahora?
+el desempeñó : performance : Su desempeño en el trabajo fue excelente.
+el desempleo : unemployment : Cuál es la tasa de desempleo ahora?
 el desenlace : ending, outcome : El desenlace de la película fue muy sorprendente.
 el deseo : wish : Mi mayor deseo es viajar por el mundo.
 el desfile : parade : El desfile fue espectacular con música y carrozas.
@@ -1675,25 +1675,25 @@ el desván : attic, loft : Guardamos las cajas viejas en el desván.
 el detalle : detail : 
 el detective : detective : 
 el detergente : detergent : Añadí detergente a la lavadora para lavar la ropa.
-el devocion : devotion : Su devoción por ayudar a los demás es admirable.
-el dia : day : 
+el devoción : devotion : Su devoción por ayudar a los demás es admirable.
+el día : day : 
 el diablo : devil : 
-el diagnostico : diagnosis : 
+el diagnóstico : diagnosis : 
 el diamante : diamond : El anillo tiene un diamante brillante en el centro.
-el diametro : diameter : 
+el diámetro : diameter : 
 el dibujo : drawing, sketch : El dibujo que hiciste de la playa es muy bonito.
 el dibujo animado : animated cartoon : 
 el dictador : dictator : 
 el dilema : dilemma : 
 el dinero : money : 
-el dinsaurio : dinosaur : 
+el dinosaurio : dinosaur : 
 el diploma : diploma : 
 el director : director, principal : El director de la escuela dará un discurso mañana.
 el director de circo : ringmaster (circus) : El director de circo presentó el espectáculo con mucha energía.
 el director de la escuela : headmaster : 
 el dirigible : zeppelin (flying baloon) : El dirigible flotaba majestuosamente en el cielo durante el desfile.
 el discurso : speech : El presidente dio un discurso sobre la economía.
-el diseno : design : El diseño de esta casa es moderno y funcional.
+el diseño : design : El diseño de esta casa es moderno y funcional.
 el diseñador : designer : El diseñador presentó una colección de ropa innovadora en la pasarela.
 el disfraz : costume : Mi hijo se puso un disfraz de superhéroe para la fiesta.
 el dispositivo : device : Mi dispositivo móvil se quedó sin batería.
@@ -1701,7 +1701,7 @@ el distrito : district : Vivimos en el distrito más tranquilo de la ciudad.
 el divorcio : divorce : 
 el diálogo : dialogue : El diálogo entre los dos amigos fue muy interesante.
 el documental : documentary : Vimos un documental sobre la vida en el océano y fue muy interesante.
-el dolar : dollar : 
+el dólar : dollar : 
 el dolor : pain : 
 el dolor de barriga : stomachache : No fui a la escuela porque tenía dolor de barriga.
 el dolor de cabeza : headache : 
@@ -1709,7 +1709,7 @@ el dolor de garanta : sore throat :
 el dolor de muelas : toothache : Tengo un fuerte dolor de muelas y necesito ir al dentista.
 el domador : animal trainer : El domador entró en la jaula para trabajar con los leones.
 el don : natural gift, talent : Tiene un don para la música.
-el dragon : dragon : 
+el dragón : dragon : 
 el dueto : duet : El dueto de los dos cantantes fue el momento más emocionante del concierto.
 el dueño : owner : El dueño del restaurante es muy amable con los clientes.
 el duque : duke : El duque asistió a la ceremonia real con su familia.
@@ -1718,18 +1718,18 @@ el economista : economist :
 el ecuador : equator : El clima es muy cálido cerca del ecuador.
 el edicto : edict : El gobierno publicó un edicto sobre las nuevas medidas sanitarias.
 el editor : publisher, editor : 
-el edredon : duvet, comforter : Me tapé con el edredón porque hacía mucho frío.
+el edredón : duvet, comforter : Me tapé con el edredón porque hacía mucho frío.
 el efecto : effect : El efecto de la medicina se sintió a los pocos minutos.
 el efecto invernadero : greenhouse effect : El efecto invernadero es esencial para la vida, pero el exceso de gases lo hace peligroso.
 el ejemplo : example : 
 el ejercicio : exercise : 
-el ejercito : army : El ejército fue desplegado para ayudar en la emergencia nacional.
+el ejército : army : El ejército fue desplegado para ayudar en la emergencia nacional.
 el electricista : electrician : 
 el elemento : element : El agua es un elemento esencial para la vida.
 el embajador : ambassador : El embajador representa a su país en el extranjero.
 el embarazo : pregnancy : Su embarazo fue una gran alegría para toda la familia.
 el embargo : confiscation, seizure : El juez ordenó el embargo de sus bienes por no pagar las deudas.
-el embrion : embryo : El embrión comienza a desarrollarse rápidamente en las primeras semanas de embarazo.
+el embrión : embryo : El embrión comienza a desarrollarse rápidamente en las primeras semanas de embarazo.
 el embudo : funnel : Compre un embudo para filtrar el aceite de cocina.
 el emperador : emperor : 
 el empleado : employee : 
@@ -1766,10 +1766,10 @@ el error : mistake :
 el escalón : step : Cuidado con el escalón, es muy alto.
 el escenario : scenario,stage : 
 el esclavo : slave : 
-el escobilla de bano : toilet brush : Usé la escobilla de baño para limpiar el inodoro esta mañana.
+él escobilla de baño : toilet brush : Usé la escobilla de baño para limpiar el inodoro esta mañana.
 el escogido : chosen one : Él fue el escogido para liderar el proyecto.
 el escondite : hiding place : Encontraron el escondite del tesoro en la cueva.
-el escorpion : scorpion : 
+el escorpión : scorpion : 
 el escudo : shield : El caballero levantó su escudo para protegerse del ataque.
 el escándalo : scandal : El escándalo político causó la renuncia del ministro.
 el escáner : scanner : El escáner no funciona porque está desconectado.
@@ -1777,7 +1777,7 @@ el esfuerzo : effort : El esfuerzo que hizo para terminar el proyecto fue impres
 el esguince : sprain : Me hice un esguince en el tobillo mientras jugaba al fútbol.
 el espacio : space : Necesitamos más espacio para guardar nuestras cosas.
 el espagueti : spaghetti : Me encanta comer espagueti con salsa de tomate y queso.
-el espantapajaros : scarecrow : El agricultor colocó un espantapájaros en el campo para proteger sus cosechas.
+el espantapájaros : scarecrow : El agricultor colocó un espantapájaros en el campo para proteger sus cosechas.
 el esparadrapo : adhesive tape : Usé esparadrapo para sujetar la venda en mi brazo.
 el especialista de cine : stuntman : 
 el espectaculo : show : El espectáculo de danza fue realmente impresionante.
@@ -1790,7 +1790,7 @@ el esqui : skiing : El esquí es mi deporte favorito en la nieve.
 el establo : stable : Los caballos descansan en el establo después de un largo día de trabajo.
 el estadio : stadium : El partido de fútbol será en el estadio más grande de la ciudad.
 el estado : state : El estado del coche es excelente.
-el estado de animo : mood : Su estado de ánimo mejoró después de escuchar la buena noticia.
+el estado de ánimo : mood : Su estado de ánimo mejoró después de escuchar la buena noticia.
 el estandarte : banner : El estandarte del equipo ondeaba con orgullo durante el desfile.
 el estanque : pond : Los patos nadan tranquilamente en el estanque del parque.
 el este : east : El sol sale por el este.
@@ -1798,7 +1798,7 @@ el estetoscopio : stethoscope :
 el estilo : style : Me gusta el estilo de esta pintura.
 el estilo de vida : lifestyle : 
 el estofado : stew : Mi abuela prepara un estofado delicioso con carne y papas.
-el estomago : stomach : 
+el estómago : stomach : 
 el estornudo : sneeze : Escuché un estornudo en la sala.
 el estuche : case : Guardo mis lápices y bolígrafos en el estuche.
 el estudio : studio : 
@@ -1819,7 +1819,7 @@ el fantasma : ghost : Dicen que el fantasma de la casa aparece por las noches.
 el faquir : fakir (India mystic man performing magic) : El faquir se acostó sobre una cama de clavos.
 el farmaceutico : pharmacist : 
 el faro : lighthouse : El faro ilumina la costa durante la noche.
-el farol : lantern,bluff : El viento apago el farol de la calle.
+el farol : lantern,bluff : El viento apagó el farol de la calle.
 el favor : favor : 
 el feedback : feedback : 
 el felpudo : doormat : Limpié mis zapatos en el felpudo antes de entrar a la casa.
@@ -1833,7 +1833,7 @@ el fin : end :
 el final : end : Al final de la película, todos aplaudieron.
 el final del día : end of the day : Te enviaré el informe actualizado para el final del día.
 el flan : cream caramel (dessert) : Mi abuela hace el mejor flan de vainilla.
-el flexione : push-up : Para principiantes, te sugiero empezar con ejercicios de peso corporal, como sentadillas y flexiones.
+él flexione : push-up : Para principiantes, te sugiero empezar con ejercicios de peso corporal, como sentadillas y flexiones.
 el florero : vase : Puse unas rosas en el florero para decorar la mesa.
 el florista : florist : 
 el fluido : fluid : 
@@ -1894,7 +1894,7 @@ el gorila : gorilla : El gorila es uno de los primates más grandes del mundo.
 el gorrión : sparrow : Un gorrión construyó su nido en el árbol del jardín.
 el gozo : joy, delight : Siento un gran gozo al pasar tiempo con mi familia.
 el grado : degree : Hoy la temperatura llegó a treinta grados.
-el grafico : chart : El gráfico muestra el aumento de las ventas este año.
+el gráfico : chart : El gráfico muestra el aumento de las ventas este año.
 el gramo : gram : Necesito doscientos gramos de azúcar para hacer la tarta.
 el granero : barn : Guardaron el maíz cosechado en el granero.
 el granjero : farmer : 
@@ -1974,7 +1974,7 @@ el impulso : urge, impulse : Tuve el impulso de comprar ese libro sin pensarlo.
 el incendio : fire : Los bomberos llegaron rápidamente para apagar el incendio en el edificio.
 el incidente : incident : 
 el incursión : raid : Si haces varias incursiones y usas huevo de la suerte, subes rápido.
-el indice : index : 
+el índice : index : 
 el indio : Indian : 
 el individuo : individual : Cada individuo tiene el derecho a expresarse libremente.
 el inestino delgado : small intestine : 
@@ -2035,7 +2035,7 @@ el juicio : trial : El juicio comenzará la próxima semana en el tribunal.
 el jurado : jury : El jurado deliberó durante horas antes de anunciar el veredicto.
 el karate : karate : 
 el ketchup : ketchup : 
-el kilometro : kilometer : 
+el kilómetro : kilometer : 
 el laberinto : maze : Nos perdimos en el laberinto del jardín durante horas.
 el labio : lip : Me corté el labio mientras comía.
 el laboratorio : laboratory : 
@@ -2067,10 +2067,10 @@ el licor : liqueur : Me gusta el licor de manzana después de la cena.
 el lider : leader : 
 el liderazgo : leadership : El liderazgo del equipo fue fundamental para ganar el campeonato.
 el lienzo : canvas : El pintor comenzó a trabajar en el lienzo con colores vibrantes.
-el limite : limit : 
+el límite : limit : 
 el lino : linen : El vestido está hecho de lino, por eso es tan fresco.
-el liquido : liquid : 
-el liquido lavavajillas : dishwashing liquid : Necesito comprar líquido lavavajillas porque se nos acabó.
+el líquido : liquid : 
+el líquido lavavajillas : dishwashing liquid : Necesito comprar líquido lavavajillas porque se nos acabó.
 el lirio : lily : En el jardín creció un lirio blanco muy hermoso.
 el llavero : keychain : Perdí el llavero con todas mis llaves.
 el lobo : wolf : El lobo aulló a la luna en la noche.
@@ -2104,12 +2104,12 @@ el mareo : dizziness : También he notado que me mareo cuando me levanto rápido
 el marfil : ivory : Antiguamente, se utilizaba el marfil para fabricar piezas decorativas.
 el marinero : sailor : El marinero navegó por el océano durante meses.
 el mariscal de campo : quarterback : El mariscal de campo hizo un pase perfecto para ganar el partido.
-el marisco : seafood : Me encantar comer mariscos frecos en el restaurante.
+el marisco : seafood : Me encantar comer mariscos frescos en el restaurante.
 el marketing : marketing : 
 el marmol : marble (stone) : La mesa está hecha de mármol blanco.
-el marques : title of nobility : El marqués fue recibido con todos los honores en la corte.
+el marqués : title of nobility : El marqués fue recibido con todos los honores en la corte.
 el martillo : hammer : Usé el martillo para colgar un cuadro en la pared.
-el mas :  : 
+el más :  : 
 el material : material : 
 el matrimonio : marriage : 
 el mayordomo : butler : El mayordomo preparó todo para la cena de gala.
@@ -2117,7 +2117,7 @@ el mayorista : wholesaler : El mayorista vendió una gran cantidad de productos 
 el mecanico : mechanic : 
 el mechero : lighter : ¿Tienes un mechero para encender la vela?
 el medicamento : medicine : 
-el medico : medician : 
+el médico : medician : 
 el medio : middle, means : Se sentó en el medio de la habitación.
 el mediodia : noon : Quedamos para almorzar al mediodía en el restaurante.
 el mejillon : mussel : Anoche comimos una deliciosa paella con mejillones.
@@ -2140,7 +2140,7 @@ el microscopio : microscope :
 el miedo : fear : Ella tiene miedo de hablar en público.
 el miembro : member : 
 el milagro : miracle : El milagro salvó a toda la familia del accidente.
-el milimetro : millimeter : 
+el milímetro : millimeter : 
 el mineral : mineral : 
 el minero : miner : 
 el ministerio : ministry : El ministerio de salud anunció nuevas medidas para prevenir enfermedades.
@@ -2186,7 +2186,7 @@ el nabo : turnip : Voy a cocinar una sopa con nabo y zanahorias.
 el nacimiento : birth : El nacimiento de su hijo fue un momento muy especial.
 el narrador : narrator : El narrador describió el paisaje con tantos detalles que parecía real.
 el naufragio : wreck : El naufragio del Titanic es uno de los más famosos de la historia.
-el naufrago : castaway, shipwreck survivor : El náufrago vivió en la isla desierta durante meses antes de ser rescatado.
+el náufrago : castaway, shipwreck survivor : El náufrago vivió en la isla desierta durante meses antes de ser rescatado.
 el negocio : the business : El negocio familiar ha crecido mucho este año.
 el nenúfar : water lily : Los nenúfares flotaban tranquilos en el estanque.
 el nervio : nerve : 
@@ -2201,7 +2201,7 @@ el noroeste : northwest :
 el norte : north : 
 el novato : novice, rookie : El novato cometió algunos errores, pero estaba aprendiendo rápido.
 el nudo : knot : Aprendí a hacer un nudo fuerte para asegurar la cuerda.
-el numero : number : El número cinco es mi favorito.
+el número : number : El número cinco es mi favorito.
 el obispo : bishop : El obispo dio un sermón en la catedral.
 el objetivo : objective, goal : Mi objetivo este año es aprender un nuevo idioma.
 el objeto : object : 
@@ -2229,7 +2229,7 @@ el oro : gold :
 el osito de trapo : cloth teddy bear : El niño duerme abrazando su osito de trapo todas las noches.
 el oso : bear : 
 el oso polar : polar bear : 
-el oxigeno : oxygen : 
+el oxígeno : oxygen : 
 el oyente : listener : Los oyentes de la radio disfrutaron de la entrevista en vivo.
 el paciente : patient : 
 el padre : father : 
@@ -2420,7 +2420,7 @@ el puerro : leek : Voy a añadir puerro a la sopa para darle más sabor.
 el puesto : position : Obtuvo un puesto importante en la empresa.
 el pulgar : thumb : Usé el pulgar para señalar hacia arriba en señal de aprobación.
 el pulmón : lung : El médico revisó el pulmón del paciente para asegurarse de que estuviera sano.
-el pulpo : octopus : Los pulpos tienen ocho tentaculos.
+el pulpo : octopus : Los pulpos tienen ocho tentáculos.
 el pulso : pulse : El médico tomó el pulso del paciente para verificar su estado.
 el punal : El caballero llevaba un puñal oculto en su cinturón. : 
 el puno : fist : Levantó el puño en señal de protesta.
@@ -2477,7 +2477,7 @@ el reloj de pulsera : watch :
 el relámpago : thunder : El relámpago iluminó todo el cielo durante la tormenta.
 el remedio : remedy : Mi abuela conoce muchos remedios caseros para la gripe.
 el remero : rower : ¿Has visto su cuadro El almuerzo de los remeros.
-el remo : rowing : El remo es un deport requiere mucha fuerza y resistencia.
+el remo : rowing : El remo es un deporte requiere mucha fuerza y resistencia.
 el rencore : grudge, resent : No guardes rencores, perdonar es mejor.
 el reno : reindeer : Los renos viven en regiones frías y tienen grandes cuernos.
 el reparto : delivery : El reparto de paquetes se hace por la mañana.
@@ -2595,7 +2595,7 @@ el sobre : envelope : Puse la carta en el sobre y la envié por correo.
 el sobrecargo : flight attendant : El sobrecargo explicó las medidas de seguridad antes del despegue.
 el sobrino : nephew : 
 el socialismo : socialism : 
-el socio : partner : Juan es socio de una empresa tecnologia.
+el socio : partner : Juan es socio de una empresa tecnología.
 el socorrista : lifeguard : El socorrista salvó a un niño que estaba en peligro en la piscina.
 el sofa : couch : 
 el sol : sun : 
@@ -2625,7 +2625,7 @@ el sureste : southeast :
 el surf : surfing : 
 el suroeste : southwest : El viento viene del suroeste y traerá un clima más cálido.
 el surtidor de gasolina : gas pump : El coche está estacionado junto al surtidor de gasolina.
-el susurro : whisper : Susurro del corazon es mi pelicula favorita.
+el susurro : whisper : Susurro del corazón es mi película favorita.
 el tabaco : tobacco : 
 el tablero de ajedrez : chessboard : Colocaron las piezas en el tablero de ajedrez para comenzar la partida.
 el tablon : plank, board : El carpintero cortó un tablón de madera para hacer una mesa.
@@ -2703,7 +2703,7 @@ el toque : touch, signal : Ese chef le dio el toque final al plato con unas hier
 el toque de queda : curfew : Durante la tormenta, el gobierno impuso un toque de queda para proteger a los ciudadanos.
 el tornado : tornado : 
 el torneo : tournament : El equipo ganó el torneo después de un partido emocionante.
-el tornillo : screw : El tornillo esta suelto.
+el tornillo : screw : El tornillo está suelto.
 el torno de banco : bench lathe (shape metal) : El mecánico usó el torno de banco para dar forma a la pieza de metal.
 el toro : bull : El toro corría rápidamente por el campo.
 el total : total : El total de la cuenta es cincuenta euros.
@@ -2878,7 +2878,7 @@ encantan : love : Me encantan los gatos.
 encantar : love, really like : 
 encargar : to entrust, put someone in charge : Le voy a encargar que cuide a los niños esta tarde.
 encender : to turn on : Por favor, puedes encender la luz.
-encendida : lit, turned on : Las luces estan encendidas.
+encendida : lit, turned on : Las luces están encendidas.
 encendido : lit, ignited : El fuego está encendido y listo para cocinar.
 encerrados : locked up : Llevan demasiado tiempo encerrados en casa.
 encerrar : to lock up : Es peligroso encerrar a un niño en una habitación sin supervisión.
@@ -2980,8 +2980,8 @@ especifico : specific : ¿qué tipo de libro le interesa? ¿Ficción, no ficció
 espectacular : spectacular : La vista desde la montaña es espectacular.
 espejo : mirror : Ella se mira en el espejo cada mañana.
 espeluznante : scary, creepy : Escuchamos un ruido espeluznante en la noche.
-esperar : to wait, to hope : Tengo que esperar el autobus todas las mananas.
-esperare : I will wait : Esperare aqui hasta que regreses.
+esperar : to wait, to hope : Tengo que esperar el autobús todas las mañanas.
+esperare : I will wait : Esperaré aquí hasta que regreses.
 espero : I hope, I wait : 
 espesar : to thicken : Para que la sopa espese, puedes añadir un poco de harina.
 esplendido : splendid : La fiesta fue un evento espléndido lleno de alegría y música.
@@ -3028,12 +3028,12 @@ estrecho : narrow : Lucía caminaba por una calle estrecha del centro cuando not
 estrella : star : Hay estrellas en el cielo.
 estresado : stressed : Después de tanto trabajo, me siento muy estresado.
 estricta : strict : ¿Es muy estricta con los exámenes?
-estropear : to damage : La lluvia estropea el picnic.
+estropear : to damage : La lluvia estropea el pícnic.
 estudiando : studying : 
 estudiante : student : 
 estudiar : to study : 
 estudias : you stuy : 
-estudiaste : You studied : Estudiaste en la biblioteca todo el dia ayer?
+estudiaste : You studied : Estudiaste en la biblioteca todo el día ayer?
 estudie : I studied : 
 estudio : I study : 
 estudioso : studious : 
@@ -3181,11 +3181,11 @@ frito : fried : Me encanta comer pollo frito con papas fritas.
 fruta : fruit : 
 fucione : works, functions : Espero que la televisión funcione después de repararla.
 fue : was, ser : La fiesta fue divertida.
-fuera : outside(position) : Los ninos estan judando fuera.
+fuera : outside(position) : Los niños están jugando fuera.
 fuera de lo normal : out of ordinary : Todo bien, un poco ocupada con el trabajo, pero nada fuera de lo normal.
 fuerte : strong : Los vientos fuertes causaron daños en varias casas.
 fugaz : fleeting, brief : Tuvimos una conversación fugaz en el tren.
-fui : I went (preterite),I left, I went : Fui al zoologico ayer.
+fui : I went (preterite),I left, I went : Fui al zoológico ayer.
 fuiste : You went,You left, You went : 
 fumar : to smoke : Fumar es perjudicial para la salud, deberías dejarlo.
 funcionar : to function : 
@@ -3198,7 +3198,7 @@ furioso : furious, angry : Estaba furioso porque nadie lo escuchaba.
 futbolera : women football fan, related to football : Ella es muy futbolera y nunca se pierde un partido.
 fábrica : factory : Mi padre trabaja en una fábrica de coches.
 gabinete : cabinet : Guardé los platos en el gabinete de la cocina.
-gallina : hen, chicken : La gallina puso tres huevos esta manana.
+gallina : hen, chicken : La gallina puso tres huevos esta mañana.
 ganar : to win : El equipo quiere ganar el campeonato.
 ganas : You win : 
 garantizar : to guarantee : El contrato asegura que la empresa garantizará la calidad del producto.
@@ -3226,7 +3226,7 @@ gozar : to enjoy : Siempre trato de gozar de las pequeñas cosas en la vida.
 grabar : to record : Yo suelo practicar frente al espejo o grabarme para escucharme después.
 gracias : thank : 
 gracias a : thank to : 
-gracioso : amusing,humorous : El comediante fue muy gracioso durante el espectaculo.
+gracioso : amusing,humorous : El comediante fue muy gracioso durante el espectáculo.
 gran : great : ¡Gran trabajo!
 grande : big : 
 gratis : free : 
@@ -3287,7 +3287,7 @@ hambre : hunger : Después de correr, siempre tengo mucha hambre.
 hambriento : hungry : Después de todo el día sin comer, estaba hambriento.
 han : They have : 
 han dicho : They have said : 
-hare : I will do, I will make : Lo hare manana.
+hare : I will do, I will make : Lo haré mañana.
 harina : flour : Necesito harina para hacer el pastel.
 has : You have : 
 has dicho : You have said : ¿Eso es lo que has dicho durante la reunión?
@@ -3298,8 +3298,8 @@ hayas : you have (done) : Espero que hayas terminado tu tarea.
 hazlo : do it : Si tienes tiempo, por favor hazlo ahora.
 he : I have : 
 he dicho : I have said : 
-hecha : made, done (feminine) : La tarea esta hecha.
-hecho : made, done (masculine) : El trabajo esta hecho.
+hecha : made, done (feminine) : La tarea está hecha.
+hecho : made, done (masculine) : El trabajo está hecho.
 heladería : ice cream shop : Y después podemos ir a por un helado en la heladería que está cerca.
 hembra : female : La leona es una hembra muy protectora de sus crías.
 hemos : We have : 
@@ -3482,7 +3482,7 @@ jai alai : merry festival (a sport) : En el País Vasco, el jai alai es un depor
 jamon : ham : 
 jamás : never : No te olvidaré jamás.
 japones : Japanese : 
-jarabe : syrup : El doctor me recomendo tomar jarabe para la tos.
+jarabe : syrup : El doctor me recomendó tomar jarabe para la tos.
 jefa : female boss : 
 jefe : boss : 
 jorobado : hunchbacked : El anciano jorobado caminaba lentamente por la calle.
@@ -3511,7 +3511,7 @@ junto con : together with : Trabajé junto con mis compañeros para terminar el 
 jurar : to swear, to take an oath : El testigo tuvo que jurar decir la verdad en el juicio.
 justamente : exactly : Justamente, es como un abrazo cálido.
 justiciero : vigilante, avenger : El héroe justiciero luchó por los derechos de los oprimidos.
-justo : right, just : El pan esta cerca de la entrada, justo al lado de los lacteos.
+justo : right, just : El pan está cerca de la entrada, justo al lado de los lácteos.
 juzgado : judged : Desde entonces, cada visitante se iba con una sensación de haber sido observado... y juzgado
 kilometraje : mileage : Incluye seguro básico y kilometraje ilimitado.
 la : the : 
@@ -3605,7 +3605,7 @@ la ausencia : absence : Su ausencia en la reunión fue muy notoria.
 la autopista : highway : Tomamos la autopista para llegar más rápido a la ciudad.
 la autoridad : authority : La policía tiene la autoridad para detener a los sospechosos.
 la avalancha : avalanche : La avalancha bloqueó el camino de montaña.
-la avellana : hazelnut : Me encanta el sabor de la avellana en el cafe.
+la avellana : hazelnut : Me encanta el sabor de la avellana en el café.
 la avena : oatmeal : Como avena todas las mañanas para el desayuno.
 la aventura : adventure : 
 la avispa : wasp : Una avispa entró por la ventana y me asusté.
@@ -3631,7 +3631,7 @@ la barba : beard : ¿Podrías también arreglarme la barba?
 la barbacoa : barbeque : El domingo hicimos una barbacoa en el jardín con amigos.
 la barbilla : chin : Tenía un pequeño rasguño en la barbilla después de la caída.
 la barcaza : barge, flat-bottom boat : La barcaza transporta carga pesada por el río.
-la barista : barista : La barista preguntó si queria azúcar en mi café.
+la barista : barista : La barista preguntó si quería azúcar en mi café.
 la barra : rod : Colgaron la cortina en una barra de metal.
 la barraca de tiro al blanco : shooting booth : Intenté ganar un peluche en la barraca de tiro al blanco, pero fallé todos los tiros.
 la barrera : barrier : La falta de comunicación es una barrera en las relaciones.
@@ -3686,7 +3686,7 @@ la caja registradora : cash register : La cajera puso el dinero en la caja regis
 la calabaza : pumpkin : Voy a hacer una sopa de calabaza para la cena.
 la calavera : skull : La calavera estaba decorada con colores brillantes para el Día de los Muertos.
 la calculadora : calculator : Usé la calculadora para resolver el problema de matemáticas rápidamente.
-la calefaccion : heating : En invierno, la calefaccion es imprescindible en nuestra casa.
+la calefaccion : heating : En invierno, la calefacción es imprescindible en nuestra casa.
 la calentura : fever : Si la calentura no baja, iremos al médico.
 la calidad : quality : 
 la calidez : warmth : Me recibió con mucha calidez.
@@ -3705,7 +3705,7 @@ la cana de pescar : fishing rod : Voy al río con mi caña de pescar para atrapa
 la cancha : field : Los jugadores entraron a la cancha con entusiasmo.
 la cancion : song : Me encanta la canción que está sonando en la radio.
 la canela : cinnamon : Esta mañana desayuné un bagel de canela con queso crema.
-la canica : marble (glass) : Me gustaba jugar a las canicas cuando era nino.
+la canica : marble (glass) : Me gustaba jugar a las canicas cuando era niño.
 la canoa : canoe : Remamos en la canoa por el río.
 la cantante : female singer : La cantante tiene una voz increíble y emocionó a todo el público.
 la cantidad : amount : Necesito saber la cantidad exacta de azúcar para la receta.
@@ -3756,10 +3756,10 @@ la ceremonia : ceremony :
 la cereza : cherry : Me gusta comer cerezas en verano.
 la cerilla : matchstick : Encendí una cerilla para prender la vela.
 la cerradura : lock : La cerradura de la puerta está rota.
-la cesta : basket : Llevé una cesta llena de frutas al picnic.
+la cesta : basket : Llevé una cesta llena de frutas al pícnic.
 la champiñon : mushroom : Me gusta la pizza con champiñones y queso.
 la charla : chat, talk : Tuvimos una charla muy interesante sobre literatura ayer.
-la chatarra : scrap, junk : El viejo coche termino en el monton de la chatarra.
+la chatarra : scrap, junk : El viejo coche terminó en el montón de la chatarra.
 la chimenea : fireplace, chimney : 
 la chincheta : pushpin : Usé una chincheta para fijar el mapa en la pared.
 la chispa : spark : Una chispa encendió la hoguera.
@@ -3839,8 +3839,8 @@ la contaminacion : pollution :
 la contestacion : answer, reply : Estoy esperando la contestación de la empresa sobre mi solicitud de empleo.
 la contrabandista : smuggler : La contrabandista escondió las mercancías en su coche.
 la contrasena : password : Olvidé la contraseña de mi correo electrónico.
-la contribucion : contribution : 
-la conversacion : conversation : La conversación se prolongó hasta altas horas de la noche.
+la contribución : contribution : 
+la conversación : conversation : La conversación se prolongó hasta altas horas de la noche.
 la corazonada : hunch, gut-feeling : Tuve una corazonada de que algo malo iba a pasar.
 la corbata : tie : Para la entrevista, debes llevar una corbata elegante.
 la corbata de lazo : bow tie : El novio llevaba una elegante corbata de lazo en la boda.
@@ -3848,7 +3848,7 @@ la corneja : crow : La corneja voló sobre el campo en busca de comida.
 la corona : crown : El rey llevaba una corona de oro en la ceremonia.
 la correa : leash : Llevé al perro al parque con su correa.
 la corte : court : La corte decidió aplazar el juicio hasta la próxima semana.
-la cortesia : courtesy : La cortesía es una cualidad importante en cualquier interacción social.
+la cortesía : courtesy : La cortesía es una cualidad importante en cualquier interacción social.
 la cortina : curtain : Cerré la cortina para que no entre la luz del sol.
 la cosa : thing : No entiendo bien cómo funciona la cosa que compraste.
 la cosecha : harvest : La cosecha de maíz este año fue abundante gracias a las lluvias.
@@ -3866,7 +3866,7 @@ la criptomoneda : cryptocurrency :
 la crisis : crisis : 
 la cruz : cross : El patrón en la ventana tiene varias cruces que forman un diseño simétrico.
 la cuadra : block : El supermercado está a solo una cuadra de aquí.
-la cualificacion : quality : 
+la cualificación : quality : 
 la cuarentena : quarantine : Durante la cuarentena, muchas personas trabajaron desde casa.
 la cuarta : fourth : 
 la cucharadita : teaspoon : Añade una cucharadita de azúcar al té.
@@ -3877,7 +3877,7 @@ la cuerda : rope : Amarramos la caja con una cuerda para transportarla.
 la cuerda de saltar : jump rope : Los niños juegan con la cuerda de saltar en el parque.
 la cuerda de volatinero : tightrope : El equilibrista cruzó la cuerda de volatinero con mucha habilidad.
 la cuesta : slope, hill : La cuesta de la montaña es muy empinada.
-la cuestion : question, matter : La cuestión principal es cómo resolver el problema a tiempo.
+la cuestión : question, matter : La cuestión principal es cómo resolver el problema a tiempo.
 la cueva : cave : Encontramos una cueva mientras caminábamos por la montaña.
 la cultura : culture : 
 la cuna : crib : El bebé duerme tranquilamente en la cuna.
@@ -3891,26 +3891,26 @@ la cómoda : dresser : Guardé mis camisetas en la cómoda.
 la daga : dagger : El caballero llevaba una daga en el cinturón para defenderse.
 la dama de honor : bridesmaid : Mi mejor amiga fue mi dama de honor en mi boda.
 la debilidad : weakness : Su mayor debilidad es el chocolate.
-la decada : decade : La década de los noventa estuvo llena de grandes cambios tecnológicos.
-la decepcion : disappointment : 
-la decision : decision : 
-la declaracion : statement : 
+la década : decade : La década de los noventa estuvo llena de grandes cambios tecnológicos.
+la decepción : disappointment : 
+la decisión : decision : 
+la declaración : statement : 
 la defensa : defense : 
 la definición : definition : Busqué la definición de la palabra en el diccionario.
 la demanda : demand,lawsuit : 
 la democracia : democracy : 
 la denuncia : complaint, report : Ella fue a la policía para poner una denuncia por robo.
-la depresion : depression : 
+la depresión : depression : 
 la derecha :  : 
 la derrota : defeat : La derrota del equipo fue inesperada.
-la descripcion : description : 
+la descripción : description : 
 la desesperación : desperation : La desesperación la llevó a buscar ayuda inmediatamente.
 la desgracia : misfortune, tragedy : Fue una desgracia perder todo en el incendio.
 la despedida : farewell : La despedida fue muy emotiva para todos.
-la destruccion : destruction : El huracán causó la destrucción de muchas casas en la costa.
+la destrucción : destruction : El huracán causó la destrucción de muchas casas en la costa.
 la desventaja : disadvantage : La desventaja de vivir lejos es el tiempo que toma llegar al trabajo.
 la deuda : debt : Tengo que pagar la deuda antes de fin de mes.
-la devolucion : return : ¿Podría decirme el motivo de la devolución?
+la devolución : return : ¿Podría decirme el motivo de la devolución?
 la diabetes : diabetes : 
 la diana : dartboard : El arquero acertó en la diana con su primera flecha.
 la diapositiva : slide : La profesora explicó el tema usando varias diapositivas en su presentación.
@@ -3919,14 +3919,14 @@ la dieta : diet : Estoy siguiendo una dieta equilibrada para mejorar mi salud.
 la diferencia : difference : 
 la dificultad : difficulty : 
 la dignidad : dignity : 
-la dimension : dimension : 
+la dimensión : dimension : 
 la dinamita : dynamite : Los trabajadores usaron dinamita para romper las rocas más grandes.
 la diosa : goddess : 
-la direccion : address, direction : ¿Cuál es la dirección de tu casa?
+la dirección : address, direction : ¿Cuál es la dirección de tu casa?
 la disciplina : discipline : 
 la discoteca : disco, nightclub : El sábado por la noche fuimos a la discoteca a bailar.
 la disculpa : apology : Él me pidió una disculpa por llegar tarde.
-la discusion : discussion : 
+la discusión : discussion : 
 la distancia : distance : 
 la diversión : entertain, fun : El parque de atracciones es un lugar perfecto para la diversión.
 la donacion : donation : 
@@ -4157,7 +4157,7 @@ la indicacion : indication, instruction : Sigue la indicación del mapa para lle
 la industria : industry : 
 la infancia : childhood : Recuerdo con cariño los días felices de mi infancia.
 la influencia : influence : 
-la informacion : information : 
+la información : information : 
 la ingle : groin : Después de correr, sentí un pequeño dolor en la ingle.
 la iniciativa : initiative : Me gusta cuando veo iniciativas que promueven la paz, como encuentros culturales o proyectos comunitarios.
 la inocencia : innocence : 
@@ -4200,8 +4200,8 @@ la lana : wool : Necesito comprar lana para tejer un suéter.
 la lancha motora : motor boat : Paseamos por el lago en una lancha motora.
 la langosta : lobster : La langosta es un plato muy popular en los restaurantes de mariscos.
 la lanza : spear : El guerrero llevaba una lanza para defenderse en la batalla.
-la lapida : tombstone : La lápida tenía grabado el nombre de su abuelo y una frase conmovedora.
-la lastima : shame, pity : Es una lástima que no hayas podido asistir a la fiesta.
+la lápida : tombstone : La lápida tenía grabado el nombre de su abuelo y una frase conmovedora.
+la lástima : shame, pity : Es una lástima que no hayas podido asistir a la fiesta.
 la lata : can : Voy a abrir una lata de frijoles para la cena.
 la latidud : latitude : 
 la lava : lava : La lava del volcán destruyó varias casas en el pueblo.
@@ -4228,7 +4228,7 @@ la lima : lime, file : Usé una lima para arreglarme las uñas.
 la lima de unas : nail file : Usó la lima de uñas para darles forma a sus uñas después de cortarlas.
 la limpieza : cleaning : 
 la limusina : limousine : La pareja llegó a la boda en una elegante limusina.
-la linea : line : 
+la línea : line : 
 la linterna : flashlight : Usé la linterna para encontrar mis llaves en la oscuridad.
 la lista : list : Voy a revisar la lista de compras antes de ir al supermercado.
 la litera : bunk bed : Los niños comparten una litera en su habitación.
@@ -4250,7 +4250,7 @@ la lujuria : lust : La lujuria es uno de los temas principales en la obra de lit
 la luna llena : full moon : 
 la lupa : magnifying glass : El detective usó la lupa para examinar la pista.
 la luz : light : Apaga la luz antes de salir de la habitación.
-la luz del dia : daylight : 
+la luz del día : daylight : 
 la lágrima : tear : Una lágrima cayó por su mejilla.
 la lástima : pity : ¡Qué lástima que no puedas venir a la fiesta!
 la maceta : plant pot : Podrías regalarle una planta bonita con una maceta decorativa.
@@ -4277,20 +4277,20 @@ la manguera : hose : El agua sale de la manguera.
 la mano : hand : 
 la mansion : manor : 
 la manta : blanket : Traeré unas frutas y bocadillos. Y tú podrías traer una manta.
-la maquina : machine : 
-la maquina de escribir : typewriter : 
+la máquina : machine : 
+la máquina de escribir : typewriter : 
 la maquinilla de afeitar : razor : Prefiero usar una maquinilla de afeitar eléctrica por comodidad.
 la maravilla : marvel, wonder : La vista desde la cima de la montaña era una maravilla.
 la marca : brand : Prefiero comprar zapatos de una marca reconocida.
 la marcha : march, progress : La marcha del tren fue suave y constante durante todo el viaje.
 la marea : tide : La marea está subiendo rápidamente.
 la margarita : daisy, wine : En el jardín crecen muchas margaritas blancas.
-la marioneta : puppet : El controlaba la marioneta con gran habilidad.
+la marioneta : puppet : Él controlaba la marioneta con gran habilidad.
 la mariposa : butterfly : 
 la mariquita : ladybug : Las mariquitas tienen manchas negras.
-la mas : the most : 
+la más : the most : 
 la masacre : massacre : La película trata sobre la masacre de un pueblo inocente.
-la mascara : mask : En el carnaval, todos llevaban una máscara colorida.
+la máscara : mask : En el carnaval, todos llevaban una máscara colorida.
 la materia : matter, subject : La materia de matemáticas es mi favorita.
 la matrona : midwife : La matrona ayudó a muchas mujeres durante el parto en el hospital.
 la matrícula : license plate : El número de matrícula de su coche es difícil de recordar.
@@ -4329,7 +4329,7 @@ la misa : mass : Fuimos a la misa del domingo por la mañana.
 la miseria : mesery : Vive con una miseria de salario que apenas le alcanza para comer.
 la misericordia : mercy : El prisionero pidió la misericordia del juez.
 la mision : mission : 
-la misión : mission : Si, desde que pusieron nuevas misiones semanales.
+la misión : mission : Sí, desde que pusieron nuevas misiones semanales.
 la mitad : half, middle : Comí solo la mitad del pastel.
 la mitología : mythology : Me encanta leer sobre la mitología griega.
 la mochila : backpack : Puedes llevar muchas cosas en la mochila.
@@ -4353,7 +4353,7 @@ la mujer : woman :
 la mula : mule : La mula es un animal muy fuerte y resistente.
 la muleta : crutch : Después de romperse la pierna, tuvo que usar una muleta.
 la multitud : crowd : 
-la musica : music : 
+la música : music : 
 la mutación : mutation : La mutación puede causar cambios en el ADN de un organismo.
 la nacion : nation : 
 la narracion : storytelling, naration : La narración del cuento fue muy emocionante.
@@ -4376,7 +4376,7 @@ la noticia : news : La noticia sobre el accidente fue impactante.
 la novela : novel : Estoy leyendo una novela muy interesante.
 la nube : cloud : Hoy hay solo una nube en el cielo.
 la nuez : walnut : Me gusta comer nueces como merienda.
-la nuez de Adan : Adam's apple : 
+la nuez de Adán : Adam's apple : 
 la obesidad : obesity : 
 la objeción : objection : La objeción del abogado fue rechazada por el juez.
 la obligacion : obligation : 
@@ -4395,7 +4395,7 @@ la olla : pot : Voy a usar una olla grande para cocinar la sopa.
 la onda : wave : ¿Y puedes también peinarme con ondas suaves al final?
 la onza : ounce : Compré una onza de oro como inversión.
 la opción : option : Tienes la opción de estudiar en casa o en la biblioteca.
-la opera : opera : 
+la ópera : opera : 
 la operacion : operation : 
 la opinión : opinion : Tu opinión es muy importante para mí.
 la oportunidad : opportunity : 
@@ -4404,7 +4404,7 @@ la orbita : orbit :
 la orden : order : 
 la orejera : earmuff : Las orejeras de Clifford mantienen sus orejas calentitas.
 la organizacion : organization : 
-la orilla : shore,shore, edge, border : Nos sentamos en la orilla del rio.
+la orilla : shore,shore, edge, border : Nos sentamos en la orilla del río.
 la orquestra : orchestra : 
 la orquidea : orchid : Compré una orquídea para decorar la sala porque es mi flor favorita.
 la oruga : catepillar : La oruga se convirtió en una hermosa mariposa.
@@ -4493,7 +4493,7 @@ la playa : beach :
 la pluma : feather, pen : Escribí la carta con una pluma negra.
 la población : population : La población mundial sigue creciendo rápidamente.
 la pobreza : poverty : Es importante trabajar juntos para reducir la pobreza en nuestras comunidades.
-la pocilga : pigsty, very dirty place : ¡Limpia tu cuarto, parece una posilga!
+la pocilga : pigsty, very dirty place : ¡Limpia tu cuarto, parece una pocilga!
 la poesia : poetry : Me encanta leer poesía antes de dormir.
 la policia : police,police officer : El policía nos ayudó a encontrar la dirección correcta.
 la polvora : gunpowder : La pólvora es esencial para los fuegos artificiales.
@@ -4513,14 +4513,14 @@ la prensa : press : La prensa publicó un artículo sobre los últimos acontecim
 la prensa de piernas : the leg press : Para fuerza, puedes usar la prensa de piernas, las máquinas de pecho y las de espalda.
 la preocupacion : worry : 
 la preparacion : preparation : 
-la presa : dam : El agua se acumulaba detras de la presa.
+la presa : dam : El agua se acumulaba detrás de la presa.
 la presencia : presence : Su presencia en la reunión fue muy importante para tomar decisiones.
-la presion : pressure : 
+la presión : pressure : 
 la primaria : elementary school : Pedro y yo nos conocemos desde la primaria.
 la primera vez que : the first time that : La primera vez que viajé en avión, estaba muy nervioso.
 la princesa : princess : 
 la prioridad : priority : La seguridad de los niños es nuestra principal prioridad.
-la prisa : hurry : Ella salio de casa con mucha prisa esta manana.
+la prisa : hurry : Ella salió de casa con mucha prisa esta mañana.
 la producción : production : La producción de la película terminó el mes pasado.
 la profesora : female teacher : 
 la profundidad : depth : La profundidad del océano es impresionante.
@@ -4529,13 +4529,13 @@ la prometida : fiancee (female) : Mi hermano va a casarse el próximo año con s
 la propina : tip : Mi tío es muy tacaño y nunca deja propina.
 la propuesta : proposal : Aceptaron la propuesta del nuevo proyecto.
 la protagonista : main character : La protagonista de la película es una mujer valiente.
-la proteccion : protection : 
-la proteina : protein : 
+la protección : protection : 
+la proteína : protein : 
 la protesta : protest : 
 la provincia : province : La provincia de Sevilla es famosa por su historia y cultura.
 la provisión : supply, stock : Llevaron provisiones para el viaje.
 la prueba : evidence : Necesitará su documento de identidad y una prueba de domicilio, como una factura de servicios.
-la psicologia : psychology : 
+la psicología : psychology : 
 la puerta : door : 
 la puerta de la cerca : gate of the fence : Abrí la puerta de la cerca para entrar al jardín.
 la puesta del sol : sunset : Nos sentamos en la playa para disfrutar de la puesta del sol.
@@ -4552,8 +4552,8 @@ la racha : streak : Llevamos una racha de buena suerte.
 la ración : portion : Pedimos una ración de calamares para compartir.
 la radiación : radiation : La radiación ultravioleta del sol puede dañar la piel si no usamos protección.
 la radioactividad : radioactivity : 
-la raiz : root : La raíz del problema está en la falta de comunicación.
-la raiz cuadrada : square root : Aprendimos a calcular la raíz cuadrada en clase de matemáticas.
+la raíz : root : La raíz del problema está en la falta de comunicación.
+la raíz cuadrada : square root : Aprendimos a calcular la raíz cuadrada en clase de matemáticas.
 la rama : branch : El pájaro está posado en la rama del árbol.
 la rambla : boulevard : Paseamos por la rambla mientras veíamos a los artistas callejeros.
 la rampa : ramp : Instalaron una rampa para que las personas en silla de ruedas pudieran acceder al edificio.
@@ -4563,8 +4563,8 @@ la raqueta : racket :
 la rata : rat : La rata corrió rápidamente por la calle.
 la raya : line, stripe : Las rayas de los calcetines son rosadas y negras.
 la raza : race, breed : El perro es de una raza muy especial.
-la razon : reason : 
-la reaccion : reaction : 
+la razón : reason : 
+la reacción : reaction : 
 la realidad : reality : 
 la rebanada : slice : Quiero una rebanada de pastel, por favor.
 la rebeca : knitted sweater : Hace un poco de frío, así que me pondré una rebeca.
@@ -4573,22 +4573,22 @@ la receta : recipe : Seguí la receta para preparar un pastel delicioso.
 la receta medica : prescription : El doctor me dio una receta médica para el antibiótico.
 la recomendación : recommendation : Gracias por tu recomendación, probaré ese restaurante.
 la recompensa : reward : Ofrecen una recompensa por información sobre el robo.
-la recuperacion : recovery : Después de la operación, la recuperación del paciente fue rápida y exitosa.
+la recuperación : recovery : Después de la operación, la recuperación del paciente fue rápida y exitosa.
 la red : network, net : La red de pesca estaba llena de peces.
 la referencia : reference : 
-la reflexion : reflection : 
+la reflexión : reflection : 
 la regadera : water can : Usé la regadera para regar las plantas del jardín.
-la region : region : 
+la región : region : 
 la regla : rule : Debes seguir la regla de la casa y apagar las luces al salir.
-la rehabilitacion : rehabilitation : 
+la rehabilitación : rehabilitation : 
 la reina : queen : 
-la relacion : relationship : 
-la religion : religion : 
+la relación : relationship : 
+la religión : religion : 
 la remolacha : beetroot : La remolacha se utiliza para hacer una sopa llamada borscht.
 la renta : income, rent : Pago la renta del apartamento todos los meses.
-la reposteria : confectionery, cake shop : Me encanta la repostería porque puedo hacer pasteles y galletas caseros.
-la republica : republic : 
-la reputacion : reputation : 
+la repostería : confectionery, cake shop : Me encanta la repostería porque puedo hacer pasteles y galletas caseros.
+la república : republic : 
+la reputación : reputation : 
 la reseña : review, summary : Leí una reseña positiva sobre esa película.
 la resistencia : resistance : 
 la resolucion : resolution : 
@@ -4644,7 +4644,7 @@ la seta : mushroom : Encontramos una seta enorme mientras caminábamos por el bo
 la siembra : sowing, planting : La siembra del maíz comienza en primavera.
 la sierra : saw, mountain range : Necesito la sierra para cortar esta madera.
 la siesta : nap : 
-la silaba : syllable : La palabra "casa" tiene dos sílabas
+la sílaba : syllable : La palabra "casa" tiene dos sílabas
 la silla : chair : Me siento en la silla para leer un libro.
 la silla de montar : saddle : Coloqué la silla de montar sobre el caballo antes de salir a cabalgar.
 la silla de ruedas : wheelchair : Necesita una silla de ruedas para moverse con facilidad.
@@ -4668,7 +4668,7 @@ la sospecha : suspicion : La policía tiene una sospecha sobre quién cometió e
 la subasta : auction : Compraron la pintura en una subasta de arte.
 la subibaja : seesaw : Los niños juegan en la subibaja del parque.
 la suculenta : succulent (aloe vera, cactus) : Compré una suculenta para decorar mi escritorio porque requiere poco cuidado.
-la sudadera : sweatshirt, hoodie : Me puse la sudadera porque hacia frio.
+la sudadera : sweatshirt, hoodie : Me puse la sudadera porque hacia frío.
 la suegra : mother-in-law : Mi suegra siempre trae postres deliciosos cuando nos visita.
 la suerte : luck : ¡Buena suerte en tu examen!
 la sugerencia : suggestion : Agradezco tu sugerencia sobre cómo mejorar el proyecto.
@@ -4753,7 +4753,7 @@ la tunica : tunic :
 la turbina eolica : wind turbine : La turbina eólica genera electricidad utilizando la fuerza del viento.
 la técnica : technique : La técnica del pintor es impresionante.
 la ubicacion : location : La ubicación de la tienda está en el centro de la ciudad.
-la ultima vez que : the last time that : Esta es la última vez que te lo digo.
+la última vez que : the last time that : Esta es la última vez que te lo digo.
 la unidad : unit, unity : La unidad del equipo fue clave para ganar el partido.
 la universidad : university : 
 la urgencia : urgency : 
@@ -4784,7 +4784,7 @@ la vestimenta : clothing, attire : Su vestimenta era elegante para la fiesta.
 la veterinaria : female veterinarian : La veterinaria examinó a mi perro para asegurarse de que estaba sano.
 la vez : the time, occasion : Fue la primera vez que visité ese lugar.
 la via : rail : El tren llegó por la vía número tres.
-la victima : victim : 
+la víctima : victim : 
 la victoria : victory : El equipo celebró la victoria con una gran fiesta después del partido.
 la vid : vine : La vid necesita mucho sol para producir uvas dulces.
 la vida : life : 
@@ -4869,7 +4869,7 @@ lentes : glasses : Necesito mis lentes para leer el libro.
 lento : slow : El tráfico esta mañana fue muy lento debido a un accidente.
 leotardos : tights, legging : Mi hija lleva leotardos debajo del vestido porque hace frío.
 lesionado : injured : El jugador está lesionado y no podrá jugar el próximo partido.
-letra : letter : Aqui estan las letras A, B y C.
+letra : letter : Aquí están las letras A, B y C.
 letrero : sign, note : El letrero en la puerta decía "Cerrado por mantenimiento".
 levantar : to lift : 
 levantarse : get up : 
@@ -4890,7 +4890,7 @@ limon : lemon :
 limpiar : to clean : 
 limpio : clean : 
 linda : pretty : Esa flor es muy linda.
-lindo : pretty,nice : Que lindo!
+lindo : pretty,nice : Qué lindo!
 lino : linen : Esta es de algodón y esta otra es de lino.
 liso : straight : La mesa es de madera y muy lisa.
 lista : list : Ella siempre tiene una lista preparada para no olvidar nada cuando va de compras.
@@ -4914,7 +4914,7 @@ llevais : You all take :
 llevamos : We take : 
 llevan : They take : 
 llevar : to carry, to take : 
-llevare : I will take, I will carry,I will bring : Te llevaré el café y el croissant en breve.
+llevaré : I will take, I will carry,I will bring : Te llevaré el café y el croissant en breve.
 llevarse bien : to get along with : Aunque somos muy diferentes, me llevo muy bien con mi compañero de piso y nunca discutimos.
 llevas : You take : 
 llevo : I carry, I wear, I take : Llevo una chaqueta porque hace frío.
@@ -4952,7 +4952,7 @@ los cubiertos : cutlery : Pon los cubiertos en la mesa antes de la cena.
 los datos : data : 
 los deberes : homework : Tengo que terminar los deberes antes de cenar.
 los derechos humanos : human rights : 
-los dias : the days : Los días de verano son muy calurosos.
+los días : the days : Los días de verano son muy calurosos.
 los dos puntos : colon : En clase vimos los dos puntos como signo de puntuación importante.
 los ejercicios aerobicos : aerobics : 
 los fuegos artificiales : fireworks : Anoche vimos los fuegos artificiales durante la fiesta de Año Nuevo.
@@ -4977,11 +4977,11 @@ lunes : Monday :
 lácteos : diary products : Los lácteos son una fuente importante de calcio.
 macho : male : El león macho protege a su manada.
 madera : wood : La mesa es de madera.
-maduro : mature : El mango esta maduro y listo para comer.
+maduro : mature : El mango está maduro y listo para comer.
 maestra : teacher : 
 maestro : teacher : 
 magnetico : magnetic : 
-magnifico : magnificent, splendid : Tuvimos un día magnífico en la playa.
+magnífico : magnificent, splendid : Tuvimos un día magnífico en la playa.
 mal educado : rude : Es mal educado interrumpir cuando alguien está hablando.
 maldito : cursed, damned : ¡Ese maldito mosquito no me deja dormir!
 malo : bad : Este queso es malo.
@@ -5012,7 +5012,7 @@ mariques : cowards, wimps : Dejen de ser mariques y vamos a la montaña aunque e
 martes : Tuesday : El examen es el martes por la mañana.
 martillar : to hammer : El carpintero comenzó a martillar los clavos en la madera.
 marzo : March : 
-mas : more : 
+más : more : 
 mascota : pet : 
 masculino : male : Ese nombre es masculino, no femenino.
 masticar : to chew : Es importante masticar bien los alimentos antes de tragarlos.
@@ -5025,7 +5025,7 @@ mayor : older : Mi hermana mayor vive en otra ciudad.
 me : me, myself : 
 me cuesta : it's difficult for me : Sí, pero me cuesta dar el paso. Siento que debería poder manejarlo sola.
 me gusta : I like : 
-me pregunto : I wonder : Si, Me pregunto si los veremos hoy.
+me pregunto : I wonder : Sí, Me pregunto si los veremos hoy.
 me puedo probar :  : 
 me siento : I feel, I sit : Me siento cansado después de un día largo.
 me visto : I get dressed : Cada mañana, me visto rápidamente para ir al trabajo.
@@ -5036,10 +5036,10 @@ mediana :  :
 mediano : medium : Quiero una pizza de tamaño mediano, por favor.
 mediante : through, by means of : Resolví el problema mediante una solución simple.
 mediar : to mediate : El profesor intentó mediar entre los estudiantes para resolver el problema.
-medica : doctor : 
+médica : doctor : 
 medicamento : medicine, medication : El doctor me recetó un medicamento para el dolor de cabeza.
 medicina : medicine : 
-medico : doctor : 
+médico : doctor : 
 medieval : Medieval, Middle Age in history : 
 medio : half : 
 medir : to measure : Voy a medir la mesa para asegurarme de que cabe en el comedor.
@@ -5082,7 +5082,7 @@ mil :  :
 milagrosamente : miraculously : Milagrosamente, salió ileso del accidente.
 militar : military : Mi hermano quiere ser militar y servir a su país.
 millon :  : 
-mineral : mineral : El cuarzo es un mineral muy comun.
+mineral : mineral : El cuarzo es un mineral muy común.
 minimo : minimum : El esfuerzo mínimo requerido para pasar el examen es estudiar dos horas al día.
 minusculo : tiny : Encontré un insecto minúsculo en la mesa.
 mio : mine : 
@@ -5094,7 +5094,7 @@ misterioso : mysterious :
 mixta : mixed : Prepare una ensalada mixta para la cena
 moderno :  : 
 modesto : modest : Siempre ha sido modesto acerca de su éxito.
-mojado : wet : Despues de tomar un bano, Clifford esta mojado.
+mojado : wet : Después de tomar un baño, Clifford está mojado.
 molestar : to annoy, disturb : No quiero molestar, solo tenía una pregunta.
 molesto : annoying : Pero es bastante molesto.
 molido : ground : Se deja el café molido en el fondo de la taza.
@@ -5110,7 +5110,7 @@ moribundo : dying : El anciano moribundo pidió ver a su familia por última vez
 morir : to die : Las plantas van a morir sin agua.
 morisco : Morisco : Los moriscos enfrentaron muchas dificultades tras su conversión al cristianismo.
 mortal : mortal, deadly : La herida fue mortal y no pudieron salvarlo.
-mostrador : counter : Puedo probarla aqui, justo al lado del mostrador.
+mostrador : counter : Puedo probarla aquí, justo al lado del mostrador.
 mostrar : to show : ¿Puedes mostrarme cómo usar esta aplicación?
 mostraré : I will show : Te mostraré cómo usarlas de manera segura
 moto : motorcycle : 
@@ -5125,13 +5125,13 @@ mucho gusto :  :
 mudarse : to move : Diego es de Argentina y acaba de mudarse aquí por trabajo.
 mudo : mute : El hombre mudo expresó sus ideas a través de señas.
 muerto : dead : Encontraron un pájaro muerto en el jardín esta mañana.
-muestra : He/She show : El mapa muestra donde estan los lugares.
+muestra : He/She show : El mapa muestra donde están los lugares.
 mueva : He/She wag : Ten mucho cuidado cuando Clifford mueva el rabo.
 mundial : worldwide : La Copa Mundial de fútbol se celebra cada cuatro años.
 mundo : world : 
 muneca : doll : 
 municipal : municipal : El gobierno municipal está trabajando en mejorar las calles.
-musica : music : 
+música : music : 
 musical : musical : Ella tiene un talento musical impresionante.
 muy : very : 
 mágico : magical : El espectáculo fue realmente mágico.
@@ -5140,7 +5140,7 @@ nacional : national :
 nací : I was born : Nací en México en 1995.
 nada : nothing : No tengo nada en mi mochila.
 nadar : to swim : 
-nadie : nobody : Nadie esta durmiendo en esta cama.
+nadie : nobody : Nadie está durmiendo en esta cama.
 nariz : nose : 
 natural : natural : 
 naturamente : naturally : Las flores crecen naturalmente en este clima.
@@ -5173,13 +5173,13 @@ no : no :
 no deportista : unathletic : Mi hermano no es deportista, prefiere leer libros.
 no disponible : unavailable : 
 no hay de que : it doesn't matter : No hay de qué, lo más importante es su seguridad.
-no lo se : I don't know : 
+no lo sé : I don't know : 
 no obstante : however : Estaba muy cansado; no obstante, terminó su trabajo a tiempo.
 no puede ser : no way! : ¡No puede ser! ¡Felicidades! Sabía que lo conseguirías. ¿Cómo te sientes?
 no puedo ser : no way! : ¡No puede ser! ¿Cómo lo hace?
 noche : night : 
 nombrar : to name, appoint : Van a nombrar al nuevo director esta tarde.
-nombre : first name : Cual es tu nombre?
+nombre : first name : Cuál es tu nombre?
 normal : normal : 
 normalmente : normally : 
 nos : us : Ellos nos invitaron a la fiesta.
@@ -5193,7 +5193,7 @@ nostálgica : nostalgic : Ayer encontré un álbum de fotos de cuando era niña 
 nota : note, grade : No quiero decepcionar a mis padres con mis notas.
 notar : to notice : He notado que el clima está cambiando rápidamente.
 novecientos : nine hundred : 
-novedades : news : Ella siempre esta al tanto de las ultimas novedades.
+novedades : news : Ella siempre está al tanto de las últimas novedades.
 novena : ninth (female) : 
 noveno : ninth : 
 noventa : ninty : 
@@ -5210,7 +5210,7 @@ nueve : nine :
 nuevo : new : 
 nuez moscada : nutmeg (spice) : Un poco de nuez moscada mejora el sabor de la bechamel.
 numericamente : numerically : El resultado se puede representar numéricamente para mayor precisión.
-numero : number : 
+número : number : 
 numeroso : numerous, many : Había un público numeroso en el concierto.
 nunca : never : 
 o : or : 
@@ -5329,7 +5329,7 @@ pasearse : to take a walk, to stroll : Nos gusta pasearnos por el parque los dom
 pasillo : hallway, isle : El pasillo de la escuela está lleno de estudiantes entre clases.
 paso : step : Claro, te guiaré paso a paso.
 pastel : cake : Vamos a hacer un pastel de chocolate para la fiesta.
-pastilla : pill : Necesito tomar dos pastillas despues de cada comida.
+pastilla : pill : Necesito tomar dos pastillas después de cada comida.
 pasé : I passed : Pasé toda la tarde estudiando.
 patas arriba : upside down : Clifford esta patas arriba.
 patata : potato : 
@@ -5339,10 +5339,10 @@ patinar sobre hielo : ice skate : A Clifford y Emily les gusta patinar sobre hie
 patria : homeland : Los héroes lucharon por la libertad de su patria.
 patriarca : head of family : El patriarca de la familia toma todas las decisiones importantes.
 pechuga : chicken breast : Hoy vamos a cocinar pechuga de pollo a la plancha.
-pedalear : to pedal : Tuve que pedalear rapido para subir la colina.
+pedalear : to pedal : Tuve que pedalear rápido para subir la colina.
 pedido : order : Te llevaré tu pedido en un momento.
 pedimos : ask (we) : 
-pedir : to ask for, to request : Quiero pedir una cafe.
+pedir : to ask for, to request : Quiero pedir una café.
 pedís : you all ask : ¿Qué pedís para cenar esta noche?
 pegar : to stick, to glue : Voy a pegar el póster en la pared con cinta adhesiva.
 peinar : to comb : Ella suele peinarse frente al espejo antes de salir de casa.
@@ -5409,7 +5409,7 @@ pierdo : I lose : Siempre pierdo mis llaves.
 pierna : leg : 
 pieza : part : Encontré una pieza de rompecabezas debajo del sofá.
 pijama : pajama : Ella compró un pijama nuevo para la fiesta de pijamas de su amiga.
-pimienta : pepper : Anadi un poco de pimienta a la sopa para darle mas sabor.
+pimienta : pepper : Añadí un poco de pimienta a la sopa para darle más sabor.
 pintado : painted : El muro está pintado de azul.
 pintar :  : 
 piscina :  : 
@@ -5422,7 +5422,7 @@ plano : flat : Sí, eso suena bien. No quiero que quede muy plano.
 planta :  : 
 plantar : to plant : Voy a plantar flores en el jardín este fin de semana.
 plantear : to pose, to suggest : Quiero plantear una solución al problema.
-plastico : plastic : La bolsa es de plastico.
+plastico : plastic : La bolsa es de plástico.
 platano : banana, platain : Comí un plátano como parte de mi desayuno.
 platicar : to talk, to chat : ¿Te gusta bailar o prefieres quedarte aquí platicando?
 platillo : dish, saucer : El chef preparó un delicioso platillo de pasta con mariscos.
@@ -5439,7 +5439,7 @@ podeis : You all can :
 podemos : we can : 
 poder : can : 
 poderoso : powerful : El rey era un hombre poderoso que gobernaba con sabiduría.
-podria : He/She could : Me podria decir donde esta el bano?
+podria : He/She could : Me podría decir donde está el baño?
 podrias : you could : ¿Me podrías dar un café con leche, por favor?
 poetico : poetic : El atardecer tenía un encanto poético que inspiraba tranquilidad.
 politico : politician,political : 
@@ -5573,7 +5573,7 @@ puedes : you can :
 puedo : I can : 
 puerco : pig, pork : El puerco está comiendo en el corral.
 puerta : door : Cierra la puerta, por favor.
-pues : well : Pues puedes ayudar en mi jardin.
+pues : well : Pues puedes ayudar en mi jardín.
 puesta de sol : sunset : Disfrutamos de una hermosa puesta de sol en la playa.
 puesto : position, place : Ella consiguió un puesto como gerente en la empresa.
 pulida : polished, smooth : La mesa de madera está muy pulida.
@@ -5665,7 +5665,7 @@ recorrer : to travel through : Nos gusta recorrer la ciudad en bicicleta los fin
 recortar : to cut : Ella recorta fotos de la revista.
 recto : straight : Sí, siga recto por esta calle, luego gire a la derecha en la segunda esquina.
 recuerda : remember (imperative) : Recuerda traer tu pasaporte al viaje.
-recuerdo : I remember : Recuerdo que de pequeña venía con mi familia a hacer picnics.
+recuerdo : I remember : Recuerdo que de pequeña venía con mi familia a hacer pícnics.
 recuperar : to recover : Necesito tiempo para recuperar mi energía después del viaje.
 red : net : Emily pesca con una red.
 redondo : round : Compré una mesa redonda para el comedor.
@@ -5682,7 +5682,7 @@ refrescar : to cool : Necesito algo frío para refrescarme en este calor.
 refrigerador :  : 
 refugiar : to seek shelter : Nos refugiamos en una cabaña durante la tormenta.
 regalar : to gift : Voy a regalarle un libro a mi hermana por su cumpleaños.
-regar : to spill, to water : Clifford rego la pintura.
+regar : to spill, to water : Clifford regó la pintura.
 regional : regional : 
 registrar : to register : Necesitas registrar tus datos antes de entrar al edificio.
 regresan : They return : 
@@ -5778,7 +5778,7 @@ roto : broken : El vaso está roto; tendremos que comprar otro.
 rubio : blond : Ella es rubia y tiene ojos azules.
 ruidosamente : noisily, loudly : El perro ladró ruidosamente durante toda la noche.
 rural : rural : Prefiero vivir en una zona rural, lejos del ruido de la ciudad.
-rutina : routine : Que rutina haces hoy?
+rutina : routine : Qué rutina haces hoy?
 rutinaria : routine : Su vida diaria es bastante rutinaria, llena de hábitos simples.
 sabado : Saturday : 
 sabe : He/She knows : 
@@ -5836,7 +5836,7 @@ se sienten : You feel, They feel :
 se ve muy bien : it looks very good : 
 sea : to be (subjective form) : Estoy buscando una novela que sea fácil de leer pero interesante.
 secar : to dry : 
-seco : dry : El clima esta muy seco este verano.
+seco : dry : El clima está muy seco este verano.
 secretamente : secretly : El espía entregó los documentos secretamente.
 secretaria :  : 
 secretario :  : 
@@ -5846,7 +5846,7 @@ sed : thirsty : Tengo mucha sed después de correr.
 seducir : to seduce : El chef logró seducir a los clientes con su delicioso menú.
 seguida : immediately : Terminaré mi trabajo y en seguida te llamo.
 seguido : frequent : ¿Te gusta venir a parques seguido?
-seguiente : next : La seguiente conversacion, por favor.
+seguiente : next : La siguiente conversación, por favor.
 seguir : to follow, to continue : Sigo estudiando español todos los días.
 segunda : second (female) : 
 segundo : second : Vamos a intentar reiniciarla presionando el botón de encendido por diez segundos.
@@ -5859,7 +5859,7 @@ seiscientos : six hundred :
 semana : week : 
 semanal : weekly : Tenemos una reunión semanal todos los lunes.
 semejante : similar : Para combinar términos, sumas o restas los que son semejantes.
-senalar : to point out : Emily senala la mariposa.
+senalar : to point out : Emily señala la mariposa.
 senalizada : marked : ¿Y las ofertas de hoy están señalizadas?
 sencilla : simple : 
 sencillo : simple : La solución al problema es bastante sencilla.
@@ -5891,7 +5891,7 @@ sexto : sixth :
 señalizar : to signal, mark with sign : El camino está bien señalizado.
 si : yes, if : Si necesitas ayuda, dime.
 siempre : always : Siempre te apoyaré.
-siendo : being (ser) : La reunion sigue siendo a las tres?
+siendo : being (ser) : La reunión sigue siendo a las tres?
 sienta : to feel : 
 sientate : You sit down (imperative) : 
 sientese : You sit down (command form) : 
@@ -5955,7 +5955,7 @@ solucionar : to solve :
 solía : used to : Yo solía correr cada mañana.
 sombrero : cap : 
 someter : to submit, subject : Debes someter el formulario antes del viernes.
-somnolienta : sleepy, drowsy : Despues de comer, me siento somnolienta y quiero tomar una siesta.
+somnolienta : sleepy, drowsy : Después de comer, me siento somnolienta y quiero tomar una siesta.
 somos : we are : 
 son : they are : 
 sonreír : to smile : Ella no pudo evitar sonreír al escuchar la buena noticia.
@@ -5976,7 +5976,7 @@ subibaja : seesaw : Los niños se divierten en el subibaja del parque.
 subir : to get on, board, upload : ¿Y lo envío por correo o lo subo a algún lado?
 subirse : to get on : Voy a subirme al autobús antes de que salga.
 subrayar : to underline : Necesito un marcador para subrayar esta palabra.
-suceder : to happen, to occur : No se que va a suceder manana.
+suceder : to happen, to occur : No sé que va a suceder mañana.
 sucio : dirty : 
 sudar : to sweat : Comencé a sudar después de correr por veinte minutos.
 suele : He/She usually do : Sabe cuánto tiempo suele durar la consulta?
@@ -6035,7 +6035,7 @@ tecnologico : technologic :
 tejer : to knit : Mi abuela sabe tejer suéteres muy bonitos.
 telefone :  : 
 television :  : 
-tema : topic : El tema de la reunion fue la sostenibilidad.
+tema : topic : El tema de la reunión fue la sostenibilidad.
 temblar : to tremble : Empezó a temblar de frío mientras esperaba afuera.
 temer : to fear : Ella empieza a temer que no llegue a tiempo para la reunión.
 templado : mild, warm : ¿Desea el café caliente o templado?
@@ -6095,7 +6095,7 @@ tirar : to pull, to throw :
 tirar de la cadena : to flush : Después de usar el baño, recuerda tirar de la cadena.
 toalla : towel : 
 tocar : to play : 
-toco : I touch, I play : Toco la guitarra todos los dias.
+toco : I touch, I play : Toco la guitarra todos los días.
 todavia : still : Yo todavía tengo algunas cosas por ajustar, pero creo que terminaré a tiempo.
 todo : all : 
 todo el mundo : everybody : 
@@ -6159,12 +6159,12 @@ trepar : to climb : El niño trepó al árbol para coger una manzana.
 tres : three : 
 trescientos : three hundred : 
 triste : sad : 
-trompeta : trumpet : El toca la trompeta en la banda de la escuela.
+trompeta : trumpet : Él toca la trompeta en la banda de la escuela.
 tronar : to thunder : Anoche empezó a tronar y llovió toda la madrugada.
 tropical : tropical : 
 truiturar : to grind : Necesito triturar las almendras para la receta del pastel.
 tu :  : 
-tueste : roast : El tueste oscuro le da al cafe un sabor mas intenso.
+tueste : roast : El tueste oscuro le da al café un sabor más intenso.
 tumbar : to knock down : El viento fuerte logró tumbar varios árboles en el parque.
 tumbo : knocked down : El otro día tumbó un florero con la cola.
 turbar : to disturb, unsettle : La noticia inesperada logró turbar a todos en la reunión.
@@ -6214,12 +6214,12 @@ vacío : empty : La caja estaba completamente vacía cuando la abrí.
 vais : You all go : 
 vale : worth,ok : ¿Nos vemos a las tres? Vale!
 vale la pena : it's worth it : Viajar por el mundo vale la pena.
-valer : to be worth : Este libro vale mucho para mi.
+valer : to be worth : Este libro vale mucho para mí.
 valeroso : brave : El bombero hizo un acto valeroso al rescatar al niño del incendio.
 validar : to validate : 
 valiente : brave : El bombero fue muy valiente al rescatar al niño del incendio.
 valioso : valuable : Este anillo es muy valioso para mí.
-valorada : valued, appreciated : Su contribucion fue muy valorada por todo el equipo.
+valorada : valued, appreciated : Su contribución fue muy valorada por todo el equipo.
 vamos : we go : 
 vamos a : we go to : 
 van : you all go : 
@@ -6279,10 +6279,10 @@ vidrio : glass : Las ventanas son de vidrio.
 viejo : old : Mi abuelo es muy viejo.
 viene : He/She come : 
 vienen : they come : 
-vienes : you come : 
+vienés : you come : 
 viento : wind : 
 viernes : Friday : 
-vigesimo : twentieth : Hoy celebramos el vigésimo aniversario de la empresa.
+vigésimo : twentieth : Hoy celebramos el vigésimo aniversario de la empresa.
 vincular : to link, connect : Vincúlalo al documento para que estén relacionados.
 vino : wine : 
 vino blanco :  : 
@@ -6294,18 +6294,18 @@ visitar : to visit :
 visite : I visited : 
 visito : I visit : 
 vistaste : You visited : 
-vivi : I lived : 
+viví : I lived : 
 vivir : to live, experience life : Hay que vivir el momento y disfrutar cada día.
 viviste : You lived : 
 vivo : alive : El pez todavía está vivo.
 volar : to fly : 
 voltear : to turn, flip : Tuvo que voltear para ver quién lo estaba llamando.
-volveis : you all return : 
+volvéis : you all return : 
 volvemos : we return : 
 volver : to return : Planeo volver a casa después del trabajo.
 vomitar : to puke : 
 vos : you (Argentina) : ¿Vos querés café?
-vostros : you all : ¿Vosotros queréis ir al cine esta noche?
+vuestros : you all : ¿Vosotros queréis ir al cine esta noche?
 voy : you go : 
 voy a : you go to : 
 vuelve : He/she returns : Ella vuelve a casa temprano todos los días.
@@ -6322,7 +6322,7 @@ zanahorias : carrots :
 zapatillas : sneakers : Claro, empieza despacio, con distancias cortas, y usa zapatillas cómodas.
 zapato : shoe : 
 zarzamora : blackberry : Me gusta comer yogur con zarzamoras frescas.
-zoologico : zoo : 
+zoológico : zoo : 
 ánimo : cheer up, encouragement : ¡Ánimo! Todo va a salir bien.
 árbol : tree : Hay un árbol muy grande en el parque.
 últimamente : lately, recently : Últimamente he estado muy ocupado con el trabajo.

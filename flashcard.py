@@ -7,7 +7,7 @@ from datetime import date
 import streamlit as st
 import streamlit.components.v1 as components
 
-from file_util import (
+from lib.file_util import (
     load_dictionary,
     load_review_words,
     load_due_words,
@@ -15,11 +15,9 @@ from file_util import (
     upsert_word_in_difficult_file,
     remove_word_from_difficult_file,
     move_word_between_difficult_files,
-    # NEW: today.txt helpers
     load_today_words,
     add_word_to_today_file,
     remove_word_from_today_file,
-    # NEW: new_words.txt helpers
     load_new_words,
     merge_new_words_to_dictionary,
 )
@@ -329,7 +327,7 @@ with st.container(key="main_content_frame"):
     # Get card: from dictionary if available, else from new_words
     if word in st.session_state.dictionary and word in st.session_state.new_words:
         # Merge both cards for display
-        from file_util import merge_new_word_into_dictionary
+        from lib.file_util import merge_new_word_into_dictionary
         card = merge_new_word_into_dictionary(st.session_state.new_words[word], st.session_state.dictionary)
     elif word in st.session_state.dictionary:
         card = st.session_state.dictionary[word]
