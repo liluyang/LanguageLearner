@@ -1,8 +1,10 @@
 #!/usr/bin/env python3
 """
-dictionary_fixer.py — Fix Spanish spelling errors in data/dictionary.txt.
+dictionary_fixer.py — Fix Spanish spelling errors in data/dictionary.txt,
+and fill in missing English meanings via translation API.
 
-Uses the free LanguageTool public API (no key required).
+Uses the free LanguageTool public API (no key required) for spell-checking,
+and the free MyMemory translation API (no key required) for missing meanings.
 
 Usage:
     # Preview changes without writing
@@ -16,6 +18,12 @@ Usage:
 
     # Resume from a specific word (useful after interruption)
     python tool/dictionary_fixer.py --start-from "acudir"
+
+    # Fill missing English meanings (dry-run preview)
+    python tool/dictionary_fixer.py --fill-meanings --dry-run
+
+    # Fill missing English meanings and save
+    python tool/dictionary_fixer.py --fill-meanings
 
     # Combine flags
     python tool/dictionary_fixer.py --limit 500 --dry-run
@@ -44,6 +52,7 @@ from lib.file_util import parse_dictionary_text, read_text_file, write_text_file
 # ---------------------------------------------------------------------------
 DICTIONARY_FILE = PROJECT_ROOT / "data" / "dictionary.txt"
 LANGUAGETOOL_API = "https://api.languagetool.org/v2/check"
+MYMEMORY_API = "https://api.mymemory.translated.net/get"
 LANGUAGE = "es"
 
 # Free-tier limits: 20 req/min, ~20 000 chars/req.
@@ -51,6 +60,7 @@ LANGUAGE = "es"
 # between requests (≈ 20 req/min max).
 BATCH_CHAR_LIMIT = 8_000
 REQUEST_DELAY = 3.0  # seconds
+TRANSLATION_DELAY = 0.5  # seconds between MyMemory requests
 
 
 # ---------------------------------------------------------------------------
@@ -94,6 +104,104 @@ def fix_text(text: str) -> str:
         return text
     corrections = _get_spelling_corrections(text)
     return _apply_corrections(text, corrections)
+
+
+# ---------------------------------------------------------------------------
+# MyMemory translation helpers
+# ---------------------------------------------------------------------------
+
+def _translate_es_to_en(text: str) -> str | None:
+    """
+    Translate *text* from Spanish to English using the free MyMemory API.
+    Returns the translated string, or None if the request fails or is low-confidence.
+    """
+    try:
+        resp = requests.get(
+            MYMEMORY_API,
+            params={"q": text, "langpair": "es|en"},
+            timeout=10,
+        )
+        resp.raise_for_status()
+        data = resp.json()
+        # responseStatus 200 means OK; responseData contains the translation.
+        if data.get("responseStatus") != 200:
+            return None
+        translation = data.get("responseData", {}).get("translatedText", "").strip()
+        return translation if translation else None
+    except requests.RequestException as exc:
+        print(f"    WARNING: translation API error for {text!r}: {exc}", file=sys.stderr)
+        return None
+
+
+def fill_missing_meanings(
+    input_path: Path,
+    *,
+    output_path: Path,
+    dry_run: bool,
+    limit: int | None,
+) -> None:
+    """
+    Find entries in *input_path* whose English meaning field is empty,
+    fetch a translation via MyMemory, and write the updated dictionary.
+    """
+    raw_text = read_text_file(input_path)
+    raw_lines = raw_text.splitlines()
+
+    # Parse lines
+    entries: list[tuple[str, str, str, str]] = []  # (raw_line, word, meaning, example)
+    for raw in raw_lines:
+        line = raw.strip()
+        if not line or line.startswith("#"):
+            entries.append((raw, "", "", ""))
+            continue
+        parts = [p.strip() for p in line.split(":", 2)]
+        word = parts[0]
+        meaning = parts[1] if len(parts) >= 2 else ""
+        example = parts[2] if len(parts) == 3 else ""
+        entries.append((raw, word, meaning, example))
+
+    missing = [(i, word, example) for i, (_, word, meaning, example) in enumerate(entries) if word and not meaning]
+
+    if limit is not None:
+        missing = missing[:limit]
+
+    print(f"Found {len(missing)} entries with no English meaning.")
+
+    changed_count = 0
+    output_entries = [list(e) for e in entries]  # mutable copy
+
+    for pos, (idx, word, example) in enumerate(missing, 1):
+        print(f"  [{pos}/{len(missing)}] Translating {word!r} …", flush=True)
+        translation = _translate_es_to_en(word)
+        if translation:
+            print(f"    → {translation!r}")
+            output_entries[idx][2] = translation  # update meaning field
+            changed_count += 1
+        else:
+            print(f"    → (no translation found, skipping)")
+        if pos < len(missing):
+            time.sleep(TRANSLATION_DELAY)
+
+    print(f"\n{'[DRY RUN] ' if dry_run else ''}Filled {changed_count} missing meanings.")
+
+    if dry_run:
+        print("No files written (--dry-run).")
+        return
+
+    if output_path == input_path:
+        backup = input_path.with_suffix(".txt.bak")
+        backup.write_text(raw_text, encoding="utf-8")
+        print(f"Backup written to {backup}")
+
+    new_lines = []
+    for raw, word, meaning, example in output_entries:
+        if not word:  # blank / comment line
+            new_lines.append(raw)
+        else:
+            new_lines.append(_serialize_entry(word, meaning, example))
+
+    write_text_file(output_path, "\n".join(new_lines) + "\n")
+    print(f"Updated dictionary written to {output_path}")
 
 
 # ---------------------------------------------------------------------------
@@ -351,18 +459,31 @@ def main() -> None:
         metavar="WORD",
         help="Skip entries before this Spanish word (useful to resume after interruption)",
     )
+    parser.add_argument(
+        "--fill-meanings",
+        action="store_true",
+        help="Fill empty English meaning fields using the MyMemory translation API",
+    )
     args = parser.parse_args()
 
     input_path = Path(args.input)
     output_path = Path(args.output) if args.output else input_path
 
-    fix_dictionary(
-        input_path,
-        output_path=output_path,
-        dry_run=args.dry_run,
-        limit=args.limit,
-        start_from=args.start_from,
-    )
+    if args.fill_meanings:
+        fill_missing_meanings(
+            input_path,
+            output_path=output_path,
+            dry_run=args.dry_run,
+            limit=args.limit,
+        )
+    else:
+        fix_dictionary(
+            input_path,
+            output_path=output_path,
+            dry_run=args.dry_run,
+            limit=args.limit,
+            start_from=args.start_from,
+        )
 
 
 if __name__ == "__main__":

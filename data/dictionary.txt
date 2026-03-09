@@ -51,7 +51,7 @@ a la plancha : grilled : Para mí, el pescado a la plancha con verduras.
 a la vez : at the same time : Sí, así es útil y bonito a la vez.
 a largo plazo : in long term : A largo plazo, siguen siendo buenas inversiones.
 a lo mejor : maybe : A lo mejor vamos a la playa este fin de semana.
-a menudo :  : 
+a menudo : often : 
 a partir de : starting from : A partir de mañana, comenzaré a hacer ejercicio todos los días.
 a pesar de : despite, in spite of : A pesar de su cansancio, terminó el trabajo.
 a través de : through, by means of : Viajamos a través de un bosque muy denso.
@@ -389,7 +389,7 @@ baja : low, short, drop : La temperatura baja mucho en invierno.
 bajar : to tune down, to lower : si puede bajar la música un poco, se lo agradezco.
 bajo : short : 
 balcon : balcony : Hay flores en el balcón del apartamento.
-baloncesto :  : 
+baloncesto : basketball : 
 banar : to bath : Después de jugar en la playa, los niños necesitan bañarse.
 bandeja de entrada : inbox : Tengo muchos correos en la bandeja de entrada.
 barato : cheap : Este reloj es muy barato.
@@ -412,7 +412,7 @@ bello : beautiful, pretty :
 bendecir : to bless : La abuela siempre bendice la mesa antes de comer.
 bendito : blessed : Nos sentimos benditos por tener una familia unida.
 besar : to kiss : Él quiere besar a su novia al atardecer.
-biblioteca :  : 
+biblioteca : library : 
 bici : bike : 
 bicicleta : bike : 
 bien : well, good : Todo salió bien durante la presentación.
@@ -472,7 +472,7 @@ caer : to fall : Ten cuidado, puedes caer si el suelo está mojado.
 caerse : to fall : 
 caja : box : Guardé los libros en una caja.
 caja de herramientas : toolbox : 
-caja sorpresa :  : 
+caja sorpresa : Surprise Box : 
 calcular : to calculate : 
 calentar : to heat,to warm up : Podemos comenzar con quince minutos de cinta para calentar
 caliente : hot : 
@@ -596,7 +596,7 @@ cobrar : to charge, collect (money) : Cobraban demasiado por el servicio en ese 
 cocer : to cook (boil or steam) : Voy a cocer las patatas para la cena.
 coche : car : El coche está estacionado frente a la casa.
 coche de bomberos : fire truck : 
-cochecito de bebe :  : 
+cochecito de bebe : baby stroller : 
 coches de choque : bumping cars : 
 cocido : cooked : ¿cómo desea el filete, término medio o bien cocido?
 cocina : He/she cooks : 
@@ -786,16 +786,16 @@ cuales : which (pl.) :
 cualificado : qualified : Necesitamos un profesor cualificado para enseñar este curso.
 cualquier : any, whichever : De nada, cualquier cosa, me avisas.
 cuando : when : 
-cuanta :  : 
+cuanta : how much : 
 cuantas : how many : 
 cuanto : how much : 
 cuantos : how many : 
-cuarenta :  : 
+cuarenta : forty : 
 cuarta : fourth (female) : 
 cuarto : quarter, room, fourth : Llegué a casa a las cinco y cuarto.
 cuartos : bedrooms : 
 cuatro : four : 
-cuatrocientos :  : 
+cuatrocientos : four hundred : 
 cubano : Cuban : 
 cubierta : roof, cover : ¿Prefieres jugar en la playa o en cancha cubierta?
 cubra : to cover (subjective, imperative form) : Es importante que cubra la olla mientras cocina.
@@ -907,7 +907,7 @@ dejar : to let, to leave : Puedo dejar mis cosas aquí?
 dejar la habitacion : to check out, to leave : Debes dejar la habitación antes de las 12 del mediodía.
 deje : let (imperative) : Deje que ellos entren.
 dejo : I leave : Siempre dejo mis llaves en la mesa.
-del :  : 
+del : of : 
 del que : about : Este es el libro del que estaba hablando.
 delante : in front : El coche está estacionado justo delante de la casa.
 deletrear : to spell : ¿Puedes deletrear la palabra?
@@ -1019,7 +1019,7 @@ dice : He/She say :
 dicen : They say : 
 dices : You say : 
 dicho : said, proverb/saying : El dicho "más vale tarde que nunca" es muy conocido.
-diciembre :  : 
+diciembre : December : 
 diciendo : saying : Estaba diciendo la verdad cuando nadie le creía.
 diecinueve : nineteen : 
 dieciocho : eighteen : 
@@ -1091,7 +1091,7 @@ domicilio : address, residence : Por favor, envíe el paquete a mi domicilio.
 dominar : to dominate : El equipo logró dominar el partido desde el principio.
 domingo : Sunday : 
 dosis : You sleep : ¿A qué hora dormís ustedes normalmente?
-dormitorio :  : 
+dormitorio : bedroom : 
 donde : where : 
 dorada : golden : La puesta de sol tenía una luz dorada increíble.
 dorar : to brown, to golden : Ayer doré las papas en la sartén con un poco de aceite.
@@ -1100,11 +1100,11 @@ dormir : to sleep :
 dormis : You all sleep : 
 dos : two : 
 dos veces : twice : 
-doscientos :  : 
+doscientos : two hundred : 
 doy : I give : Yo te doy el libro.
 doña : Mrs, lady : Doña María es una mujer muy respetada en el pueblo.
 drogadicto : drug addicted : El drogadicto está buscando ayuda para superar su adicción.
-ducharse :  : 
+ducharse : shower : 
 dudar : to doubt : Dudé antes de tomar una decisión importante.
 dudes : You doubt : si necesitas algo más, no dudes en pedirlo.
 duerme : He/She sleep : 
@@ -1129,7 +1129,7 @@ eclosionar : to hatch : Además, necesito huevos para eclosionar.
 ecológico : environmental friendly : el parque ecológico está organizando una caminata guiada el sábado por la mañana.
 economico : economic : 
 edad : age : 
-edificio :  : 
+edificio : building : 
 educado : polite,educated : Es un niño muy educado siempre dice "por favor" y "gracias."
 educativo : educational : El documental fue muy educativo e interesante.
 edulcorante : sweetener : Prefiero usar edulcorante en mi café en lugar de azúcar.
@@ -2079,7 +2079,7 @@ el logo : logo : El logo de la empresa es muy reconocible en todo el mundo.
 el loro : parrot : El loro repite las palabras que escucha.
 el luchador : fighter : El luchador entró al ring con una máscara colorida.
 el lugar : place : 
-el lugar de trabajo :  : 
+el lugar de trabajo : the workplace : 
 el lujo : luxury : Vivir en un hotel de cinco estrellas es un verdadero lujo.
 el lápiz : pencil : Necesito un lápiz para escribir en mi cuaderno.
 el lío : mess : Estoy en un lío y no sé qué hacer.
@@ -2109,7 +2109,7 @@ el marketing : marketing :
 el marmol : marble (stone) : La mesa está hecha de mármol blanco.
 el marqués : title of nobility : El marqués fue recibido con todos los honores en la corte.
 el martillo : hammer : Usé el martillo para colgar un cuadro en la pared.
-el más :  : 
+el más : Greatest : 
 el material : material : 
 el matrimonio : marriage : 
 el mayordomo : butler : El mayordomo preparó todo para la cena de gala.
@@ -2964,11 +2964,11 @@ escuchando : listening to, hearing :
 escuchar : to listen : 
 escuela : school : 
 escupir : to spit : Es de mala educación escupir en público.
-ese :  : 
+ese : that : 
 esforzarse : to strive : Tienes que esforzarte si quieres lograr tus sueños.
 esnórquel : snorkel : Hicimos esnórquel en el mar y vimos muchos peces de colores.
 eso : that : Que es eso?
-esos :  : 
+esos : those : 
 espada : spade : El caballero desenvainó su espada antes de la batalla.
 españa : Spain : España es un país muy bonito.
 español : Spanish : 
@@ -2989,7 +2989,7 @@ espontaneo : spontaneous :
 espumar : to skim, to make foam : El chef espumó la sopa antes de servirla.
 esquina : corner : La tienda está en la esquina de la calle principal.
 esquivar : to avoid : Ella esquivó la pregunta con una sonrisa.
-esta :  : 
+esta : this : 
 esta noche : tonight : 
 estaba : was : Estaba estudiando cuando sonó el teléfono.
 estable : stable : El puente es muy estable y seguro.
@@ -3048,8 +3048,8 @@ esté : he/she/I is (subjunctive) : Espero que él esté bien.
 etico : ethical : 
 etiquetar : to tag, label : Es importante que usted etiquete los productos correctamente.
 etnico : ethnic : La música étnica refleja las tradiciones de diferentes culturas.
-europa :  : 
-europeo :  : 
+europa : europe : 
+europeo : european : 
 evaporarse : to steam, evaporate : El agua comenzó a evaporarse bajo el sol.
 evidente : evident : Es evidente que ella está muy contenta con el resultado.
 evitar : to avoid : Trató de evitar la discusión cambiando de tema.
@@ -3105,7 +3105,7 @@ fantástico : fantastic : El concierto fue fantástico, me encantó la música.
 fascinante : fascinating : El universo es un tema fascinante para estudiar.
 fascinar : to fascinate : A los niños les fascinan los cuentos de hadas.
 fatal : terrible, awful : Tuvimos un día fatal en el trabajo.
-fatansia :  : 
+fatansia : fatansy : 
 fatigado : fatigued, tired : Después de caminar todo el día, estaba completamente fatigado.
 favoritar : to favorite : Voy a favoritar este tweet para verlo después.
 favorito : favorite : 
@@ -3134,7 +3134,7 @@ fijo : fixed, steady : Tengo un horario fijo de trabajo, de lunes a viernes.
 fila : line, queue : Hay una larga fila para entrar al cine.
 filosofia : philosophy : La filosofía nos ayuda a reflexionar sobre el significado de la vida.
 filtrar : to filter : Solo tienes que filtrar por fecha y exportarlos.
-fin de semana :  : 
+fin de semana : weekend : 
 fina : fine : 
 final : end, final, ending : 
 finalmente : finally : 
@@ -3155,7 +3155,7 @@ flexible : flexible :
 flojo : lazy, loose : El cinturón está flojo y necesita ajustarse.
 flor : flower : 
 florecer : to blossom : Las rosas están floreciendo en el jardín.
-flores :  : 
+flores : flowers : 
 flotar : to float : Había hojas flotando en el agua del lago.
 fluidez : fluent : Habla con mucha fluidez en español.
 fluir : to flow : El agua comenzó a fluir por el río después de la tormenta.
@@ -3164,9 +3164,9 @@ formar : to form : Vamos a formar un equipo para trabajar en el proyecto.
 fortalecer : to strengthen : Sí, me gustaría fortalecer las piernas y mejorar mi resistencia.
 forzado : forced : El acuerdo fue forzado y ninguna de las partes estaba completamente satisfecha.
 fragil : fragile : 
-frances :  : 
+frances : france : 
 francesa : French : 
-francia :  : 
+francia : france : 
 frase : sentence : 
 frecuentemente : frequently : 
 freir : to fry : Voy a freír las patatas para la cena.
@@ -3203,10 +3203,10 @@ ganar : to win : El equipo quiere ganar el campeonato.
 ganas : You win : 
 garantizar : to guarantee : El contrato asegura que la empresa garantizará la calidad del producto.
 gastar : to spend : No quiero gastar todo mi dinero en ropa.
-gato :  : 
+gato : cat : 
 gemir : to groan : El paciente empezó a gemir del dolor mientras esperaba al médico.
 general : general : 
-generalmente :  : 
+generalmente : generally : 
 generar : to generate, create : Las nuevas políticas podrían generar más empleo en el país.
 generoso : generous : 
 genial : brilliant : 
@@ -3271,7 +3271,7 @@ hace mucho tiempo : a long time ago :
 hace poco : recently, a while ago : Sí, de hecho vi una hace poco que me encantó.
 hace que : causes, makes : El ruido hace que no pueda concentrarme.
 hace tiemple que no lo hago : I haven't done this for a while : 
-hacer :  : 
+hacer : do : 
 hacer autostop : hitchhike : Cuando éramos jóvenes, solíamos hacer autostop para viajar por el país.
 hacer falta : to be missing, need : Nos hace falta más tiempo para terminar el proyecto antes del viernes, porque todavía hay mucho por hacer.
 hacer footing : jogging : Cada mañana, me gusta hacer footing en el parque.
@@ -3328,7 +3328,7 @@ honrar : to honor :
 horario : schedule, timetable : puede entrar en cualquier momento durante nuestro horario de apertura.
 horizontal : horizontal : 
 horneado : baked : ¿tienen pan recién horneado?
-horrible :  : 
+horrible : awful : 
 horrorizado : horrified : Estaba horrorizado al ver las noticias sobre el terremoto.
 hospedarse : to stay, lodge : Vamos a hospedarnos en un hotel cerca de la playa.
 hospitalario : hospitable, welcoming : Fueron muy hospitalarios con nosotros durante nuestra visita.
@@ -3415,8 +3415,8 @@ infinito : infinite :
 inflamada : inflamed, swollen : Está bastante roja e inflamada. Puede ser una infección viral.
 informal : informal : 
 informar : to report,to inform : 
-inglaterra :  : 
-ingles :  : 
+inglaterra : England : 
+ingles : english : 
 ingresar : to enter : Ella va a ingresar a la universidad este año.
 inicial : initial : El plan inicial era salir temprano.
 iniciar : to initiate, to start : ¿podría iniciar el proceso de apertura ahora mismo?
@@ -3450,7 +3450,7 @@ inteligente : intelligent :
 intenso : intense : Después de un día de trabajo intenso, necesito descansar.
 intentar : to try : Voy a intentar terminar el proyecto antes del viernes.
 intentare : I will try : Intentaré aprender algo nuevo cada día.
-interesan :  : 
+interesan : in the next 2 years : 
 interesante : interesting : 
 interesar : to interest : A mí me interesa la historia.
 interiormente : internally : Aunque sonreía, interiormente se sentía muy triste.
@@ -3472,12 +3472,12 @@ investigue : I/he/she investigate :
 invierno : winter : 
 invisible : invisible : 
 invitar : to invite : Voy a invitar a mis amigos a mi cumpleaños.
-ir :  : 
+ir : to go : 
 irracional : irrational : 
 irritar : irritate : 
 isla : island : Pasamos las vacaciones en una isla tropical.
-italia :  : 
-italiano :  : 
+italia : italy : 
+italiano : italian : 
 jai alai : merry festival (a sport) : En el País Vasco, el jai alai es un deporte muy popular entre los locales.
 jamon : ham : 
 jamás : never : No te olvidaré jamás.
@@ -3901,7 +3901,7 @@ la demanda : demand,lawsuit :
 la democracia : democracy : 
 la denuncia : complaint, report : Ella fue a la policía para poner una denuncia por robo.
 la depresión : depression : 
-la derecha :  : 
+la derecha : right : 
 la derrota : defeat : La derrota del equipo fue inesperada.
 la descripción : description : 
 la desesperación : desperation : La desesperación la llevó a buscar ayuda inmediatamente.
@@ -5026,13 +5026,13 @@ me : me, myself :
 me cuesta : it's difficult for me : Sí, pero me cuesta dar el paso. Siento que debería poder manejarlo sola.
 me gusta : I like : 
 me pregunto : I wonder : Sí, Me pregunto si los veremos hoy.
-me puedo probar :  : 
+me puedo probar : i can try myself : 
 me siento : I feel, I sit : Me siento cansado después de un día largo.
 me visto : I get dressed : Cada mañana, me visto rápidamente para ir al trabajo.
 media : half : 
 mediados : middle : Nos iremos de vacaciones a mediados de julio.
 medialuna : half moon : 
-mediana :  : 
+mediana : median : 
 mediano : medium : Quiero una pizza de tamaño mediano, por favor.
 mediante : through, by means of : Resolví el problema mediante una solución simple.
 mediar : to mediate : El profesor intentó mediar entre los estudiantes para resolver el problema.
@@ -5078,21 +5078,21 @@ miedo : fear :
 mientras : while : Escuchaba música mientras estudiaba.
 mientras tanto : meantime : ¿Les traigo algo de beber mientras tanto?
 miercoles : Wednesday : 
-mil :  : 
+mil : mil : 
 milagrosamente : miraculously : Milagrosamente, salió ileso del accidente.
 militar : military : Mi hermano quiere ser militar y servir a su país.
-millon :  : 
+millon : million : 
 mineral : mineral : El cuarzo es un mineral muy común.
 minimo : minimum : El esfuerzo mínimo requerido para pasar el examen es estudiar dos horas al día.
 minusculo : tiny : Encontré un insecto minúsculo en la mesa.
 mio : mine : 
-mirar :  : 
+mirar : look : 
 misma : same : Ella lleva la misma chaqueta todos los días.
 mismo : same : 
 misterio : mystery : 
 misterioso : mysterious : 
 mixta : mixed : Prepare una ensalada mixta para la cena
-moderno :  : 
+moderno : Modern : 
 modesto : modest : Siempre ha sido modesto acerca de su éxito.
 mojado : wet : Después de tomar un baño, Clifford está mojado.
 molestar : to annoy, disturb : No quiero molestar, solo tenía una pregunta.
@@ -5121,7 +5121,7 @@ muchacha : girl : La muchacha llegó temprano a la escuela.
 muchacho : boy : 
 muchisimo : very much : Me gusta muchísimo esta película, es mi favorita.
 mucho : much : 
-mucho gusto :  : 
+mucho gusto : be happy : 
 mudarse : to move : Diego es de Argentina y acaba de mudarse aquí por trabajo.
 mudo : mute : El hombre mudo expresó sus ideas a través de señas.
 muerto : dead : Encontraron un pájaro muerto en el jardín esta mañana.
@@ -5411,15 +5411,15 @@ pieza : part : Encontré una pieza de rompecabezas debajo del sofá.
 pijama : pajama : Ella compró un pijama nuevo para la fiesta de pijamas de su amiga.
 pimienta : pepper : Añadí un poco de pimienta a la sopa para darle más sabor.
 pintado : painted : El muro está pintado de azul.
-pintar :  : 
-piscina :  : 
+pintar : to paint : 
+piscina : pool : 
 piso : floor : 
 pizarra : chalkboard, blackboard : 
 planear : to plan, glide : Estamos planeando un viaje a México.
 planeta : planet : 
 planificar : to plan : Claro, será divertido si vienes con nosotros. Te aviso cuando lo planifiquemos otra vez.
 plano : flat : Sí, eso suena bien. No quiero que quede muy plano.
-planta :  : 
+planta : Plant : 
 plantar : to plant : Voy a plantar flores en el jardín este fin de semana.
 plantear : to pose, to suggest : Quiero plantear una solución al problema.
 plastico : plastic : La bolsa es de plástico.
@@ -5427,7 +5427,7 @@ platano : banana, platain : Comí un plátano como parte de mi desayuno.
 platicar : to talk, to chat : ¿Te gusta bailar o prefieres quedarte aquí platicando?
 platillo : dish, saucer : El chef preparó un delicioso platillo de pasta con mariscos.
 plato : plate, dish : Puse el plato sobre la mesa.
-playa :  : 
+playa : beach : 
 playera : t-shirt : Compré una nueva playera en la tienda de ropa.
 pleno : full, complete : El salón estaba pleno de gente.
 plomo : lead : necesito llenar el tanque con gasolina sin plomo
@@ -5459,7 +5459,7 @@ ponerse enfermo : to get sick : Si no te abrigas bien en invierno, es fácil pon
 pones : you put on : 
 pongo : I put : 
 ponte : You put on (imperative) : Ponte el abrigo antes de salir.
-popular :  : 
+popular : popular : 
 por : for : 
 por ciento : percent : El 50 por ciento de los estudiantes aprobaron el examen.
 por favor : please : 
@@ -5472,8 +5472,8 @@ por supuesto : of course : Por supuesto que puedes venir a la fiesta.
 por tanto : therefore : Estudiaste mucho; por tanto, aprobaste el examen.
 por un rato : for a while : ¿Hay un lugar tranquilo donde puedo sentarme y leer por un rato?
 porcion : portion : Cuesta tres euros por porción.
-porque :  : 
-portugues :  : 
+porque : because : 
+portugues : Portuguese : 
 poseer : possess : Ella posee una gran colección de libros antiguos.
 posible : possible : Es posible que llueva mañana.
 posicionarse : to position oneself : Definitivamente el delantero. Es muy rápido y siempre sabe dónde posicionarse.
@@ -5483,7 +5483,7 @@ potente : powerful : Ese motor es muy potente y rápido.
 practicamente : practically, virtually : Prácticamente todos los invitados llegaron a tiempo.
 practicar : to practice : 
 practico : practical : 
-precio :  : 
+precio : price : 
 precioso : beautiful, lovely : El atardecer en la playa es precioso.
 precisamente : precisely : Eso es precisamente lo que quería decir.
 preferente : preferred, priority : El billete cuesta treinta euros en clase estándar y cincuenta euros en clase preferente.
@@ -5491,7 +5491,7 @@ preferir : to prefer :
 preguntar : to ask : 
 prejuicioso : prejudiced : No deberías ser tan prejuicioso con las personas que no conoces.
 premiar : to reward, award : Van a premiar a los estudiantes con las mejores calificaciones.
-preocupada :  : 
+preocupada : concerned : 
 preocupar : to worry : 
 preocupes : You worry : No te preocupes, te puedo ayudar.
 prepara : He/She prepare : 
@@ -5567,7 +5567,7 @@ pudiera : could, might : El frío hacía que pudiera ver el aliento salir de mi 
 pueblo : town : 
 puede : she/he can : 
 puede que sea : it might be : Puede que sea solo fatiga
-puede traer :  : 
+puede traer : can you bring : 
 pueden : they can : 
 puedes : you can : 
 puedo : I can : 
@@ -5679,7 +5679,7 @@ refinado : refined : El restaurante es conocido por su ambiente refinado y su co
 refinar : to refine : Es necesario refinar el aceite antes de que sea apto para el consumo.
 reflejar : to reflect : El espejo refleja la luz del sol.
 refrescar : to cool : Necesito algo frío para refrescarme en este calor.
-refrigerador :  : 
+refrigerador : refrigerator : 
 refugiar : to seek shelter : Nos refugiamos en una cabaña durante la tormenta.
 regalar : to gift : Voy a regalarle un libro a mi hermana por su cumpleaños.
 regar : to spill, to water : Clifford regó la pintura.
@@ -5698,7 +5698,7 @@ relajarse : to relax : Después del trabajo, necesito relajarme un poco.
 relampaguear : to flash lightening : Cuando empieza a relampaguear, es mejor quedarse en casa.
 religioso : religious : 
 rellenar : to fill : Emily rellena el cubo de arena.
-reloj :  : 
+reloj : clock : 
 relucir : to shine : El anillo comenzó a relucir bajo la luz del sol.
 remar : to row : Él remaba lentamente por el lago.
 remendar : to patch : 
@@ -5740,7 +5740,7 @@ retirar : to withdraw : Voy a retirar dinero del cajero automático.
 retomar : to resume : Retomé mis estudios después de un año sabático.
 retoque : touch-up (small correction in hair trim) : ¿Quiere también un retoque en las puntas?
 retrasar : to delay : El mal tiempo retrasa el vuelo.
-reunion :  : 
+reunion : meeting. : 
 reunir : to collect, gather : Vamos a reunir a todos los amigos para la fiesta.
 reunirse : to meet : Vamos a reunirnos mañana para discutir el proyecto.
 revelar : to reveal : El testigo decidió revelar toda la verdad en el juicio.
@@ -5826,7 +5826,7 @@ satisfacer : to satisfy : Este trabajo debería satisfacer tus expectativas.
 satisfactorio : satisfactory : 
 satisfecho : pleased,satisfied, content : Estoy satisfecho con los resultados del examen.
 saturar : to saturate : No debemos saturar el mercado con demasiados productos similares.
-se :  : 
+se : is : 
 se cepillan : They brush, You brush : 
 se dio cuneta : she realized : Al leerla, se dio cuenta de que era su abuelo.
 se había dado cuenta : he/she realized : Se había dado cuenta de que a veces, perder algo abre la puerta a nuevas experiencias.
@@ -5838,8 +5838,8 @@ sea : to be (subjective form) : Estoy buscando una novela que sea fácil de leer
 secar : to dry : 
 seco : dry : El clima está muy seco este verano.
 secretamente : secretly : El espía entregó los documentos secretamente.
-secretaria :  : 
-secretario :  : 
+secretaria : secretary : 
+secretario : secretary : 
 secuestrar : to abduct : El criminal intentó secuestrar al empresario para pedir un rescate.
 secundario : secondary : Este analgésico tiene efectos secundarios?
 sed : thirsty : Tengo mucha sed después de correr.
@@ -6033,8 +6033,8 @@ te queda bien : it suits you well : Ese vestido te queda bien.
 tecnico : technical : 
 tecnologico : technologic : 
 tejer : to knit : Mi abuela sabe tejer suéteres muy bonitos.
-telefone :  : 
-television :  : 
+telefone : telephone : 
+television : TV : 
 tema : topic : El tema de la reunión fue la sostenibilidad.
 temblar : to tremble : Empezó a temblar de frío mientras esperaba afuera.
 temer : to fear : Ella empieza a temer que no llegue a tiempo para la reunión.
@@ -6057,10 +6057,10 @@ tengais : You all have (present subjunctive) :
 tengamos : We have (present subjunctive) : 
 tengan : They have (present subjunctive) : 
 tengas : You have (present subjunctive) : 
-tengo :  : 
+tengo : I have : 
 tenias : You had : ¿cómo va el proyecto que tenías que entregar hoy?
 tenido : had : Me siento un poco cansado y he tenido dolor de cabeza.
-tenis :  : 
+tenis : tennis : 
 tenue : faint, dim : Había una luz tenue en la habitación.
 teoria de la conspiracion : conspiracy theory : 
 tercer : third (male) : 
@@ -6123,7 +6123,7 @@ toser : to cough : Comenzó a toser porque se atragantó con un poco de agua.
 totalmente : absolutely : 
 toxico : toxic : 
 trabajar : to work : 
-trabajo :  : 
+trabajo : working : 
 tradicional : traditional : 
 traducir : to translate : 
 trae : He/She bring : 
@@ -6163,7 +6163,7 @@ trompeta : trumpet : Él toca la trompeta en la banda de la escuela.
 tronar : to thunder : Anoche empezó a tronar y llovió toda la madrugada.
 tropical : tropical : 
 truiturar : to grind : Necesito triturar las almendras para la receta del pastel.
-tu :  : 
+tu : You : 
 tueste : roast : El tueste oscuro le da al café un sabor más intenso.
 tumbar : to knock down : El viento fuerte logró tumbar varios árboles en el parque.
 tumbo : knocked down : El otro día tumbó un florero con la cola.
@@ -6189,18 +6189,18 @@ unir : to unite :
 unirme : join, join me : Quiero unirme al club de lectura.
 universal : universal : 
 universitario : univeristy-related : El ambiente universitario es ideal para hacer nuevos amigos.
-uno :  : 
+uno : one : 
 urbano : urban : El crecimiento urbano ha transformado el paisaje de la ciudad.
 urgentemente : urgently : Porque necesito mejorar mi equipo urgentemente.
-usa :  : 
-usais :  : 
-usamos :  : 
-usan :  : 
-usar :  : 
-usas :  : 
-uso :  : 
+usa : USA : 
+usais : you all use : 
+usamos : we use : 
+usan : they use : 
+usar : to use : 
+usas : you use : 
+uso : use : 
 usted : you : 
-ustedes :  : 
+ustedes : you : 
 util : helpful : Eso me sería muy útil.
 utiles : useful : Hay varios que podrían ser útiles.
 utilizar : to use : Puedes utilizar este programa para editar las fotos fácilmente.
@@ -6225,7 +6225,7 @@ vamos a : we go to :
 van : you all go : 
 van a : you all go to : 
 vano : vain, futile : Fue un intento en vano de convencerlo.
-vaqueros :  : 
+vaqueros : jeans : 
 variable : variable, changeable : El clima en esta región es muy variable.
 variado : varied, diverse : El menú del restaurante es muy variado y ofrece opciones para todos los gustos.
 varios : various : 
@@ -6285,7 +6285,7 @@ viernes : Friday :
 vigésimo : twentieth : Hoy celebramos el vigésimo aniversario de la empresa.
 vincular : to link, connect : Vincúlalo al documento para que estén relacionados.
 vino : wine : 
-vino blanco :  : 
+vino blanco : white wine : 
 vino tinto : red wine : 
 violeta : purple (light) : Me gusta el vestido violeta.
 virtual : virtual : Estamos tomando clases virtuales este semestre.
