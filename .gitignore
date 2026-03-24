@@ -1,4 +1,4 @@
 __pycache__/
-data/*txt
+data/
 .DS_Store
 .vscode/
